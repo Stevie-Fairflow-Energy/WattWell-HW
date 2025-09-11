@@ -10136,7 +10136,7 @@
 		(uuid "0376ff58-46e4-4ca8-80ca-ed289bd2985a")
 	)
 	(junction
-		(at 119.38 165.1)
+		(at 116.84 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0505e1f7-32fa-47be-af6b-5a3e740f17f9")
@@ -10160,7 +10160,7 @@
 		(uuid "0f36bbe5-5429-4edd-b437-05acb875315c")
 	)
 	(junction
-		(at 119.38 152.4)
+		(at 116.84 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "10df9492-4894-4029-86e7-ec610a59d7d2")
@@ -10202,7 +10202,7 @@
 		(uuid "217a4e3e-9d60-4c30-b845-1b2944e6b8ae")
 	)
 	(junction
-		(at 78.74 152.4)
+		(at 76.2 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2bca11df-c3a1-44e2-ad8c-ef3e57aa72ed")
@@ -10214,7 +10214,7 @@
 		(uuid "2ef6022d-6120-4f4b-bcd8-091ab0cce8ec")
 	)
 	(junction
-		(at 109.22 165.1)
+		(at 106.68 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "31650a86-de7f-4625-8d10-b1205f2fb790")
@@ -10316,19 +10316,13 @@
 		(uuid "51e4aad0-1bca-470c-9e80-43fb628ae173")
 	)
 	(junction
-		(at 154.94 179.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "54c9a7ff-a252-43ec-924d-a76ab0d9d6e9")
-	)
-	(junction
 		(at 33.02 245.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "54f15022-cdbd-4eb3-90d2-b1738fab7a90")
 	)
 	(junction
-		(at 58.42 152.4)
+		(at 55.88 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "568b12c1-83bc-4b32-943a-d108243fc343")
@@ -10358,7 +10352,7 @@
 		(uuid "65615dd4-c775-4d80-9905-1d6a2442b0fc")
 	)
 	(junction
-		(at 68.58 152.4)
+		(at 66.04 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6abc4643-71fc-471d-8e67-49ab7254cbf3")
@@ -10400,13 +10394,13 @@
 		(uuid "7ca63e0d-26fd-47ed-81c7-71fee13a970d")
 	)
 	(junction
-		(at 109.22 152.4)
+		(at 106.68 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7db20e28-ce47-4b63-a949-a53ac4b200d9")
 	)
 	(junction
-		(at 99.06 165.1)
+		(at 96.52 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7e557793-5f1c-49ed-96f2-d3d13db192ac")
@@ -10430,7 +10424,7 @@
 		(uuid "89a2c97c-df2c-4d36-aebe-fc83c30b085e")
 	)
 	(junction
-		(at 48.26 165.1)
+		(at 45.72 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8d6f552a-8662-4519-8ddb-fc02f630ee30")
@@ -10460,7 +10454,7 @@
 		(uuid "95fcb5f1-51ba-4c60-bae1-881879028d4b")
 	)
 	(junction
-		(at 78.74 165.1)
+		(at 76.2 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "99b907f1-9341-4da1-a8a2-f2a7b674b41c")
@@ -10472,7 +10466,7 @@
 		(uuid "99d22328-8901-4e34-90bb-b682a389b0b1")
 	)
 	(junction
-		(at 58.42 165.1)
+		(at 55.88 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9cd6e77f-a394-4830-a293-7c8659a35761")
@@ -10526,7 +10520,7 @@
 		(uuid "a71f69dd-b11d-4868-8a03-7ac1530a1c66")
 	)
 	(junction
-		(at 68.58 165.1)
+		(at 66.04 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ab418af9-0fb9-456a-a123-a2d5f5926978")
@@ -10538,7 +10532,7 @@
 		(uuid "ac5513a8-ffbb-4760-8dbc-5bfd7d7cd6f9")
 	)
 	(junction
-		(at 48.26 152.4)
+		(at 45.72 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ae4dba00-26ee-4923-8cce-478ea1614dcb")
@@ -10622,7 +10616,7 @@
 		(uuid "d014fce8-d5da-4c24-8d11-e3a2512b33ef")
 	)
 	(junction
-		(at 99.06 152.4)
+		(at 96.52 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d2ca2353-e8b6-4ea7-949e-08af898565fc")
@@ -10646,13 +10640,13 @@
 		(uuid "de7da31f-e4e3-4f2d-a660-66bc6f264e71")
 	)
 	(junction
-		(at 88.9 165.1)
+		(at 86.36 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "de8f0deb-b332-464a-8f31-d489a218fff2")
 	)
 	(junction
-		(at 88.9 152.4)
+		(at 86.36 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e0766fe7-9092-4b04-bcad-43545d9d0bfd")
@@ -10769,7 +10763,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 152.4) (xy 38.1 156.21)
+			(xy 35.56 146.05) (xy 35.56 149.86)
 		)
 		(stroke
 			(width 0)
@@ -10979,7 +10973,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 156.21) (xy 78.74 152.4)
+			(xy 76.2 149.86) (xy 76.2 146.05)
 		)
 		(stroke
 			(width 0)
@@ -11389,16 +11383,6 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 200.66) (xy 80.01 200.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "251da730-c167-4a32-9a4d-e0a997761c3f")
-	)
-	(wire
-		(pts
 			(xy 33.02 222.25) (xy 52.07 222.25)
 		)
 		(stroke
@@ -11426,16 +11410,6 @@
 			(type default)
 		)
 		(uuid "2590914b-a2f3-4422-b7b6-dd03450f088c")
-	)
-	(wire
-		(pts
-			(xy 55.88 210.82) (xy 80.01 210.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "271ce20a-45ce-40ee-8261-7e8db95db89d")
 	)
 	(wire
 		(pts
@@ -11699,7 +11673,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 165.1) (xy 78.74 165.1)
+			(xy 66.04 158.75) (xy 76.2 158.75)
 		)
 		(stroke
 			(width 0)
@@ -11739,7 +11713,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 165.1) (xy 68.58 165.1)
+			(xy 55.88 158.75) (xy 66.04 158.75)
 		)
 		(stroke
 			(width 0)
@@ -11829,7 +11803,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 165.1) (xy 129.54 165.1)
+			(xy 116.84 158.75) (xy 127 158.75)
 		)
 		(stroke
 			(width 0)
@@ -11949,7 +11923,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 179.07) (xy 154.94 179.07)
+			(xy 149.86 179.07) (xy 160.02 179.07)
 		)
 		(stroke
 			(width 0)
@@ -12109,7 +12083,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 152.4) (xy 88.9 156.21)
+			(xy 86.36 146.05) (xy 86.36 149.86)
 		)
 		(stroke
 			(width 0)
@@ -12229,7 +12203,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 152.4) (xy 48.26 152.4)
+			(xy 35.56 146.05) (xy 45.72 146.05)
 		)
 		(stroke
 			(width 0)
@@ -12429,6 +12403,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 198.12) (xy 80.01 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fe2b91e-455e-4d65-8d2d-9dbbacf33852")
+	)
+	(wire
+		(pts
 			(xy 327.66 146.05) (xy 327.66 142.24)
 		)
 		(stroke
@@ -12479,16 +12463,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 179.07) (xy 154.94 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63390f48-d1ea-47b9-a98e-6f3a6534fc6d")
-	)
-	(wire
-		(pts
 			(xy 160.02 196.85) (xy 170.18 196.85)
 		)
 		(stroke
@@ -12499,7 +12473,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 195.58) (xy 80.01 195.58)
+			(xy 64.77 195.58) (xy 80.01 195.58)
 		)
 		(stroke
 			(width 0)
@@ -12629,7 +12603,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 156.21) (xy 119.38 152.4)
+			(xy 116.84 149.86) (xy 116.84 146.05)
 		)
 		(stroke
 			(width 0)
@@ -12739,7 +12713,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 152.4) (xy 78.74 152.4)
+			(xy 66.04 146.05) (xy 76.2 146.05)
 		)
 		(stroke
 			(width 0)
@@ -12759,7 +12733,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 165.1) (xy 88.9 165.1)
+			(xy 76.2 158.75) (xy 86.36 158.75)
 		)
 		(stroke
 			(width 0)
@@ -12836,6 +12810,16 @@
 			(type default)
 		)
 		(uuid "77520111-274e-45ed-8c00-1d89aab1df95")
+	)
+	(wire
+		(pts
+			(xy 64.77 200.66) (xy 80.01 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77898e9d-3ea9-4e1d-ba73-1ccc796f15bb")
 	)
 	(wire
 		(pts
@@ -13009,16 +12993,6 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 198.12) (xy 80.01 198.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80547b8f-f2c8-4460-acac-71051c7a99dd")
-	)
-	(wire
-		(pts
 			(xy 168.91 232.41) (xy 168.91 233.68)
 		)
 		(stroke
@@ -13029,7 +13003,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 152.4) (xy 119.38 152.4)
+			(xy 106.68 146.05) (xy 116.84 146.05)
 		)
 		(stroke
 			(width 0)
@@ -13059,7 +13033,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 165.1) (xy 109.22 165.1)
+			(xy 96.52 158.75) (xy 106.68 158.75)
 		)
 		(stroke
 			(width 0)
@@ -13119,7 +13093,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 152.4) (xy 48.26 156.21)
+			(xy 45.72 146.05) (xy 45.72 149.86)
 		)
 		(stroke
 			(width 0)
@@ -13189,7 +13163,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 165.1) (xy 78.74 167.64)
+			(xy 76.2 158.75) (xy 76.2 161.29)
 		)
 		(stroke
 			(width 0)
@@ -13219,7 +13193,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 165.1) (xy 48.26 165.1)
+			(xy 35.56 158.75) (xy 45.72 158.75)
 		)
 		(stroke
 			(width 0)
@@ -13389,7 +13363,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 165.1) (xy 119.38 165.1)
+			(xy 106.68 158.75) (xy 116.84 158.75)
 		)
 		(stroke
 			(width 0)
@@ -13409,7 +13383,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 163.83) (xy 68.58 165.1)
+			(xy 66.04 157.48) (xy 66.04 158.75)
 		)
 		(stroke
 			(width 0)
@@ -13436,16 +13410,6 @@
 			(type default)
 		)
 		(uuid "96da66b6-d44f-4881-a934-b7f251e3e932")
-	)
-	(wire
-		(pts
-			(xy 154.94 179.07) (xy 160.02 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "97892df3-52af-4abc-8ccd-168b2a3bb531")
 	)
 	(wire
 		(pts
@@ -13719,7 +13683,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 165.1) (xy 99.06 165.1)
+			(xy 86.36 158.75) (xy 96.52 158.75)
 		)
 		(stroke
 			(width 0)
@@ -13809,7 +13773,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 152.4) (xy 68.58 156.21)
+			(xy 66.04 146.05) (xy 66.04 149.86)
 		)
 		(stroke
 			(width 0)
@@ -13889,7 +13853,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 163.83) (xy 129.54 165.1)
+			(xy 127 157.48) (xy 127 158.75)
 		)
 		(stroke
 			(width 0)
@@ -13939,7 +13903,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 163.83) (xy 119.38 165.1)
+			(xy 116.84 157.48) (xy 116.84 158.75)
 		)
 		(stroke
 			(width 0)
@@ -13989,7 +13953,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 152.4) (xy 129.54 152.4)
+			(xy 116.84 146.05) (xy 127 146.05)
 		)
 		(stroke
 			(width 0)
@@ -14019,7 +13983,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 152.4) (xy 129.54 156.21)
+			(xy 127 146.05) (xy 127 149.86)
 		)
 		(stroke
 			(width 0)
@@ -14099,7 +14063,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 152.4) (xy 68.58 152.4)
+			(xy 55.88 146.05) (xy 66.04 146.05)
 		)
 		(stroke
 			(width 0)
@@ -14149,7 +14113,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 156.21) (xy 99.06 152.4)
+			(xy 96.52 149.86) (xy 96.52 146.05)
 		)
 		(stroke
 			(width 0)
@@ -14229,7 +14193,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 165.1) (xy 58.42 165.1)
+			(xy 45.72 158.75) (xy 55.88 158.75)
 		)
 		(stroke
 			(width 0)
@@ -14279,7 +14243,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 152.4) (xy 88.9 152.4)
+			(xy 76.2 146.05) (xy 86.36 146.05)
 		)
 		(stroke
 			(width 0)
@@ -14349,7 +14313,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 152.4) (xy 99.06 152.4)
+			(xy 86.36 146.05) (xy 96.52 146.05)
 		)
 		(stroke
 			(width 0)
@@ -14479,7 +14443,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 163.83) (xy 88.9 165.1)
+			(xy 86.36 157.48) (xy 86.36 158.75)
 		)
 		(stroke
 			(width 0)
@@ -14529,7 +14493,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 152.4) (xy 58.42 152.4)
+			(xy 45.72 146.05) (xy 55.88 146.05)
 		)
 		(stroke
 			(width 0)
@@ -14619,7 +14583,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 152.4) (xy 109.22 156.21)
+			(xy 106.68 146.05) (xy 106.68 149.86)
 		)
 		(stroke
 			(width 0)
@@ -14636,6 +14600,16 @@
 			(type default)
 		)
 		(uuid "da161bdc-771f-4921-93ce-ad625ee5de5a")
+	)
+	(wire
+		(pts
+			(xy 64.77 205.74) (xy 80.01 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da7d4115-d6e5-498f-a77b-01b6f435965b")
 	)
 	(wire
 		(pts
@@ -14669,7 +14643,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 163.83) (xy 99.06 165.1)
+			(xy 96.52 157.48) (xy 96.52 158.75)
 		)
 		(stroke
 			(width 0)
@@ -14729,7 +14703,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 163.83) (xy 38.1 165.1)
+			(xy 35.56 157.48) (xy 35.56 158.75)
 		)
 		(stroke
 			(width 0)
@@ -14799,6 +14773,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 210.82) (xy 80.01 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5c9e6d5-fc5b-4600-bd9b-40ebe52026d0")
+	)
+	(wire
+		(pts
 			(xy 36.83 46.99) (xy 25.4 46.99)
 		)
 		(stroke
@@ -14839,7 +14823,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 152.4) (xy 109.22 152.4)
+			(xy 96.52 146.05) (xy 106.68 146.05)
 		)
 		(stroke
 			(width 0)
@@ -14969,16 +14953,6 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 205.74) (xy 80.01 205.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f16f9a96-2edc-4b00-8f3b-b001ea7071ae")
-	)
-	(wire
-		(pts
 			(xy 114.3 171.45) (xy 114.3 175.26)
 		)
 		(stroke
@@ -15079,7 +15053,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 163.83) (xy 48.26 165.1)
+			(xy 45.72 157.48) (xy 45.72 158.75)
 		)
 		(stroke
 			(width 0)
@@ -15139,7 +15113,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 163.83) (xy 58.42 165.1)
+			(xy 55.88 157.48) (xy 55.88 158.75)
 		)
 		(stroke
 			(width 0)
@@ -15169,7 +15143,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 156.21) (xy 58.42 152.4)
+			(xy 55.88 149.86) (xy 55.88 146.05)
 		)
 		(stroke
 			(width 0)
@@ -15219,7 +15193,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 163.83) (xy 109.22 165.1)
+			(xy 106.68 157.48) (xy 106.68 158.75)
 		)
 		(stroke
 			(width 0)
@@ -15259,7 +15233,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 163.83) (xy 78.74 165.1)
+			(xy 76.2 157.48) (xy 76.2 158.75)
 		)
 		(stroke
 			(width 0)
@@ -18544,7 +18518,7 @@
 	(symbol
 		(lib_name "1uF_1")
 		(lib_id "Capacitors_0603:1uF")
-		(at 78.74 160.02 0)
+		(at 76.2 153.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18553,7 +18527,7 @@
 		(fields_autoplaced yes)
 		(uuid "18de7070-c2f1-4325-afdc-c7b51f7560c4")
 		(property "Reference" "C38"
-			(at 81.661 159.3763 0)
+			(at 79.121 153.0263 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18562,7 +18536,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 81.661 161.2973 0)
+			(at 79.121 154.9473 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18571,7 +18545,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 95.25 153.67 0)
+			(at 92.71 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18580,7 +18554,7 @@
 			)
 		)
 		(property "Datasheet" "http://product.samsungsem.com/mlcc/basic-search.do?partNumber=CL10B105KP8NNN"
-			(at 78.74 160.02 0)
+			(at 76.2 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18589,7 +18563,7 @@
 			)
 		)
 		(property "Description" "1µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)"
-			(at 128.27 156.21 0)
+			(at 125.73 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18598,7 +18572,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 85.09 143.51 0)
+			(at 82.55 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18607,7 +18581,7 @@
 			)
 		)
 		(property "MPN" "CL10B105KA8NNNC"
-			(at 96.52 146.05 0)
+			(at 93.98 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18616,7 +18590,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 87.63 148.59 0)
+			(at 85.09 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18625,7 +18599,7 @@
 			)
 		)
 		(property "Supplier Nr." "1276-1184-1-ND"
-			(at 92.71 151.13 0)
+			(at 90.17 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18634,7 +18608,7 @@
 			)
 		)
 		(property "Tolerance" "10%"
-			(at 86.36 161.29 0)
+			(at 83.82 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18643,7 +18617,7 @@
 			)
 		)
 		(property "Voltage" "25V"
-			(at 86.36 158.75 0)
+			(at 83.82 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18652,7 +18626,7 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-			(at 93.98 158.75 0)
+			(at 91.44 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18661,7 +18635,7 @@
 			)
 		)
 		(property "Price" "0.09"
-			(at 105.41 158.75 0)
+			(at 102.87 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19852,7 +19826,7 @@
 	(symbol
 		(lib_name "1uF_1")
 		(lib_id "Capacitors_0603:1uF")
-		(at 119.38 160.02 0)
+		(at 116.84 153.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19861,7 +19835,7 @@
 		(fields_autoplaced yes)
 		(uuid "27d96923-1668-4767-8182-e8720b495b8e")
 		(property "Reference" "C42"
-			(at 122.301 159.3763 0)
+			(at 119.761 153.0263 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19870,7 +19844,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 122.301 161.2973 0)
+			(at 119.761 154.9473 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19879,7 +19853,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 135.89 153.67 0)
+			(at 133.35 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19888,7 +19862,7 @@
 			)
 		)
 		(property "Datasheet" "http://product.samsungsem.com/mlcc/basic-search.do?partNumber=CL10B105KP8NNN"
-			(at 119.38 160.02 0)
+			(at 116.84 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19897,7 +19871,7 @@
 			)
 		)
 		(property "Description" "1µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)"
-			(at 168.91 156.21 0)
+			(at 166.37 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19906,7 +19880,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 125.73 143.51 0)
+			(at 123.19 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19915,7 +19889,7 @@
 			)
 		)
 		(property "MPN" "CL10B105KA8NNNC"
-			(at 137.16 146.05 0)
+			(at 134.62 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19924,7 +19898,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 128.27 148.59 0)
+			(at 125.73 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19933,7 +19907,7 @@
 			)
 		)
 		(property "Supplier Nr." "1276-1184-1-ND"
-			(at 133.35 151.13 0)
+			(at 130.81 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19942,7 +19916,7 @@
 			)
 		)
 		(property "Tolerance" "10%"
-			(at 127 161.29 0)
+			(at 124.46 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19951,7 +19925,7 @@
 			)
 		)
 		(property "Voltage" "25V"
-			(at 127 158.75 0)
+			(at 124.46 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19960,7 +19934,7 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-			(at 134.62 158.75 0)
+			(at 132.08 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19969,7 +19943,7 @@
 			)
 		)
 		(property "Price" "0.09"
-			(at 146.05 158.75 0)
+			(at 143.51 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21808,7 +21782,7 @@
 	)
 	(symbol
 		(lib_id "Capacitor_1206:22uF")
-		(at 109.22 160.02 0)
+		(at 106.68 153.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21817,7 +21791,7 @@
 		(fields_autoplaced yes)
 		(uuid "385f4f11-c568-45a4-840a-16edefdb1e82")
 		(property "Reference" "C41"
-			(at 112.141 159.3763 0)
+			(at 109.601 153.0263 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21826,7 +21800,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 112.141 161.2973 0)
+			(at 109.601 154.9473 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21835,7 +21809,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 125.73 153.67 0)
+			(at 123.19 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21844,7 +21818,7 @@
 			)
 		)
 		(property "Datasheet" "https://eu.mouser.com/datasheet/2/585/MLCC-1837944.pdf"
-			(at 109.22 160.02 0)
+			(at 106.68 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21853,7 +21827,7 @@
 			)
 		)
 		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 22uF+/-20% 10V X7R 3 1206"
-			(at 152.4 156.21 0)
+			(at 149.86 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21862,7 +21836,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung"
-			(at 116.84 143.51 0)
+			(at 114.3 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21871,7 +21845,7 @@
 			)
 		)
 		(property "MPN" "CL31B226MPHNNNE"
-			(at 124.46 146.05 0)
+			(at 121.92 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21880,7 +21854,7 @@
 			)
 		)
 		(property "Supplier" "Mouser"
-			(at 116.84 148.59 0)
+			(at 114.3 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21889,7 +21863,7 @@
 			)
 		)
 		(property "Supplier Nr." "187-CL31B226MPHNNNE"
-			(at 130.81 151.13 0)
+			(at 128.27 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21898,7 +21872,7 @@
 			)
 		)
 		(property "Tolerance" "20%"
-			(at 116.84 161.29 0)
+			(at 114.3 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21907,7 +21881,7 @@
 			)
 		)
 		(property "Voltage" "10V"
-			(at 116.84 158.75 0)
+			(at 114.3 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21916,7 +21890,7 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-			(at 124.46 158.75 0)
+			(at 121.92 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23281,7 +23255,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 78.74 152.4 0)
+		(at 76.2 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23290,7 +23264,7 @@
 		(fields_autoplaced yes)
 		(uuid "50d7a3b4-40ed-4480-a25c-5ce495345e08")
 		(property "Reference" "#PWR082"
-			(at 78.74 156.21 0)
+			(at 76.2 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23299,7 +23273,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 78.74 148.7955 0)
+			(at 76.2 142.4455 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23307,7 +23281,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 78.74 152.4 0)
+			(at 76.2 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23316,7 +23290,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 152.4 0)
+			(at 76.2 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23325,7 +23299,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 78.74 152.4 0)
+			(at 76.2 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24327,7 +24301,7 @@
 	(symbol
 		(lib_name "1uF_1")
 		(lib_id "Capacitors_0603:1uF")
-		(at 38.1 160.02 0)
+		(at 35.56 153.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24335,7 +24309,7 @@
 		(dnp no)
 		(uuid "5e345a4f-0a07-426f-8727-2602d268ac18")
 		(property "Reference" "C17"
-			(at 31.242 159.258 0)
+			(at 28.702 152.908 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24344,7 +24318,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 32.004 161.29 0)
+			(at 29.464 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24353,7 +24327,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 54.61 153.67 0)
+			(at 52.07 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24362,7 +24336,7 @@
 			)
 		)
 		(property "Datasheet" "http://product.samsungsem.com/mlcc/basic-search.do?partNumber=CL10B105KP8NNN"
-			(at 38.1 160.02 0)
+			(at 35.56 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24371,7 +24345,7 @@
 			)
 		)
 		(property "Description" "1µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)"
-			(at 87.63 156.21 0)
+			(at 85.09 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24380,7 +24354,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 44.45 143.51 0)
+			(at 41.91 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24389,7 +24363,7 @@
 			)
 		)
 		(property "MPN" "CL10B105KA8NNNC"
-			(at 55.88 146.05 0)
+			(at 53.34 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24398,7 +24372,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 46.99 148.59 0)
+			(at 44.45 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24407,7 +24381,7 @@
 			)
 		)
 		(property "Supplier Nr." "1276-1184-1-ND"
-			(at 52.07 151.13 0)
+			(at 49.53 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24416,7 +24390,7 @@
 			)
 		)
 		(property "Tolerance" "10%"
-			(at 45.72 161.29 0)
+			(at 43.18 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24425,7 +24399,7 @@
 			)
 		)
 		(property "Voltage" "25V"
-			(at 45.72 158.75 0)
+			(at 43.18 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24434,7 +24408,7 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-			(at 53.34 158.75 0)
+			(at 50.8 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24443,7 +24417,7 @@
 			)
 		)
 		(property "Price" "0.09"
-			(at 64.77 158.75 0)
+			(at 62.23 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24818,7 +24792,7 @@
 	)
 	(symbol
 		(lib_id "Capacitor_1206:22uF")
-		(at 68.58 160.02 0)
+		(at 66.04 153.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24827,7 +24801,7 @@
 		(fields_autoplaced yes)
 		(uuid "64062786-2eb4-486e-9099-fa63fe0d070b")
 		(property "Reference" "C20"
-			(at 71.501 159.3763 0)
+			(at 68.961 153.0263 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24836,7 +24810,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 71.501 161.2973 0)
+			(at 68.961 154.9473 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24845,7 +24819,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 85.09 153.67 0)
+			(at 82.55 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24854,7 +24828,7 @@
 			)
 		)
 		(property "Datasheet" "https://eu.mouser.com/datasheet/2/585/MLCC-1837944.pdf"
-			(at 68.58 160.02 0)
+			(at 66.04 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24863,7 +24837,7 @@
 			)
 		)
 		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 22uF+/-20% 10V X7R 3 1206"
-			(at 111.76 156.21 0)
+			(at 109.22 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24872,7 +24846,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung"
-			(at 76.2 143.51 0)
+			(at 73.66 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24881,7 +24855,7 @@
 			)
 		)
 		(property "MPN" "CL31B226MPHNNNE"
-			(at 83.82 146.05 0)
+			(at 81.28 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24890,7 +24864,7 @@
 			)
 		)
 		(property "Supplier" "Mouser"
-			(at 76.2 148.59 0)
+			(at 73.66 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24899,7 +24873,7 @@
 			)
 		)
 		(property "Supplier Nr." "187-CL31B226MPHNNNE"
-			(at 90.17 151.13 0)
+			(at 87.63 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24908,7 +24882,7 @@
 			)
 		)
 		(property "Tolerance" "20%"
-			(at 76.2 161.29 0)
+			(at 73.66 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24917,7 +24891,7 @@
 			)
 		)
 		(property "Voltage" "10V"
-			(at 76.2 158.75 0)
+			(at 73.66 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24926,7 +24900,7 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-			(at 83.82 158.75 0)
+			(at 81.28 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25731,7 +25705,7 @@
 	)
 	(symbol
 		(lib_id "Capacitor_1206:22uF")
-		(at 88.9 160.02 0)
+		(at 86.36 153.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25740,7 +25714,7 @@
 		(fields_autoplaced yes)
 		(uuid "6fcc5f0a-29d8-4b4e-a73d-de2d614c3f98")
 		(property "Reference" "C39"
-			(at 91.821 159.3763 0)
+			(at 89.281 153.0263 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25749,7 +25723,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 91.821 161.2973 0)
+			(at 89.281 154.9473 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25758,7 +25732,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 105.41 153.67 0)
+			(at 102.87 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25767,7 +25741,7 @@
 			)
 		)
 		(property "Datasheet" "https://eu.mouser.com/datasheet/2/585/MLCC-1837944.pdf"
-			(at 88.9 160.02 0)
+			(at 86.36 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25776,7 +25750,7 @@
 			)
 		)
 		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 22uF+/-20% 10V X7R 3 1206"
-			(at 132.08 156.21 0)
+			(at 129.54 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25785,7 +25759,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung"
-			(at 96.52 143.51 0)
+			(at 93.98 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25794,7 +25768,7 @@
 			)
 		)
 		(property "MPN" "CL31B226MPHNNNE"
-			(at 104.14 146.05 0)
+			(at 101.6 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25803,7 +25777,7 @@
 			)
 		)
 		(property "Supplier" "Mouser"
-			(at 96.52 148.59 0)
+			(at 93.98 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25812,7 +25786,7 @@
 			)
 		)
 		(property "Supplier Nr." "187-CL31B226MPHNNNE"
-			(at 110.49 151.13 0)
+			(at 107.95 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25821,7 +25795,7 @@
 			)
 		)
 		(property "Tolerance" "20%"
-			(at 96.52 161.29 0)
+			(at 93.98 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25830,7 +25804,7 @@
 			)
 		)
 		(property "Voltage" "10V"
-			(at 96.52 158.75 0)
+			(at 93.98 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25839,7 +25813,7 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-			(at 104.14 158.75 0)
+			(at 101.6 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26752,7 +26726,7 @@
 	)
 	(symbol
 		(lib_id "Capacitor_1206:22uF")
-		(at 129.54 160.02 0)
+		(at 127 153.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26761,7 +26735,7 @@
 		(fields_autoplaced yes)
 		(uuid "7789704e-336e-4b9e-a7c0-d9eb37dbb105")
 		(property "Reference" "C43"
-			(at 132.461 159.3763 0)
+			(at 129.921 153.0263 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26770,7 +26744,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 132.461 161.2973 0)
+			(at 129.921 154.9473 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26779,7 +26753,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 146.05 153.67 0)
+			(at 143.51 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26788,7 +26762,7 @@
 			)
 		)
 		(property "Datasheet" "https://eu.mouser.com/datasheet/2/585/MLCC-1837944.pdf"
-			(at 129.54 160.02 0)
+			(at 127 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26797,7 +26771,7 @@
 			)
 		)
 		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 22uF+/-20% 10V X7R 3 1206"
-			(at 172.72 156.21 0)
+			(at 170.18 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26806,7 +26780,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung"
-			(at 137.16 143.51 0)
+			(at 134.62 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26815,7 +26789,7 @@
 			)
 		)
 		(property "MPN" "CL31B226MPHNNNE"
-			(at 144.78 146.05 0)
+			(at 142.24 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26824,7 +26798,7 @@
 			)
 		)
 		(property "Supplier" "Mouser"
-			(at 137.16 148.59 0)
+			(at 134.62 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26833,7 +26807,7 @@
 			)
 		)
 		(property "Supplier Nr." "187-CL31B226MPHNNNE"
-			(at 151.13 151.13 0)
+			(at 148.59 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26842,7 +26816,7 @@
 			)
 		)
 		(property "Tolerance" "20%"
-			(at 137.16 161.29 0)
+			(at 134.62 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26851,7 +26825,7 @@
 			)
 		)
 		(property "Voltage" "10V"
-			(at 137.16 158.75 0)
+			(at 134.62 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26860,7 +26834,7 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-			(at 144.78 158.75 0)
+			(at 142.24 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28882,7 +28856,7 @@
 	(symbol
 		(lib_name "1uF_1")
 		(lib_id "Capacitors_0603:1uF")
-		(at 99.06 160.02 0)
+		(at 96.52 153.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28891,7 +28865,7 @@
 		(fields_autoplaced yes)
 		(uuid "a319e7c0-7caf-4ec8-92c6-f7652fdf7fcf")
 		(property "Reference" "C40"
-			(at 101.981 159.3763 0)
+			(at 99.441 153.0263 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28900,7 +28874,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 101.981 161.2973 0)
+			(at 99.441 154.9473 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28909,7 +28883,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 115.57 153.67 0)
+			(at 113.03 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28918,7 +28892,7 @@
 			)
 		)
 		(property "Datasheet" "http://product.samsungsem.com/mlcc/basic-search.do?partNumber=CL10B105KP8NNN"
-			(at 99.06 160.02 0)
+			(at 96.52 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28927,7 +28901,7 @@
 			)
 		)
 		(property "Description" "1µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)"
-			(at 148.59 156.21 0)
+			(at 146.05 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28936,7 +28910,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 105.41 143.51 0)
+			(at 102.87 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28945,7 +28919,7 @@
 			)
 		)
 		(property "MPN" "CL10B105KA8NNNC"
-			(at 116.84 146.05 0)
+			(at 114.3 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28954,7 +28928,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 107.95 148.59 0)
+			(at 105.41 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28963,7 +28937,7 @@
 			)
 		)
 		(property "Supplier Nr." "1276-1184-1-ND"
-			(at 113.03 151.13 0)
+			(at 110.49 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28972,7 +28946,7 @@
 			)
 		)
 		(property "Tolerance" "10%"
-			(at 106.68 161.29 0)
+			(at 104.14 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28981,7 +28955,7 @@
 			)
 		)
 		(property "Voltage" "25V"
-			(at 106.68 158.75 0)
+			(at 104.14 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28990,7 +28964,7 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-			(at 114.3 158.75 0)
+			(at 111.76 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28999,7 +28973,7 @@
 			)
 		)
 		(property "Price" "0.09"
-			(at 125.73 158.75 0)
+			(at 123.19 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32298,7 +32272,7 @@
 	(symbol
 		(lib_name "1uF_1")
 		(lib_id "Capacitors_0603:1uF")
-		(at 58.42 160.02 0)
+		(at 55.88 153.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -32307,7 +32281,7 @@
 		(fields_autoplaced yes)
 		(uuid "c50a30ec-0417-47e9-99e7-59210e3b825f")
 		(property "Reference" "C19"
-			(at 61.341 159.3763 0)
+			(at 58.801 153.0263 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32316,7 +32290,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 61.341 161.2973 0)
+			(at 58.801 154.9473 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32325,7 +32299,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 74.93 153.67 0)
+			(at 72.39 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32334,7 +32308,7 @@
 			)
 		)
 		(property "Datasheet" "http://product.samsungsem.com/mlcc/basic-search.do?partNumber=CL10B105KP8NNN"
-			(at 58.42 160.02 0)
+			(at 55.88 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32343,7 +32317,7 @@
 			)
 		)
 		(property "Description" "1µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)"
-			(at 107.95 156.21 0)
+			(at 105.41 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32352,7 +32326,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 64.77 143.51 0)
+			(at 62.23 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32361,7 +32335,7 @@
 			)
 		)
 		(property "MPN" "CL10B105KA8NNNC"
-			(at 76.2 146.05 0)
+			(at 73.66 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32370,7 +32344,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 67.31 148.59 0)
+			(at 64.77 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32379,7 +32353,7 @@
 			)
 		)
 		(property "Supplier Nr." "1276-1184-1-ND"
-			(at 72.39 151.13 0)
+			(at 69.85 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32388,7 +32362,7 @@
 			)
 		)
 		(property "Tolerance" "10%"
-			(at 66.04 161.29 0)
+			(at 63.5 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32397,7 +32371,7 @@
 			)
 		)
 		(property "Voltage" "25V"
-			(at 66.04 158.75 0)
+			(at 63.5 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32406,7 +32380,7 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-			(at 73.66 158.75 0)
+			(at 71.12 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32415,7 +32389,7 @@
 			)
 		)
 		(property "Price" "0.09"
-			(at 85.09 158.75 0)
+			(at 82.55 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36639,7 +36613,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 78.74 167.64 0)
+		(at 76.2 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -36647,7 +36621,7 @@
 		(dnp no)
 		(uuid "f588b917-13d7-4da8-b711-700f3cf49974")
 		(property "Reference" "#PWR084"
-			(at 78.74 173.99 0)
+			(at 76.2 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36656,7 +36630,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 82.042 166.878 0)
+			(at 78.994 160.528 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36664,7 +36638,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 78.74 167.64 0)
+			(at 76.2 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36673,7 +36647,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 167.64 0)
+			(at 76.2 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36682,7 +36656,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 78.74 167.64 0)
+			(at 76.2 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36704,7 +36678,7 @@
 	)
 	(symbol
 		(lib_id "Capacitor_1206:22uF")
-		(at 48.26 160.02 0)
+		(at 45.72 153.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -36713,7 +36687,7 @@
 		(fields_autoplaced yes)
 		(uuid "f800ba7b-e702-41f9-a154-62e7255c78f9")
 		(property "Reference" "C18"
-			(at 51.181 159.3763 0)
+			(at 48.641 153.0263 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36722,7 +36696,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 51.181 161.2973 0)
+			(at 48.641 154.9473 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36731,7 +36705,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 64.77 153.67 0)
+			(at 62.23 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36740,7 +36714,7 @@
 			)
 		)
 		(property "Datasheet" "https://eu.mouser.com/datasheet/2/585/MLCC-1837944.pdf"
-			(at 48.26 160.02 0)
+			(at 45.72 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36749,7 +36723,7 @@
 			)
 		)
 		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 22uF+/-20% 10V X7R 3 1206"
-			(at 91.44 156.21 0)
+			(at 88.9 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36758,7 +36732,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung"
-			(at 55.88 143.51 0)
+			(at 53.34 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36767,7 +36741,7 @@
 			)
 		)
 		(property "MPN" "CL31B226MPHNNNE"
-			(at 63.5 146.05 0)
+			(at 60.96 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36776,7 +36750,7 @@
 			)
 		)
 		(property "Supplier" "Mouser"
-			(at 55.88 148.59 0)
+			(at 53.34 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36785,7 +36759,7 @@
 			)
 		)
 		(property "Supplier Nr." "187-CL31B226MPHNNNE"
-			(at 69.85 151.13 0)
+			(at 67.31 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36794,7 +36768,7 @@
 			)
 		)
 		(property "Tolerance" "20%"
-			(at 55.88 161.29 0)
+			(at 53.34 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36803,7 +36777,7 @@
 			)
 		)
 		(property "Voltage" "10V"
-			(at 55.88 158.75 0)
+			(at 53.34 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36812,7 +36786,7 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-			(at 63.5 158.75 0)
+			(at 60.96 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
