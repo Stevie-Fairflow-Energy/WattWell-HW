@@ -12375,16 +12375,6 @@
 		)
 		(uuid "38863709-ee07-4027-802e-fa7ad869340e")
 	)
-	(label "OUT_DRY3"
-		(at 105.41 116.84 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "3b07b9da-09b9-4aef-bcdc-e35b6e0318ca")
-	)
 	(label "IN_AN4"
 		(at 344.17 152.4 0)
 		(effects
@@ -12414,16 +12404,6 @@
 			(justify left bottom)
 		)
 		(uuid "563de19d-4fe9-4872-927a-95b684b0e4f3")
-	)
-	(label "OUT_DRY4"
-		(at 105.41 134.62 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5834f9c7-433e-4bff-8bd9-e59db62a1e70")
 	)
 	(label "IN_DIG5"
 		(at 344.17 170.18 0)
