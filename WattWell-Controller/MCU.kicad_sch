@@ -2559,6 +2559,217 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Capacitors_0603:4.7nF"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "4.7nF"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+				(at 17.2212 11.938 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL10B472KB8NNN"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "CAP CER 4700PF 50V X7R 0603"
+				(at 14.478 19.5072 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Samsung Electro-Mechanics"
+				(at 18.288 16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "CL10B472KB8NNNC"
+				(at 43.9928 16.2052 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier" "Digikey"
+				(at 7.874 14.2748 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier Nr." "1276-1098-1-ND"
+				(at 22.352 13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Tolerance" "10%"
+				(at 35.6108 10.414 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Voltage" "50V"
+				(at 6.35 9.2964 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Dielectric" "X7R"
+				(at 13.1572 9.0932 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Price" "0.09"
+				(at 38.5572 13.8176 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor X7R 0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "4.7nF_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "4.7nF_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Capacitors_0603:9pF"
 			(pin_numbers
 				(hide yes)
@@ -9267,6 +9478,202 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Resistor_0603:60Ω"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 3.81 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "60Ω"
+				(at 3.81 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+				(at 0 25.4 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf"
+				(at -8.89 1.27 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Thin Film Resistors - SMD CPF 0603 60R4 1% 50PPM"
+				(at 0 23.495 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "TE Connectivity"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "CPF0603F60R4C1"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier" "Mouser"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier P/N" "279-CPF0603F60R4C1"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier Nr." "311-110KHRCT-ND"
+				(at 0 38.735 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Power" "100mW"
+				(at 0 35.56 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Tolerance" "1%"
+				(at 0 19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Price" "0.09"
+				(at 0 20.955 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Thin Film Resistors - SMD CPF 0603 60R4 1% 50PPM"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "60Ω_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "60Ω_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Testpoints:TestPoint_1.5mm"
 			(pin_numbers
 				(hide yes)
@@ -10076,7 +10483,7 @@
 		)
 	)
 	(rectangle
-		(start 234.95 13.97)
+		(start 195.58 13.97)
 		(end 405.765 118.745)
 		(stroke
 			(width 1)
@@ -10136,7 +10543,13 @@
 		(uuid "0376ff58-46e4-4ca8-80ca-ed289bd2985a")
 	)
 	(junction
-		(at 119.38 165.1)
+		(at 228.6 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "04f376c7-b091-49b4-8362-8869f20eef49")
+	)
+	(junction
+		(at 116.84 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0505e1f7-32fa-47be-af6b-5a3e740f17f9")
@@ -10160,7 +10573,7 @@
 		(uuid "0f36bbe5-5429-4edd-b437-05acb875315c")
 	)
 	(junction
-		(at 119.38 152.4)
+		(at 116.84 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "10df9492-4894-4029-86e7-ec610a59d7d2")
@@ -10202,7 +10615,7 @@
 		(uuid "217a4e3e-9d60-4c30-b845-1b2944e6b8ae")
 	)
 	(junction
-		(at 78.74 152.4)
+		(at 76.2 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2bca11df-c3a1-44e2-ad8c-ef3e57aa72ed")
@@ -10214,7 +10627,7 @@
 		(uuid "2ef6022d-6120-4f4b-bcd8-091ab0cce8ec")
 	)
 	(junction
-		(at 109.22 165.1)
+		(at 106.68 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "31650a86-de7f-4625-8d10-b1205f2fb790")
@@ -10316,19 +10729,13 @@
 		(uuid "51e4aad0-1bca-470c-9e80-43fb628ae173")
 	)
 	(junction
-		(at 154.94 179.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "54c9a7ff-a252-43ec-924d-a76ab0d9d6e9")
-	)
-	(junction
 		(at 33.02 245.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "54f15022-cdbd-4eb3-90d2-b1738fab7a90")
 	)
 	(junction
-		(at 58.42 152.4)
+		(at 64.77 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "568b12c1-83bc-4b32-943a-d108243fc343")
@@ -10358,12 +10765,6 @@
 		(uuid "65615dd4-c775-4d80-9905-1d6a2442b0fc")
 	)
 	(junction
-		(at 68.58 152.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6abc4643-71fc-471d-8e67-49ab7254cbf3")
-	)
-	(junction
 		(at 104.14 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10380,6 +10781,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "71978fc2-bd41-46d9-92f2-cb2574bec83e")
+	)
+	(junction
+		(at 228.6 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "738ec719-0d0e-44a8-8c54-8e360a86a353")
 	)
 	(junction
 		(at 59.69 233.68)
@@ -10400,13 +10807,13 @@
 		(uuid "7ca63e0d-26fd-47ed-81c7-71fee13a970d")
 	)
 	(junction
-		(at 109.22 152.4)
+		(at 106.68 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7db20e28-ce47-4b63-a949-a53ac4b200d9")
 	)
 	(junction
-		(at 99.06 165.1)
+		(at 96.52 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7e557793-5f1c-49ed-96f2-d3d13db192ac")
@@ -10428,12 +10835,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "89a2c97c-df2c-4d36-aebe-fc83c30b085e")
-	)
-	(junction
-		(at 48.26 165.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8d6f552a-8662-4519-8ddb-fc02f630ee30")
 	)
 	(junction
 		(at 33.02 196.85)
@@ -10460,7 +10861,7 @@
 		(uuid "95fcb5f1-51ba-4c60-bae1-881879028d4b")
 	)
 	(junction
-		(at 78.74 165.1)
+		(at 76.2 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "99b907f1-9341-4da1-a8a2-f2a7b674b41c")
@@ -10472,7 +10873,7 @@
 		(uuid "99d22328-8901-4e34-90bb-b682a389b0b1")
 	)
 	(junction
-		(at 58.42 165.1)
+		(at 64.77 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9cd6e77f-a394-4830-a293-7c8659a35761")
@@ -10508,6 +10909,12 @@
 		(uuid "a2917fe8-9a17-404e-b0f7-69e0f82fb7f5")
 	)
 	(junction
+		(at 104.14 171.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a3bdd212-d1cf-4af1-846f-542fefa96225")
+	)
+	(junction
 		(at 99.06 261.62)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10526,22 +10933,10 @@
 		(uuid "a71f69dd-b11d-4868-8a03-7ac1530a1c66")
 	)
 	(junction
-		(at 68.58 165.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ab418af9-0fb9-456a-a123-a2d5f5926978")
-	)
-	(junction
 		(at 170.18 179.07)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ac5513a8-ffbb-4760-8dbc-5bfd7d7cd6f9")
-	)
-	(junction
-		(at 48.26 152.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ae4dba00-26ee-4923-8cce-478ea1614dcb")
 	)
 	(junction
 		(at 265.43 129.54)
@@ -10556,7 +10951,7 @@
 		(uuid "bba9bf0e-b37e-4aff-9b66-bf71f27076fc")
 	)
 	(junction
-		(at 266.7 30.48)
+		(at 250.19 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bcc12d41-9d92-47e7-b700-774e5f1c1eba")
@@ -10584,6 +10979,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c720fe91-073b-4650-b70c-c03515fee03c")
+	)
+	(junction
+		(at 116.84 171.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c84939cb-03e1-4c04-8dd1-a8f40985f28c")
 	)
 	(junction
 		(at 59.69 238.76)
@@ -10622,7 +11023,7 @@
 		(uuid "d014fce8-d5da-4c24-8d11-e3a2512b33ef")
 	)
 	(junction
-		(at 99.06 152.4)
+		(at 96.52 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d2ca2353-e8b6-4ea7-949e-08af898565fc")
@@ -10640,19 +11041,25 @@
 		(uuid "dbd84c18-808a-4542-944c-8b6597ab1524")
 	)
 	(junction
+		(at 228.6 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dd221475-ccd4-495c-a280-6dc81c070b6d")
+	)
+	(junction
 		(at 335.28 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "de7da31f-e4e3-4f2d-a660-66bc6f264e71")
 	)
 	(junction
-		(at 88.9 165.1)
+		(at 86.36 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "de8f0deb-b332-464a-8f31-d489a218fff2")
 	)
 	(junction
-		(at 88.9 152.4)
+		(at 86.36 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e0766fe7-9092-4b04-bcad-43545d9d0bfd")
@@ -10711,12 +11118,6 @@
 		(color 0 0 0 0)
 		(uuid "fd373968-8b55-4f01-9dcc-33fa30c6c4ad")
 	)
-	(junction
-		(at 114.3 171.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ff8a72bc-da15-4161-87d6-70b2e969be8e")
-	)
 	(no_connect
 		(at 356.87 220.98)
 		(uuid "12346713-dfc3-4ba3-8ade-519328bf17ff")
@@ -10769,7 +11170,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 152.4) (xy 38.1 156.21)
+			(xy 54.61 146.05) (xy 54.61 149.86)
 		)
 		(stroke
 			(width 0)
@@ -10799,7 +11200,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 30.48) (xy 266.7 40.64)
+			(xy 250.19 34.29) (xy 250.19 44.45)
 		)
 		(stroke
 			(width 0)
@@ -10826,16 +11227,6 @@
 			(type default)
 		)
 		(uuid "01a169c3-cda6-44cd-b2a7-3cb660c289db")
-	)
-	(wire
-		(pts
-			(xy 285.75 49.53) (xy 276.86 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "01bbc9e2-8b34-444c-a029-0d61fea98476")
 	)
 	(wire
 		(pts
@@ -10866,6 +11257,16 @@
 			(type default)
 		)
 		(uuid "02e0d83f-27f2-4725-98ca-951ae69de95a")
+	)
+	(wire
+		(pts
+			(xy 259.08 60.96) (xy 269.24 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03766be8-31ef-4ba1-a8c9-cc700c7dfbaf")
 	)
 	(wire
 		(pts
@@ -10949,23 +11350,13 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 62.23) (xy 266.7 63.5)
+			(xy 250.19 66.04) (xy 250.19 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "08eca908-4d54-4019-b6af-399d1c35e296")
-	)
-	(wire
-		(pts
-			(xy 110.49 171.45) (xy 114.3 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "091c3708-4ecb-4357-852f-86fc03573696")
 	)
 	(wire
 		(pts
@@ -10979,13 +11370,23 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 156.21) (xy 78.74 152.4)
+			(xy 76.2 149.86) (xy 76.2 146.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0c8a79d5-89b1-40e7-b51c-7b8648dacceb")
+	)
+	(wire
+		(pts
+			(xy 236.22 44.45) (xy 236.22 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c8e1d7f-fcdf-4c87-8673-2fa8ec31f21a")
 	)
 	(wire
 		(pts
@@ -11036,6 +11437,16 @@
 			(type default)
 		)
 		(uuid "0e3a51e0-e1ad-4207-97e5-e4ff53d27e79")
+	)
+	(wire
+		(pts
+			(xy 356.87 204.47) (xy 363.22 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f434e87-37ab-4d43-9d41-c43ba53cc2af")
 	)
 	(wire
 		(pts
@@ -11279,6 +11690,16 @@
 	)
 	(wire
 		(pts
+			(xy 370.84 201.93) (xy 384.81 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c9b8a8a-c93c-4b05-ab79-b7b43b1ae9cd")
+	)
+	(wire
+		(pts
 			(xy 373.38 128.27) (xy 382.27 128.27)
 		)
 		(stroke
@@ -11286,6 +11707,16 @@
 			(type default)
 		)
 		(uuid "1d496f16-562c-405e-9ec6-ee21bf239455")
+	)
+	(wire
+		(pts
+			(xy 228.6 64.77) (xy 228.6 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e6d40d5-f820-48c5-b639-45883aa32c1f")
 	)
 	(wire
 		(pts
@@ -11389,16 +11820,6 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 200.66) (xy 80.01 200.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "251da730-c167-4a32-9a4d-e0a997761c3f")
-	)
-	(wire
-		(pts
 			(xy 33.02 222.25) (xy 52.07 222.25)
 		)
 		(stroke
@@ -11426,16 +11847,6 @@
 			(type default)
 		)
 		(uuid "2590914b-a2f3-4422-b7b6-dd03450f088c")
-	)
-	(wire
-		(pts
-			(xy 55.88 210.82) (xy 80.01 210.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "271ce20a-45ce-40ee-8261-7e8db95db89d")
 	)
 	(wire
 		(pts
@@ -11699,7 +12110,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 165.1) (xy 78.74 165.1)
+			(xy 64.77 158.75) (xy 76.2 158.75)
 		)
 		(stroke
 			(width 0)
@@ -11736,16 +12147,6 @@
 			(type default)
 		)
 		(uuid "3492a877-f60d-4cbb-bc20-9635682f8277")
-	)
-	(wire
-		(pts
-			(xy 58.42 165.1) (xy 68.58 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34970936-e9e2-477c-afc2-b316308ff0c7")
 	)
 	(wire
 		(pts
@@ -11829,7 +12230,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 165.1) (xy 129.54 165.1)
+			(xy 116.84 158.75) (xy 127 158.75)
 		)
 		(stroke
 			(width 0)
@@ -11949,7 +12350,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 179.07) (xy 154.94 179.07)
+			(xy 149.86 179.07) (xy 160.02 179.07)
 		)
 		(stroke
 			(width 0)
@@ -12026,6 +12427,16 @@
 			(type default)
 		)
 		(uuid "4529b4dc-67e9-4b97-92c4-04fe624028b4")
+	)
+	(wire
+		(pts
+			(xy 218.44 44.45) (xy 228.6 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45759465-eceb-42b1-9cb8-e839a6198436")
 	)
 	(wire
 		(pts
@@ -12109,7 +12520,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 152.4) (xy 88.9 156.21)
+			(xy 86.36 146.05) (xy 86.36 149.86)
 		)
 		(stroke
 			(width 0)
@@ -12209,6 +12620,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 175.26) (xy 110.49 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "520c4cf7-ad53-41df-9064-ad3539505059")
+	)
+	(wire
+		(pts
 			(xy 52.07 222.25) (xy 52.07 226.06)
 		)
 		(stroke
@@ -12226,16 +12647,6 @@
 			(type default)
 		)
 		(uuid "52e80ea3-11a4-4d7c-866a-caed365e9eac")
-	)
-	(wire
-		(pts
-			(xy 38.1 152.4) (xy 48.26 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "53172395-1c5b-4c11-bf3d-c54d8fc87823")
 	)
 	(wire
 		(pts
@@ -12339,6 +12750,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 44.45) (xy 228.6 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b940173-219b-4d22-8b84-7abe306dbc7d")
+	)
+	(wire
+		(pts
 			(xy 276.86 82.55) (xy 276.86 83.82)
 		)
 		(stroke
@@ -12399,16 +12820,6 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 50.8) (xy 256.54 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f5753d8-4c1d-438f-95f7-7c933dd624e4")
-	)
-	(wire
-		(pts
 			(xy 170.18 208.28) (xy 177.8 208.28)
 		)
 		(stroke
@@ -12426,6 +12837,16 @@
 			(type default)
 		)
 		(uuid "5fbe16cb-4aaa-4309-859b-c336c74689df")
+	)
+	(wire
+		(pts
+			(xy 64.77 198.12) (xy 80.01 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fe2b91e-455e-4d65-8d2d-9dbbacf33852")
 	)
 	(wire
 		(pts
@@ -12479,16 +12900,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 179.07) (xy 154.94 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63390f48-d1ea-47b9-a98e-6f3a6534fc6d")
-	)
-	(wire
-		(pts
 			(xy 160.02 196.85) (xy 170.18 196.85)
 		)
 		(stroke
@@ -12499,7 +12910,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 195.58) (xy 80.01 195.58)
+			(xy 64.77 195.58) (xy 80.01 195.58)
 		)
 		(stroke
 			(width 0)
@@ -12629,7 +13040,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 156.21) (xy 119.38 152.4)
+			(xy 116.84 149.86) (xy 116.84 146.05)
 		)
 		(stroke
 			(width 0)
@@ -12656,6 +13067,16 @@
 			(type default)
 		)
 		(uuid "6c9e29db-030b-4fa1-af75-2e4fd441cd3e")
+	)
+	(wire
+		(pts
+			(xy 236.22 57.15) (xy 240.03 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e1ac2d0-8d6c-4f37-ad71-346de9558347")
 	)
 	(wire
 		(pts
@@ -12686,6 +13107,16 @@
 			(type default)
 		)
 		(uuid "6f3d0fef-cae4-46cd-b00f-4c371d85aaf8")
+	)
+	(wire
+		(pts
+			(xy 356.87 201.93) (xy 363.22 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f68c3ec-a199-4d6a-b61d-7584fe53f4b6")
 	)
 	(wire
 		(pts
@@ -12739,7 +13170,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 152.4) (xy 78.74 152.4)
+			(xy 64.77 146.05) (xy 76.2 146.05)
 		)
 		(stroke
 			(width 0)
@@ -12759,7 +13190,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 165.1) (xy 88.9 165.1)
+			(xy 76.2 158.75) (xy 86.36 158.75)
 		)
 		(stroke
 			(width 0)
@@ -12836,6 +13267,16 @@
 			(type default)
 		)
 		(uuid "77520111-274e-45ed-8c00-1d89aab1df95")
+	)
+	(wire
+		(pts
+			(xy 64.77 200.66) (xy 80.01 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77898e9d-3ea9-4e1d-ba73-1ccc796f15bb")
 	)
 	(wire
 		(pts
@@ -12959,6 +13400,16 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 58.42) (xy 269.24 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e1c4004-0b52-4e52-b306-72d79adbdab5")
+	)
+	(wire
+		(pts
 			(xy 370.84 196.85) (xy 384.81 196.85)
 		)
 		(stroke
@@ -13009,16 +13460,6 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 198.12) (xy 80.01 198.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80547b8f-f2c8-4460-acac-71051c7a99dd")
-	)
-	(wire
-		(pts
 			(xy 168.91 232.41) (xy 168.91 233.68)
 		)
 		(stroke
@@ -13029,7 +13470,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 152.4) (xy 119.38 152.4)
+			(xy 106.68 146.05) (xy 116.84 146.05)
 		)
 		(stroke
 			(width 0)
@@ -13059,7 +13500,17 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 165.1) (xy 109.22 165.1)
+			(xy 228.6 54.61) (xy 228.6 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "821222d4-81eb-4e02-a37d-e31eb4ac348c")
+	)
+	(wire
+		(pts
+			(xy 96.52 158.75) (xy 106.68 158.75)
 		)
 		(stroke
 			(width 0)
@@ -13089,7 +13540,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 53.34) (xy 256.54 53.34)
+			(xy 218.44 66.04) (xy 228.6 66.04)
 		)
 		(stroke
 			(width 0)
@@ -13116,16 +13567,6 @@
 			(type default)
 		)
 		(uuid "84939c7d-b68c-4734-8697-304d5ee915b7")
-	)
-	(wire
-		(pts
-			(xy 48.26 152.4) (xy 48.26 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "857101a8-1144-4997-8154-5657d6403572")
 	)
 	(wire
 		(pts
@@ -13189,7 +13630,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 165.1) (xy 78.74 167.64)
+			(xy 76.2 158.75) (xy 76.2 161.29)
 		)
 		(stroke
 			(width 0)
@@ -13216,16 +13657,6 @@
 			(type default)
 		)
 		(uuid "8d2b888c-edb7-4d0f-b76f-fa67588e1cc6")
-	)
-	(wire
-		(pts
-			(xy 38.1 165.1) (xy 48.26 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8df7ec51-d7ed-4ff0-9bf0-2cbb9cfbc690")
 	)
 	(wire
 		(pts
@@ -13319,7 +13750,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 36.83) (xy 261.62 38.1)
+			(xy 245.11 40.64) (xy 245.11 41.91)
 		)
 		(stroke
 			(width 0)
@@ -13346,6 +13777,16 @@
 			(type default)
 		)
 		(uuid "9217ef9f-eb8b-4819-b049-2c0d27064b91")
+	)
+	(wire
+		(pts
+			(xy 236.22 66.04) (xy 236.22 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9314d39e-f107-4073-856a-fc47d1ae7a5e")
 	)
 	(wire
 		(pts
@@ -13389,13 +13830,23 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 165.1) (xy 119.38 165.1)
+			(xy 106.68 158.75) (xy 116.84 158.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9519f3b0-5176-4053-8919-88cbb609c365")
+	)
+	(wire
+		(pts
+			(xy 259.08 53.34) (xy 269.24 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95259c47-d6f6-40f8-b670-7fc54986480e")
 	)
 	(wire
 		(pts
@@ -13409,13 +13860,13 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 163.83) (xy 68.58 165.1)
+			(xy 228.6 66.04) (xy 236.22 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "95aa6411-0dbf-494f-a2a3-b064b03cc727")
+		(uuid "954fe77a-9c71-44da-be52-f47b0875be91")
 	)
 	(wire
 		(pts
@@ -13436,16 +13887,6 @@
 			(type default)
 		)
 		(uuid "96da66b6-d44f-4881-a934-b7f251e3e932")
-	)
-	(wire
-		(pts
-			(xy 154.94 179.07) (xy 160.02 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "97892df3-52af-4abc-8ccd-168b2a3bb531")
 	)
 	(wire
 		(pts
@@ -13719,7 +14160,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 165.1) (xy 99.06 165.1)
+			(xy 86.36 158.75) (xy 96.52 158.75)
 		)
 		(stroke
 			(width 0)
@@ -13736,16 +14177,6 @@
 			(type default)
 		)
 		(uuid "a4cc820e-7791-4842-a4c3-78a906000ff0")
-	)
-	(wire
-		(pts
-			(xy 110.49 171.45) (xy 110.49 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a558f19c-3954-45a7-a435-09d8dc6d0006")
 	)
 	(wire
 		(pts
@@ -13806,16 +14237,6 @@
 			(type default)
 		)
 		(uuid "a9b8bb9a-9567-4af4-87ba-3c2666967d3f")
-	)
-	(wire
-		(pts
-			(xy 68.58 152.4) (xy 68.58 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa432248-75c3-4be2-b91d-7ed61a6eb56d")
 	)
 	(wire
 		(pts
@@ -13889,7 +14310,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 163.83) (xy 129.54 165.1)
+			(xy 127 157.48) (xy 127 158.75)
 		)
 		(stroke
 			(width 0)
@@ -13939,7 +14360,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 163.83) (xy 119.38 165.1)
+			(xy 116.84 157.48) (xy 116.84 158.75)
 		)
 		(stroke
 			(width 0)
@@ -13989,7 +14410,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 152.4) (xy 129.54 152.4)
+			(xy 116.84 146.05) (xy 127 146.05)
 		)
 		(stroke
 			(width 0)
@@ -14019,23 +14440,13 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 152.4) (xy 129.54 156.21)
+			(xy 127 146.05) (xy 127 149.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b31fb079-602e-484f-ac80-b7a88cbd8fc4")
-	)
-	(wire
-		(pts
-			(xy 285.75 54.61) (xy 276.86 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3f39554-69ec-4674-b065-ae06fefb409f")
 	)
 	(wire
 		(pts
@@ -14079,16 +14490,6 @@
 	)
 	(wire
 		(pts
-			(xy 285.75 46.99) (xy 276.86 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b830a30e-4143-4d9e-a6dc-07359f5f2406")
-	)
-	(wire
-		(pts
 			(xy 335.28 73.66) (xy 335.28 76.2)
 		)
 		(stroke
@@ -14096,16 +14497,6 @@
 			(type default)
 		)
 		(uuid "b89b9ba3-1d5d-47d9-858f-f180a09a195a")
-	)
-	(wire
-		(pts
-			(xy 58.42 152.4) (xy 68.58 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b92f4686-6254-4320-b91c-d8a5e7a2b3fc")
 	)
 	(wire
 		(pts
@@ -14149,7 +14540,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 156.21) (xy 99.06 152.4)
+			(xy 96.52 149.86) (xy 96.52 146.05)
 		)
 		(stroke
 			(width 0)
@@ -14229,7 +14620,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 165.1) (xy 58.42 165.1)
+			(xy 54.61 158.75) (xy 64.77 158.75)
 		)
 		(stroke
 			(width 0)
@@ -14279,7 +14670,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 152.4) (xy 88.9 152.4)
+			(xy 76.2 146.05) (xy 86.36 146.05)
 		)
 		(stroke
 			(width 0)
@@ -14329,7 +14720,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 29.21) (xy 266.7 30.48)
+			(xy 250.19 33.02) (xy 250.19 34.29)
 		)
 		(stroke
 			(width 0)
@@ -14349,13 +14740,23 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 152.4) (xy 99.06 152.4)
+			(xy 86.36 146.05) (xy 96.52 146.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c74e426b-3296-4474-9c80-342b850c3e6a")
+	)
+	(wire
+		(pts
+			(xy 370.84 204.47) (xy 384.81 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c767c49b-1da4-47a5-b759-fcbe15376dd1")
 	)
 	(wire
 		(pts
@@ -14479,7 +14880,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 163.83) (xy 88.9 165.1)
+			(xy 86.36 157.48) (xy 86.36 158.75)
 		)
 		(stroke
 			(width 0)
@@ -14509,6 +14910,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 171.45) (xy 110.49 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cffbf8f0-6cf5-4220-8fb9-b6989ef37e39")
+	)
+	(wire
+		(pts
 			(xy 331.47 36.83) (xy 331.47 38.1)
 		)
 		(stroke
@@ -14529,7 +14940,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 152.4) (xy 58.42 152.4)
+			(xy 54.61 146.05) (xy 64.77 146.05)
 		)
 		(stroke
 			(width 0)
@@ -14619,7 +15030,17 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 152.4) (xy 109.22 156.21)
+			(xy 259.08 50.8) (xy 269.24 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8f9ed0a-4d27-485b-ab58-2462c30938b3")
+	)
+	(wire
+		(pts
+			(xy 106.68 146.05) (xy 106.68 149.86)
 		)
 		(stroke
 			(width 0)
@@ -14636,6 +15057,16 @@
 			(type default)
 		)
 		(uuid "da161bdc-771f-4921-93ce-ad625ee5de5a")
+	)
+	(wire
+		(pts
+			(xy 64.77 205.74) (xy 80.01 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da7d4115-d6e5-498f-a77b-01b6f435965b")
 	)
 	(wire
 		(pts
@@ -14659,6 +15090,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 53.34) (xy 228.6 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db213ca1-7ca5-416a-8cf1-e8b1ba6fa53c")
+	)
+	(wire
+		(pts
 			(xy 339.09 29.21) (xy 339.09 38.1)
 		)
 		(stroke
@@ -14669,7 +15110,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 163.83) (xy 99.06 165.1)
+			(xy 96.52 157.48) (xy 96.52 158.75)
 		)
 		(stroke
 			(width 0)
@@ -14729,13 +15170,23 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 163.83) (xy 38.1 165.1)
+			(xy 54.61 157.48) (xy 54.61 158.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e083b317-e37a-46f6-aa70-c583d89f57dd")
+	)
+	(wire
+		(pts
+			(xy 236.22 54.61) (xy 240.03 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0ca6388-92a7-4f9b-a02c-1e3c49afe80b")
 	)
 	(wire
 		(pts
@@ -14799,6 +15250,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 210.82) (xy 80.01 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5c9e6d5-fc5b-4600-bd9b-40ebe52026d0")
+	)
+	(wire
+		(pts
 			(xy 36.83 46.99) (xy 25.4 46.99)
 		)
 		(stroke
@@ -14839,7 +15300,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 152.4) (xy 109.22 152.4)
+			(xy 96.52 146.05) (xy 106.68 146.05)
 		)
 		(stroke
 			(width 0)
@@ -14876,6 +15337,16 @@
 			(type default)
 		)
 		(uuid "ec8c5423-3b4f-4b67-88aa-fc72961cf466")
+	)
+	(wire
+		(pts
+			(xy 228.6 44.45) (xy 236.22 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecfcea7f-f50e-4044-bab9-485f445dd68a")
 	)
 	(wire
 		(pts
@@ -14969,16 +15440,6 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 205.74) (xy 80.01 205.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f16f9a96-2edc-4b00-8f3b-b001ea7071ae")
-	)
-	(wire
-		(pts
 			(xy 114.3 171.45) (xy 114.3 175.26)
 		)
 		(stroke
@@ -15059,7 +15520,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 30.48) (xy 266.7 30.48)
+			(xy 245.11 34.29) (xy 250.19 34.29)
 		)
 		(stroke
 			(width 0)
@@ -15079,13 +15540,13 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 163.83) (xy 48.26 165.1)
+			(xy 223.52 54.61) (xy 228.6 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f544ee76-7c8b-4313-9f08-26457f954297")
+		(uuid "f5985a30-fe65-425b-a228-b2accb1509cb")
 	)
 	(wire
 		(pts
@@ -15139,7 +15600,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 163.83) (xy 58.42 165.1)
+			(xy 64.77 157.48) (xy 64.77 158.75)
 		)
 		(stroke
 			(width 0)
@@ -15169,7 +15630,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 156.21) (xy 58.42 152.4)
+			(xy 64.77 149.86) (xy 64.77 146.05)
 		)
 		(stroke
 			(width 0)
@@ -15219,7 +15680,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 163.83) (xy 109.22 165.1)
+			(xy 106.68 157.48) (xy 106.68 158.75)
 		)
 		(stroke
 			(width 0)
@@ -15249,17 +15710,7 @@
 	)
 	(wire
 		(pts
-			(xy 285.75 57.15) (xy 276.86 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff857f45-6245-42cc-b947-a8cea89ae8aa")
-	)
-	(wire
-		(pts
-			(xy 78.74 163.83) (xy 78.74 165.1)
+			(xy 76.2 157.48) (xy 76.2 158.75)
 		)
 		(stroke
 			(width 0)
@@ -15376,6 +15827,16 @@
 			(justify left bottom)
 		)
 		(uuid "2bcb1f7c-3816-4331-99a5-b2918745376b")
+	)
+	(label "CAN_NSIL"
+		(at 269.24 53.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2ce35bc7-b297-4fa9-b115-95e902a67475")
 	)
 	(label "VCAP2"
 		(at 135.89 194.31 0)
@@ -15618,7 +16079,7 @@
 		(uuid "7f60a135-6316-4d3f-abd3-08592b25262a")
 	)
 	(label "CAN_RX"
-		(at 285.75 57.15 180)
+		(at 269.24 60.96 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15757,6 +16218,16 @@
 		)
 		(uuid "b4ca37e5-ebff-40f7-9599-cc7736ba9215")
 	)
+	(label "CAN_NSIL"
+		(at 384.81 204.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b79142aa-561a-4b47-91ea-2491d5e3ea38")
+	)
 	(label "TX0_3V3"
 		(at 355.6 59.69 0)
 		(effects
@@ -15787,6 +16258,16 @@
 		)
 		(uuid "ba9c3e54-1ef6-4225-854f-70056fb9dccf")
 	)
+	(label "CAN_STBY"
+		(at 269.24 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bc113f65-88d8-45a0-8e03-16f0ff5099b7")
+	)
 	(label "SP1_SCK"
 		(at 293.37 208.28 180)
 		(effects
@@ -15816,6 +16297,16 @@
 			(justify right bottom)
 		)
 		(uuid "d870bbc2-c3b6-4843-a9c7-f8691ff6cfde")
+	)
+	(label "CAN_STBY"
+		(at 384.81 201.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "dd486bad-c530-4585-a121-33d727bc6308")
 	)
 	(label "ADC_CS"
 		(at 64.77 190.5 0)
@@ -15848,7 +16339,7 @@
 		(uuid "e243ff35-9864-410a-8740-0427d2964d22")
 	)
 	(label "CAN_TX"
-		(at 285.75 54.61 180)
+		(at 269.24 58.42 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16148,7 +16639,7 @@
 	)
 	(hierarchical_label "CAN_N"
 		(shape input)
-		(at 245.11 53.34 180)
+		(at 218.44 66.04 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16346,7 +16837,7 @@
 	)
 	(hierarchical_label "CAN_P"
 		(shape input)
-		(at 245.11 50.8 180)
+		(at 218.44 44.45 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17907,6 +18398,137 @@
 		)
 	)
 	(symbol
+		(lib_name "100_1")
+		(lib_id "Resistor_0603:100")
+		(at 367.03 204.47 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0f5271ae-487e-4c4b-868f-f682fa2c509d")
+		(property "Reference" "R85"
+			(at 372.11 203.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 367.03 204.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 341.63 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf"
+			(at 365.76 213.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
+			(at 343.535 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 333.375 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-07100RL"
+			(at 338.455 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 335.915 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Nr." "311-100HRCT-ND"
+			(at 328.295 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 347.98 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" "100mW"
+			(at 331.47 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.09"
+			(at 346.075 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8fc1809b-ee55-401e-bb2f-898be1e82f13")
+		)
+		(pin "2"
+			(uuid "22593d2e-211d-4ee4-9b74-10ad29f68b6e")
+		)
+		(instances
+			(project "WattWell-Controller"
+				(path "/fe611e94-02ee-40e6-8bd7-62c542c8eaed/08901ce8-aa7e-4f87-bff3-f459627c9713"
+					(reference "R85")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Resistor_0603:1K")
 		(at 320.04 52.07 90)
 		(unit 1)
@@ -18029,10 +18651,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1177b6b1-7948-45cb-85e3-53196aea58ff")
 		(property "Reference" "C48"
-			(at 173.101 173.3463 0)
+			(at 163.322 172.212 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18041,7 +18662,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 173.101 175.2673 0)
+			(at 163.83 174.498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18158,138 +18779,6 @@
 			(project "WattWell-Controller"
 				(path "/fe611e94-02ee-40e6-8bd7-62c542c8eaed/08901ce8-aa7e-4f87-bff3-f459627c9713"
 					(reference "C48")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "100_1")
-		(lib_id "Resistor_0603:100")
-		(at 298.45 49.53 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "14930bf3-d521-43ab-840e-02eb2f7c37c1")
-		(property "Reference" "R18"
-			(at 298.45 46.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100"
-			(at 298.45 49.53 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 323.85 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf"
-			(at 299.72 58.42 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
-			(at 321.945 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Yageo"
-			(at 332.105 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RC0603FR-07100RL"
-			(at 327.025 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey"
-			(at 329.565 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Nr." "311-100HRCT-ND"
-			(at 337.185 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 317.5 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" "100mW"
-			(at 334.01 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.09"
-			(at 319.405 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "45766467-fb1f-4e99-b427-2478abb5ab93")
-		)
-		(pin "2"
-			(uuid "8730ca2f-4006-4275-a9f3-c952e81794f7")
-		)
-		(instances
-			(project "WattWell-Controller"
-				(path "/fe611e94-02ee-40e6-8bd7-62c542c8eaed/08901ce8-aa7e-4f87-bff3-f459627c9713"
-					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -18544,16 +19033,15 @@
 	(symbol
 		(lib_name "1uF_1")
 		(lib_id "Capacitors_0603:1uF")
-		(at 78.74 160.02 0)
+		(at 76.2 153.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "18de7070-c2f1-4325-afdc-c7b51f7560c4")
 		(property "Reference" "C38"
-			(at 81.661 159.3763 0)
+			(at 69.85 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18562,7 +19050,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 81.661 161.2973 0)
+			(at 70.104 155.956 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18571,7 +19059,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 95.25 153.67 0)
+			(at 92.71 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18580,7 +19068,7 @@
 			)
 		)
 		(property "Datasheet" "http://product.samsungsem.com/mlcc/basic-search.do?partNumber=CL10B105KP8NNN"
-			(at 78.74 160.02 0)
+			(at 76.2 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18589,7 +19077,7 @@
 			)
 		)
 		(property "Description" "1µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)"
-			(at 128.27 156.21 0)
+			(at 125.73 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18598,7 +19086,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 85.09 143.51 0)
+			(at 82.55 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18607,7 +19095,7 @@
 			)
 		)
 		(property "MPN" "CL10B105KA8NNNC"
-			(at 96.52 146.05 0)
+			(at 93.98 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18616,7 +19104,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 87.63 148.59 0)
+			(at 85.09 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18625,7 +19113,7 @@
 			)
 		)
 		(property "Supplier Nr." "1276-1184-1-ND"
-			(at 92.71 151.13 0)
+			(at 90.17 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18634,7 +19122,7 @@
 			)
 		)
 		(property "Tolerance" "10%"
-			(at 86.36 161.29 0)
+			(at 83.82 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18643,7 +19131,7 @@
 			)
 		)
 		(property "Voltage" "25V"
-			(at 86.36 158.75 0)
+			(at 83.82 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18652,7 +19140,7 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-			(at 93.98 158.75 0)
+			(at 91.44 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18661,7 +19149,7 @@
 			)
 		)
 		(property "Price" "0.09"
-			(at 105.41 158.75 0)
+			(at 102.87 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19852,16 +20340,15 @@
 	(symbol
 		(lib_name "1uF_1")
 		(lib_id "Capacitors_0603:1uF")
-		(at 119.38 160.02 0)
+		(at 116.84 153.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "27d96923-1668-4767-8182-e8720b495b8e")
 		(property "Reference" "C42"
-			(at 122.301 159.3763 0)
+			(at 111.76 151.638 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19870,7 +20357,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 122.301 161.2973 0)
+			(at 111.76 155.702 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19879,7 +20366,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 135.89 153.67 0)
+			(at 133.35 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19888,7 +20375,7 @@
 			)
 		)
 		(property "Datasheet" "http://product.samsungsem.com/mlcc/basic-search.do?partNumber=CL10B105KP8NNN"
-			(at 119.38 160.02 0)
+			(at 116.84 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19897,7 +20384,7 @@
 			)
 		)
 		(property "Description" "1µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)"
-			(at 168.91 156.21 0)
+			(at 166.37 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19906,7 +20393,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 125.73 143.51 0)
+			(at 123.19 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19915,7 +20402,7 @@
 			)
 		)
 		(property "MPN" "CL10B105KA8NNNC"
-			(at 137.16 146.05 0)
+			(at 134.62 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19924,7 +20411,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 128.27 148.59 0)
+			(at 125.73 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19933,7 +20420,7 @@
 			)
 		)
 		(property "Supplier Nr." "1276-1184-1-ND"
-			(at 133.35 151.13 0)
+			(at 130.81 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19942,7 +20429,7 @@
 			)
 		)
 		(property "Tolerance" "10%"
-			(at 127 161.29 0)
+			(at 124.46 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19951,7 +20438,7 @@
 			)
 		)
 		(property "Voltage" "25V"
-			(at 127 158.75 0)
+			(at 124.46 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19960,7 +20447,7 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-			(at 134.62 158.75 0)
+			(at 132.08 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19969,7 +20456,7 @@
 			)
 		)
 		(property "Price" "0.09"
-			(at 146.05 158.75 0)
+			(at 143.51 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21148,138 +21635,6 @@
 		)
 	)
 	(symbol
-		(lib_name "100_1")
-		(lib_id "Resistor_0603:100")
-		(at 298.45 44.45 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "336f71f1-a31c-40d9-8edd-0295ee50f158")
-		(property "Reference" "R17"
-			(at 298.45 41.91 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100"
-			(at 298.45 44.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 323.85 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf"
-			(at 299.72 53.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
-			(at 321.945 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Yageo"
-			(at 332.105 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RC0603FR-07100RL"
-			(at 327.025 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey"
-			(at 329.565 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Nr." "311-100HRCT-ND"
-			(at 337.185 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 317.5 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" "100mW"
-			(at 334.01 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.09"
-			(at 319.405 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dd81fa29-3c47-4887-87e0-286c3079e33e")
-		)
-		(pin "2"
-			(uuid "967ebbe8-dc60-4b86-91ad-48cb4d812f92")
-		)
-		(instances
-			(project "WattWell-Controller"
-				(path "/fe611e94-02ee-40e6-8bd7-62c542c8eaed/08901ce8-aa7e-4f87-bff3-f459627c9713"
-					(reference "R17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Capacitors_0603:100nF")
 		(at 382.27 133.35 0)
 		(unit 1)
@@ -21807,139 +22162,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Capacitor_1206:22uF")
-		(at 109.22 160.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "385f4f11-c568-45a4-840a-16edefdb1e82")
-		(property "Reference" "C41"
-			(at 112.141 159.3763 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22uF"
-			(at 112.141 161.2973 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 125.73 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://eu.mouser.com/datasheet/2/585/MLCC-1837944.pdf"
-			(at 109.22 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 22uF+/-20% 10V X7R 3 1206"
-			(at 152.4 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung"
-			(at 116.84 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CL31B226MPHNNNE"
-			(at 124.46 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Mouser"
-			(at 116.84 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Nr." "187-CL31B226MPHNNNE"
-			(at 130.81 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "20%"
-			(at 116.84 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "10V"
-			(at 116.84 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" "X7R"
-			(at 124.46 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7110d31f-1113-47cd-a5c0-353e6bfdc243")
-		)
-		(pin "2"
-			(uuid "b6a87113-e66f-447c-b0b3-aa53e315a266")
-		)
-		(instances
-			(project "WattWell-Controller"
-				(path "/fe611e94-02ee-40e6-8bd7-62c542c8eaed/08901ce8-aa7e-4f87-bff3-f459627c9713"
-					(reference "C41")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "100_1")
 		(lib_id "Resistor_0603:100")
 		(at 300.99 167.64 90)
@@ -22072,7 +22294,7 @@
 	)
 	(symbol
 		(lib_id "IntegratedCircuits:ATA6560-GAQW")
-		(at 266.7 55.88 0)
+		(at 250.19 59.69 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -22081,7 +22303,7 @@
 		(dnp no)
 		(uuid "3a97e2c9-e3e4-43ea-9c00-107d2fda4c37")
 		(property "Reference" "U11"
-			(at 275.59 39.37 0)
+			(at 259.08 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22090,7 +22312,7 @@
 			)
 		)
 		(property "Value" "ATA6560"
-			(at 275.59 41.91 0)
+			(at 259.08 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22099,7 +22321,7 @@
 			)
 		)
 		(property "Footprint" "IC:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 273.05 54.61 0)
+			(at 256.54 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22108,7 +22330,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 273.05 54.61 0)
+			(at 256.54 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22117,7 +22339,7 @@
 			)
 		)
 		(property "Description" "CAN Interface IC Industrial Grade CAN TRX with NSIL PIN (SO8)"
-			(at 266.7 55.88 0)
+			(at 250.19 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22126,7 +22348,7 @@
 			)
 		)
 		(property "Manufacturer" "Microchip"
-			(at 271.78 21.59 0)
+			(at 255.27 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22135,7 +22357,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "ATA6560-GAQW-N"
-			(at 254 38.1 0)
+			(at 237.49 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22144,7 +22366,7 @@
 			)
 		)
 		(property "Supplier" "Mouser"
-			(at 273.05 26.67 0)
+			(at 256.54 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22153,7 +22375,7 @@
 			)
 		)
 		(property "Supplier Part Number" "579-ATA6560-GAQW-N"
-			(at 248.92 26.67 0)
+			(at 232.41 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22437,6 +22659,147 @@
 			(project "WattWell-Controller"
 				(path "/fe611e94-02ee-40e6-8bd7-62c542c8eaed/08901ce8-aa7e-4f87-bff3-f459627c9713"
 					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Capacitors_0603:100nF")
+		(at 86.36 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3c759fc4-03d8-4f44-a6b9-9df6c4ef1585")
+		(property "Reference" "C39"
+			(at 80.01 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 80.01 155.702 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 121.92 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf"
+			(at 86.36 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.1µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
+			(at 148.59 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 114.3 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL10B104KB8NNNC"
+			(at 100.33 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 95.25 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Nr." "1276-1000-1-ND"
+			(at 100.33 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 138.43 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 93.98 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 96.52 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.09"
+			(at 120.65 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e40d1d54-8186-4a72-9ac0-1fafbe194d63")
+		)
+		(pin "2"
+			(uuid "8716ff14-34f4-448e-ba0a-3344cbe86a3d")
+		)
+		(instances
+			(project "WattWell-Controller"
+				(path "/fe611e94-02ee-40e6-8bd7-62c542c8eaed/08901ce8-aa7e-4f87-bff3-f459627c9713"
+					(reference "C39")
 					(unit 1)
 				)
 			)
@@ -22886,34 +23249,34 @@
 		)
 	)
 	(symbol
-		(lib_name "100_1")
-		(lib_id "Resistor_0603:100")
-		(at 298.45 54.61 270)
-		(mirror x)
+		(lib_id "Resistor_0603:60Ω")
+		(at 228.6 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "49f0e39b-93ed-46fa-ad6d-df0784b4d8bf")
-		(property "Reference" "R19"
-			(at 298.45 52.07 90)
+		(uuid "47a35651-3225-4f9b-bf01-116b7b4c1a4c")
+		(property "Reference" "R16"
+			(at 231.14 48.2599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "100"
-			(at 298.45 54.61 90)
+		(property "Value" "60Ω"
+			(at 228.6 51.562 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 323.85 54.61 0)
+			(at 228.6 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22922,7 +23285,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf"
-			(at 299.72 63.5 90)
+			(at 219.71 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22930,8 +23293,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
-			(at 321.945 54.61 0)
+		(property "Description" "Thin Film Resistors - SMD CPF 0603 60R4 1% 50PPM"
+			(at 228.6 26.035 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22939,8 +23302,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Yageo"
-			(at 332.105 54.61 0)
+		(property "Manufacturer" "TE Connectivity"
+			(at 228.6 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22948,8 +23311,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC0603FR-07100RL"
-			(at 327.025 54.61 0)
+		(property "MPN" "CPF0603F60R4C1"
+			(at 228.6 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22957,8 +23320,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Digikey"
-			(at 329.565 54.61 0)
+		(property "Supplier" "Mouser"
+			(at 228.6 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22966,8 +23329,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Nr." "311-100HRCT-ND"
-			(at 337.185 54.61 0)
+		(property "Supplier P/N" "279-CPF0603F60R4C1"
+			(at 228.6 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22975,8 +23338,8 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" "1%"
-			(at 317.5 54.61 0)
+		(property "Supplier Nr." "311-110KHRCT-ND"
+			(at 228.6 10.795 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22985,7 +23348,16 @@
 			)
 		)
 		(property "Power" "100mW"
-			(at 334.01 54.61 0)
+			(at 228.6 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 228.6 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22994,7 +23366,7 @@
 			)
 		)
 		(property "Price" "0.09"
-			(at 319.405 54.61 0)
+			(at 228.6 28.575 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23003,15 +23375,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "8420789d-f039-437d-9119-c605f9e96782")
+			(uuid "50c8615f-b9ec-4fde-ba6c-37e8eee1edb6")
 		)
 		(pin "2"
-			(uuid "cc750331-812a-4e48-9462-cb2c19fd7edc")
+			(uuid "2a04ec17-bee5-4e83-a845-5e5581000555")
 		)
 		(instances
-			(project "WattWell-Controller"
+			(project ""
 				(path "/fe611e94-02ee-40e6-8bd7-62c542c8eaed/08901ce8-aa7e-4f87-bff3-f459627c9713"
-					(reference "R19")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -23281,7 +23653,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 78.74 152.4 0)
+		(at 76.2 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23290,7 +23662,7 @@
 		(fields_autoplaced yes)
 		(uuid "50d7a3b4-40ed-4480-a25c-5ce495345e08")
 		(property "Reference" "#PWR082"
-			(at 78.74 156.21 0)
+			(at 76.2 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23299,7 +23671,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 78.74 148.7955 0)
+			(at 76.2 142.4455 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23307,7 +23679,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 78.74 152.4 0)
+			(at 76.2 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23316,7 +23688,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 152.4 0)
+			(at 76.2 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23325,7 +23697,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 78.74 152.4 0)
+			(at 76.2 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23347,7 +23719,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 261.62 36.83 0)
+		(at 245.11 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23356,7 +23728,7 @@
 		(fields_autoplaced yes)
 		(uuid "50f6ccb3-e980-4744-a497-cd6772791ae0")
 		(property "Reference" "#PWR012"
-			(at 261.62 43.18 0)
+			(at 245.11 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23365,7 +23737,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 261.62 41.3925 0)
+			(at 245.11 45.2025 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23373,7 +23745,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 261.62 36.83 0)
+			(at 245.11 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23382,7 +23754,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 261.62 36.83 0)
+			(at 245.11 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23391,7 +23763,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 261.62 36.83 0)
+			(at 245.11 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23733,139 +24105,6 @@
 			(project "WattWell-Controller"
 				(path "/fe611e94-02ee-40e6-8bd7-62c542c8eaed/08901ce8-aa7e-4f87-bff3-f459627c9713"
 					(reference "R40")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Capacitor_1206:22uF")
-		(at 160.02 173.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "583b4991-f070-45e7-a6f3-82950092dfd2")
-		(property "Reference" "C46"
-			(at 162.941 173.3463 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22uF"
-			(at 162.941 175.2673 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 176.53 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://eu.mouser.com/datasheet/2/585/MLCC-1837944.pdf"
-			(at 160.02 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 22uF+/-20% 10V X7R 3 1206"
-			(at 203.2 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung"
-			(at 167.64 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CL31B226MPHNNNE"
-			(at 175.26 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Mouser"
-			(at 167.64 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Nr." "187-CL31B226MPHNNNE"
-			(at 181.61 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "20%"
-			(at 167.64 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "10V"
-			(at 167.64 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" "X7R"
-			(at 175.26 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9688d29c-8904-43ee-9d87-757ff1b581b7")
-		)
-		(pin "2"
-			(uuid "708eff50-6c2c-43d9-8a71-851a4f21f6ca")
-		)
-		(instances
-			(project "WattWell-Controller"
-				(path "/fe611e94-02ee-40e6-8bd7-62c542c8eaed/08901ce8-aa7e-4f87-bff3-f459627c9713"
-					(reference "C46")
 					(unit 1)
 				)
 			)
@@ -24327,7 +24566,7 @@
 	(symbol
 		(lib_name "1uF_1")
 		(lib_id "Capacitors_0603:1uF")
-		(at 38.1 160.02 0)
+		(at 54.61 153.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24335,7 +24574,7 @@
 		(dnp no)
 		(uuid "5e345a4f-0a07-426f-8727-2602d268ac18")
 		(property "Reference" "C17"
-			(at 31.242 159.258 0)
+			(at 47.752 152.908 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24344,7 +24583,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 32.004 161.29 0)
+			(at 48.514 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24353,7 +24592,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 54.61 153.67 0)
+			(at 71.12 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24362,7 +24601,7 @@
 			)
 		)
 		(property "Datasheet" "http://product.samsungsem.com/mlcc/basic-search.do?partNumber=CL10B105KP8NNN"
-			(at 38.1 160.02 0)
+			(at 54.61 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24371,7 +24610,7 @@
 			)
 		)
 		(property "Description" "1µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)"
-			(at 87.63 156.21 0)
+			(at 104.14 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24380,7 +24619,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 44.45 143.51 0)
+			(at 60.96 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24389,7 +24628,7 @@
 			)
 		)
 		(property "MPN" "CL10B105KA8NNNC"
-			(at 55.88 146.05 0)
+			(at 72.39 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24398,7 +24637,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 46.99 148.59 0)
+			(at 63.5 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24407,7 +24646,7 @@
 			)
 		)
 		(property "Supplier Nr." "1276-1184-1-ND"
-			(at 52.07 151.13 0)
+			(at 68.58 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24416,7 +24655,7 @@
 			)
 		)
 		(property "Tolerance" "10%"
-			(at 45.72 161.29 0)
+			(at 62.23 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24425,7 +24664,7 @@
 			)
 		)
 		(property "Voltage" "25V"
-			(at 45.72 158.75 0)
+			(at 62.23 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24434,7 +24673,7 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-			(at 53.34 158.75 0)
+			(at 69.85 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24443,7 +24682,7 @@
 			)
 		)
 		(property "Price" "0.09"
-			(at 64.77 158.75 0)
+			(at 81.28 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24461,6 +24700,147 @@
 			(project "WattWell-Controller"
 				(path "/fe611e94-02ee-40e6-8bd7-62c542c8eaed/08901ce8-aa7e-4f87-bff3-f459627c9713"
 					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Capacitors_0603:100nF")
+		(at 180.34 173.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5f11b10e-601c-4a52-a1f9-b73e3ee163e8")
+		(property "Reference" "C50"
+			(at 173.99 172.974 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 172.72 176.022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 215.9 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf"
+			(at 180.34 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.1µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
+			(at 242.57 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 208.28 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL10B104KB8NNNC"
+			(at 194.31 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 189.23 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Nr." "1276-1000-1-ND"
+			(at 194.31 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 232.41 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 187.96 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 190.5 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.09"
+			(at 214.63 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ca95a140-7d52-42ad-b7f4-0deb433e22d0")
+		)
+		(pin "2"
+			(uuid "f0a9e604-de7b-48e3-b59d-16cc5de8a19c")
+		)
+		(instances
+			(project "WattWell-Controller"
+				(path "/fe611e94-02ee-40e6-8bd7-62c542c8eaed/08901ce8-aa7e-4f87-bff3-f459627c9713"
+					(reference "C50")
 					(unit 1)
 				)
 			)
@@ -24811,139 +25191,6 @@
 			(project "WattWell-Controller"
 				(path "/fe611e94-02ee-40e6-8bd7-62c542c8eaed/08901ce8-aa7e-4f87-bff3-f459627c9713"
 					(reference "#PWR092")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Capacitor_1206:22uF")
-		(at 68.58 160.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "64062786-2eb4-486e-9099-fa63fe0d070b")
-		(property "Reference" "C20"
-			(at 71.501 159.3763 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22uF"
-			(at 71.501 161.2973 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 85.09 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://eu.mouser.com/datasheet/2/585/MLCC-1837944.pdf"
-			(at 68.58 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 22uF+/-20% 10V X7R 3 1206"
-			(at 111.76 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung"
-			(at 76.2 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CL31B226MPHNNNE"
-			(at 83.82 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Mouser"
-			(at 76.2 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Nr." "187-CL31B226MPHNNNE"
-			(at 90.17 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "20%"
-			(at 76.2 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "10V"
-			(at 76.2 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" "X7R"
-			(at 83.82 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a650b829-d25a-4aa3-8a40-f0c281d57ed1")
-		)
-		(pin "2"
-			(uuid "b9af5a4f-8f67-4f74-a9e2-b30f105a85b2")
-		)
-		(instances
-			(project "WattWell-Controller"
-				(path "/fe611e94-02ee-40e6-8bd7-62c542c8eaed/08901ce8-aa7e-4f87-bff3-f459627c9713"
-					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -25730,139 +25977,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Capacitor_1206:22uF")
-		(at 88.9 160.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6fcc5f0a-29d8-4b4e-a73d-de2d614c3f98")
-		(property "Reference" "C39"
-			(at 91.821 159.3763 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22uF"
-			(at 91.821 161.2973 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 105.41 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://eu.mouser.com/datasheet/2/585/MLCC-1837944.pdf"
-			(at 88.9 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 22uF+/-20% 10V X7R 3 1206"
-			(at 132.08 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung"
-			(at 96.52 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CL31B226MPHNNNE"
-			(at 104.14 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Mouser"
-			(at 96.52 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Nr." "187-CL31B226MPHNNNE"
-			(at 110.49 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "20%"
-			(at 96.52 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "10V"
-			(at 96.52 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" "X7R"
-			(at 104.14 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "62daba17-be87-48ee-bcb1-5f81d15a7c73")
-		)
-		(pin "2"
-			(uuid "a399ef6c-bb84-48c6-adca-f03b181d4dc8")
-		)
-		(instances
-			(project "WattWell-Controller"
-				(path "/fe611e94-02ee-40e6-8bd7-62c542c8eaed/08901ce8-aa7e-4f87-bff3-f459627c9713"
-					(reference "C39")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Communications:SP3485EN")
 		(at 276.86 104.14 0)
 		(mirror y)
@@ -26125,7 +26239,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 266.7 63.5 0)
+		(at 250.19 67.31 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -26134,7 +26248,7 @@
 		(dnp no)
 		(uuid "7313582a-2353-4bc3-9377-538017b35752")
 		(property "Reference" "#PWR034"
-			(at 266.7 69.85 0)
+			(at 250.19 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26143,7 +26257,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 266.7 68.0625 0)
+			(at 250.19 71.8725 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26151,7 +26265,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 266.7 63.5 0)
+			(at 250.19 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26160,7 +26274,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 266.7 63.5 0)
+			(at 250.19 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26169,7 +26283,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 266.7 63.5 0)
+			(at 250.19 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26751,35 +26865,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Capacitor_1206:22uF")
-		(at 129.54 160.02 0)
+		(lib_id "power:+5V")
+		(at 99.06 171.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7789704e-336e-4b9e-a7c0-d9eb37dbb105")
-		(property "Reference" "C43"
-			(at 132.461 159.3763 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22uF"
-			(at 132.461 161.2973 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 146.05 153.67 0)
+		(uuid "7b3dbd76-2fbb-4abb-a9b3-2239d2be59d5")
+		(property "Reference" "#PWR093"
+			(at 99.06 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26787,8 +26883,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/datasheet/2/585/MLCC-1837944.pdf"
-			(at 129.54 160.02 0)
+		(property "Value" "+5V"
+			(at 99.06 167.8455 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26796,8 +26900,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 22uF+/-20% 10V X7R 3 1206"
-			(at 172.72 156.21 0)
+		(property "Datasheet" ""
+			(at 99.06 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26805,62 +26909,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung"
-			(at 137.16 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CL31B226MPHNNNE"
-			(at 144.78 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Mouser"
-			(at 137.16 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Nr." "187-CL31B226MPHNNNE"
-			(at 151.13 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "20%"
-			(at 137.16 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "10V"
-			(at 137.16 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" "X7R"
-			(at 144.78 158.75 0)
+		(property "Description" ""
+			(at 99.06 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26869,15 +26919,153 @@
 			)
 		)
 		(pin "1"
-			(uuid "511f4d17-496e-4a48-879a-17e3b90735f0")
-		)
-		(pin "2"
-			(uuid "5b51ad50-4223-41d6-9f3d-65d871f36c65")
+			(uuid "2cb036fc-72cd-42a7-b1af-263556d80476")
 		)
 		(instances
 			(project "WattWell-Controller"
 				(path "/fe611e94-02ee-40e6-8bd7-62c542c8eaed/08901ce8-aa7e-4f87-bff3-f459627c9713"
-					(reference "C43")
+					(reference "#PWR093")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Capacitors_0603:100nF")
+		(at 106.68 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7d4bccb7-3b16-4ec0-be22-787818bb44d2")
+		(property "Reference" "C41"
+			(at 101.092 151.384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 100.33 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 142.24 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf"
+			(at 106.68 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.1µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
+			(at 168.91 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 134.62 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL10B104KB8NNNC"
+			(at 120.65 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 115.57 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Nr." "1276-1000-1-ND"
+			(at 120.65 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 158.75 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 114.3 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 116.84 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.09"
+			(at 140.97 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a9523baa-5fbb-4db9-af02-4b372c54c265")
+		)
+		(pin "2"
+			(uuid "4ab7a0c3-27f2-48cf-b1c8-c7d868c70c22")
+		)
+		(instances
+			(project "WattWell-Controller"
+				(path "/fe611e94-02ee-40e6-8bd7-62c542c8eaed/08901ce8-aa7e-4f87-bff3-f459627c9713"
+					(reference "C41")
 					(unit 1)
 				)
 			)
@@ -27075,6 +27263,72 @@
 			(project "WattWell-Controller"
 				(path "/fe611e94-02ee-40e6-8bd7-62c542c8eaed/08901ce8-aa7e-4f87-bff3-f459627c9713"
 					(reference "#PWR080")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 116.84 171.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8505947b-978e-4e37-8409-a8b4d30faebf")
+		(property "Reference" "#PWR030"
+			(at 116.84 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 116.84 167.8455 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 116.84 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "87828185-a37b-4ea8-97ca-f316652d61f5")
+		)
+		(instances
+			(project "WattWell-Controller"
+				(path "/fe611e94-02ee-40e6-8bd7-62c542c8eaed/08901ce8-aa7e-4f87-bff3-f459627c9713"
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -27536,139 +27790,6 @@
 			(project "WattWell-Controller"
 				(path "/fe611e94-02ee-40e6-8bd7-62c542c8eaed/08901ce8-aa7e-4f87-bff3-f459627c9713"
 					(reference "R27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Capacitor_1206:22uF")
-		(at 180.34 173.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "90fcb0ed-4fe4-47ca-b748-816f33f80c20")
-		(property "Reference" "C50"
-			(at 183.261 173.3463 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22uF"
-			(at 183.261 175.2673 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 196.85 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://eu.mouser.com/datasheet/2/585/MLCC-1837944.pdf"
-			(at 180.34 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 22uF+/-20% 10V X7R 3 1206"
-			(at 223.52 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung"
-			(at 187.96 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CL31B226MPHNNNE"
-			(at 195.58 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Mouser"
-			(at 187.96 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Nr." "187-CL31B226MPHNNNE"
-			(at 201.93 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "20%"
-			(at 187.96 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "10V"
-			(at 187.96 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" "X7R"
-			(at 195.58 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7d649327-25a3-4876-afea-15d1414f6e39")
-		)
-		(pin "2"
-			(uuid "b05e1ebd-c99e-4063-afba-d3922d7ec715")
-		)
-		(instances
-			(project "WattWell-Controller"
-				(path "/fe611e94-02ee-40e6-8bd7-62c542c8eaed/08901ce8-aa7e-4f87-bff3-f459627c9713"
-					(reference "C50")
 					(unit 1)
 				)
 			)
@@ -28882,16 +29003,15 @@
 	(symbol
 		(lib_name "1uF_1")
 		(lib_id "Capacitors_0603:1uF")
-		(at 99.06 160.02 0)
+		(at 96.52 153.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a319e7c0-7caf-4ec8-92c6-f7652fdf7fcf")
 		(property "Reference" "C40"
-			(at 101.981 159.3763 0)
+			(at 90.932 151.638 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28900,7 +29020,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 101.981 161.2973 0)
+			(at 90.424 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28909,7 +29029,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 115.57 153.67 0)
+			(at 113.03 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28918,7 +29038,7 @@
 			)
 		)
 		(property "Datasheet" "http://product.samsungsem.com/mlcc/basic-search.do?partNumber=CL10B105KP8NNN"
-			(at 99.06 160.02 0)
+			(at 96.52 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28927,7 +29047,7 @@
 			)
 		)
 		(property "Description" "1µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)"
-			(at 148.59 156.21 0)
+			(at 146.05 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28936,7 +29056,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 105.41 143.51 0)
+			(at 102.87 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28945,7 +29065,7 @@
 			)
 		)
 		(property "MPN" "CL10B105KA8NNNC"
-			(at 116.84 146.05 0)
+			(at 114.3 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28954,7 +29074,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 107.95 148.59 0)
+			(at 105.41 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28963,7 +29083,7 @@
 			)
 		)
 		(property "Supplier Nr." "1276-1184-1-ND"
-			(at 113.03 151.13 0)
+			(at 110.49 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28972,7 +29092,7 @@
 			)
 		)
 		(property "Tolerance" "10%"
-			(at 106.68 161.29 0)
+			(at 104.14 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28981,7 +29101,7 @@
 			)
 		)
 		(property "Voltage" "25V"
-			(at 106.68 158.75 0)
+			(at 104.14 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28990,7 +29110,7 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-			(at 114.3 158.75 0)
+			(at 111.76 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28999,7 +29119,7 @@
 			)
 		)
 		(property "Price" "0.09"
-			(at 125.73 158.75 0)
+			(at 123.19 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30119,16 +30239,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Capacitors_0603:100nF")
-		(at 261.62 34.29 0)
+		(lib_id "Resistor_0603:60Ω")
+		(at 228.6 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "af771f4e-f29a-478f-8b49-b3a6e115d6cd")
-		(property "Reference" "C14"
-			(at 253.746 33.528 0)
+		(uuid "ade762fa-1314-4007-a0b0-c99a3234a76b")
+		(property "Reference" "R17"
+			(at 231.14 59.6899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30136,8 +30256,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
-			(at 252.73 35.56 0)
+		(property "Value" "60Ω"
+			(at 228.6 62.992 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30145,8 +30265,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 297.18 29.21 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 228.6 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30154,8 +30274,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf"
-			(at 261.62 34.29 0)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf"
+			(at 219.71 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30163,8 +30283,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.1µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
-			(at 323.85 31.75 0)
+		(property "Description" "Thin Film Resistors - SMD CPF 0603 60R4 1% 50PPM"
+			(at 228.6 37.465 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30172,8 +30292,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 289.56 25.4 0)
+		(property "Manufacturer" "TE Connectivity"
+			(at 228.6 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30181,8 +30301,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL10B104KB8NNNC"
-			(at 275.59 25.4 0)
+		(property "MPN" "CPF0603F60R4C1"
+			(at 228.6 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30190,8 +30310,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Digikey"
-			(at 270.51 30.48 0)
+		(property "Supplier" "Mouser"
+			(at 228.6 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30199,8 +30319,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Nr." "1276-1000-1-ND"
-			(at 275.59 27.94 0)
+		(property "Supplier P/N" "279-CPF0603F60R4C1"
+			(at 228.6 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30208,8 +30328,8 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" "10%"
-			(at 313.69 29.21 0)
+		(property "Supplier Nr." "311-110KHRCT-ND"
+			(at 228.6 22.225 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30217,8 +30337,8 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage" "50V"
-			(at 269.24 33.02 0)
+		(property "Power" "100mW"
+			(at 228.6 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30226,8 +30346,8 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" "X7R"
-			(at 271.78 35.56 0)
+		(property "Tolerance" "1%"
+			(at 228.6 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30236,7 +30356,148 @@
 			)
 		)
 		(property "Price" "0.09"
-			(at 295.91 25.4 0)
+			(at 228.6 40.005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7398df0f-a821-4255-b9c7-643c6f741b83")
+		)
+		(pin "2"
+			(uuid "661e6410-c6c6-4b36-83ab-5c942003a95c")
+		)
+		(instances
+			(project "WattWell-Controller"
+				(path "/fe611e94-02ee-40e6-8bd7-62c542c8eaed/08901ce8-aa7e-4f87-bff3-f459627c9713"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Capacitors_0603:100nF")
+		(at 245.11 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "af771f4e-f29a-478f-8b49-b3a6e115d6cd")
+		(property "Reference" "C14"
+			(at 237.236 37.338 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 236.22 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 280.67 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf"
+			(at 245.11 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.1µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
+			(at 307.34 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 273.05 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL10B104KB8NNNC"
+			(at 259.08 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 254 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Nr." "1276-1000-1-ND"
+			(at 259.08 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 297.18 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 252.73 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 255.27 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.09"
+			(at 279.4 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30254,6 +30515,147 @@
 			(project "WattWell-Controller"
 				(path "/fe611e94-02ee-40e6-8bd7-62c542c8eaed/08901ce8-aa7e-4f87-bff3-f459627c9713"
 					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Capacitors_0603:4.7nF")
+		(at 223.52 58.42 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b1484aec-0b2d-45b1-85c4-d35c9c153d56")
+		(property "Reference" "C60"
+			(at 215.646 58.928 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4.7nF"
+			(at 215.138 60.706 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 206.2988 70.358 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL10B472KB8NNN"
+			(at 223.52 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 4700PF 50V X7R 0603"
+			(at 209.042 77.9272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 205.232 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL10B472KB8NNNC"
+			(at 179.5272 74.6252 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 215.646 72.6948 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Nr." "1276-1098-1-ND"
+			(at 201.168 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 187.9092 68.834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 217.17 67.7164 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 210.3628 67.5132 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.09"
+			(at 184.9628 72.2376 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e9615f7c-0157-4fd7-8c52-49c91e3940dd")
+		)
+		(pin "2"
+			(uuid "8a0e8da5-176d-4216-9411-99b5b6dcf7a2")
+		)
+		(instances
+			(project ""
+				(path "/fe611e94-02ee-40e6-8bd7-62c542c8eaed/08901ce8-aa7e-4f87-bff3-f459627c9713"
+					(reference "C60")
 					(unit 1)
 				)
 			)
@@ -30846,6 +31248,147 @@
 		)
 	)
 	(symbol
+		(lib_id "Capacitors_0603:100nF")
+		(at 127 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ba97d7cb-4a59-42b9-b2b1-a493a708dc12")
+		(property "Reference" "C43"
+			(at 120.396 152.908 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 119.888 155.956 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 162.56 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf"
+			(at 127 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.1µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
+			(at 189.23 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 154.94 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL10B104KB8NNNC"
+			(at 140.97 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 135.89 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Nr." "1276-1000-1-ND"
+			(at 140.97 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 179.07 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 134.62 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 137.16 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.09"
+			(at 161.29 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2002e7e3-a653-4f44-86fe-c80360dfee61")
+		)
+		(pin "2"
+			(uuid "01a1893a-5ee3-4745-9009-2e8e517b8f17")
+		)
+		(instances
+			(project "WattWell-Controller"
+				(path "/fe611e94-02ee-40e6-8bd7-62c542c8eaed/08901ce8-aa7e-4f87-bff3-f459627c9713"
+					(reference "C43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "100_1")
 		(lib_id "Resistor_0603:100")
 		(at 300.99 233.68 90)
@@ -31358,138 +31901,6 @@
 			(project "WattWell-Controller"
 				(path "/fe611e94-02ee-40e6-8bd7-62c542c8eaed/08901ce8-aa7e-4f87-bff3-f459627c9713"
 					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "100_1")
-		(lib_id "Resistor_0603:100")
-		(at 298.45 59.69 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bf8a2c3d-29bd-4ebc-9568-6d08816640c7")
-		(property "Reference" "R20"
-			(at 298.45 57.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100"
-			(at 298.45 59.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 323.85 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf"
-			(at 299.72 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
-			(at 321.945 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Yageo"
-			(at 332.105 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RC0603FR-07100RL"
-			(at 327.025 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey"
-			(at 329.565 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Nr." "311-100HRCT-ND"
-			(at 337.185 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 317.5 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" "100mW"
-			(at 334.01 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.09"
-			(at 319.405 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7ef79efc-1f8e-490c-9ab3-fd46d09d9da0")
-		)
-		(pin "2"
-			(uuid "1749e4a4-cb03-4828-8912-92f2fe59a0f7")
-		)
-		(instances
-			(project "WattWell-Controller"
-				(path "/fe611e94-02ee-40e6-8bd7-62c542c8eaed/08901ce8-aa7e-4f87-bff3-f459627c9713"
-					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -32298,16 +32709,15 @@
 	(symbol
 		(lib_name "1uF_1")
 		(lib_id "Capacitors_0603:1uF")
-		(at 58.42 160.02 0)
+		(at 64.77 153.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c50a30ec-0417-47e9-99e7-59210e3b825f")
 		(property "Reference" "C19"
-			(at 61.341 159.3763 0)
+			(at 58.166 153.416 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32316,7 +32726,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 61.341 161.2973 0)
+			(at 58.42 155.702 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32325,7 +32735,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 74.93 153.67 0)
+			(at 81.28 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32334,7 +32744,7 @@
 			)
 		)
 		(property "Datasheet" "http://product.samsungsem.com/mlcc/basic-search.do?partNumber=CL10B105KP8NNN"
-			(at 58.42 160.02 0)
+			(at 64.77 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32343,7 +32753,7 @@
 			)
 		)
 		(property "Description" "1µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)"
-			(at 107.95 156.21 0)
+			(at 114.3 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32352,7 +32762,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 64.77 143.51 0)
+			(at 71.12 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32361,7 +32771,7 @@
 			)
 		)
 		(property "MPN" "CL10B105KA8NNNC"
-			(at 76.2 146.05 0)
+			(at 82.55 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32370,7 +32780,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 67.31 148.59 0)
+			(at 73.66 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32379,7 +32789,7 @@
 			)
 		)
 		(property "Supplier Nr." "1276-1184-1-ND"
-			(at 72.39 151.13 0)
+			(at 78.74 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32388,7 +32798,7 @@
 			)
 		)
 		(property "Tolerance" "10%"
-			(at 66.04 161.29 0)
+			(at 72.39 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32397,7 +32807,7 @@
 			)
 		)
 		(property "Voltage" "25V"
-			(at 66.04 158.75 0)
+			(at 72.39 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32406,7 +32816,7 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-			(at 73.66 158.75 0)
+			(at 80.01 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32415,7 +32825,7 @@
 			)
 		)
 		(property "Price" "0.09"
-			(at 85.09 158.75 0)
+			(at 91.44 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32637,7 +33047,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 266.7 29.21 0)
+		(at 250.19 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -32645,7 +33055,7 @@
 		(dnp no)
 		(uuid "c7030493-3f46-45d0-82c1-ee7374d56551")
 		(property "Reference" "#PWR033"
-			(at 266.7 33.02 0)
+			(at 250.19 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32654,7 +33064,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 266.7 25.6055 0)
+			(at 250.19 29.4155 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32662,7 +33072,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 266.7 29.21 0)
+			(at 250.19 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32671,7 +33081,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 266.7 29.21 0)
+			(at 250.19 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32680,7 +33090,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 266.7 29.21 0)
+			(at 250.19 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34094,6 +34504,147 @@
 		)
 	)
 	(symbol
+		(lib_id "Capacitors_0603:100nF")
+		(at 160.02 173.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d6da296e-8768-4a40-bef8-b5db8f063274")
+		(property "Reference" "C46"
+			(at 153.67 172.974 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 152.4 176.022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 195.58 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf"
+			(at 160.02 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.1µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
+			(at 222.25 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 187.96 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL10B104KB8NNNC"
+			(at 173.99 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 168.91 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Nr." "1276-1000-1-ND"
+			(at 173.99 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 212.09 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 167.64 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 170.18 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.09"
+			(at 194.31 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4cb86d7d-bf2e-4f66-917d-ef689d0b9586")
+		)
+		(pin "2"
+			(uuid "49bcb1e7-bb20-4046-84fe-a1efab3fe9d3")
+		)
+		(instances
+			(project "WattWell-Controller"
+				(path "/fe611e94-02ee-40e6-8bd7-62c542c8eaed/08901ce8-aa7e-4f87-bff3-f459627c9713"
+					(reference "C46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "1uF_1")
 		(lib_id "Capacitors_0603:1uF")
 		(at 151.13 203.2 0)
@@ -34245,10 +34796,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "dd97ea18-474d-4316-bb33-92a8b2ee7a21")
 		(property "Reference" "C44"
-			(at 152.781 173.3463 0)
+			(at 141.986 172.974 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34257,7 +34807,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 152.781 175.2673 0)
+			(at 142.748 174.752 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34511,6 +35061,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 223.52 62.23 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e069aff4-6b7d-4e19-8889-a45117500549")
+		(property "Reference" "#PWR094"
+			(at 223.52 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 219.71 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 223.52 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 223.52 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "443e12a1-3000-4def-a701-4c83aa7ac8f1")
+		)
+		(instances
+			(project "WattWell-Controller"
+				(path "/fe611e94-02ee-40e6-8bd7-62c542c8eaed/08901ce8-aa7e-4f87-bff3-f459627c9713"
+					(reference "#PWR094")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Resistor_0603:4K7")
 		(at 36.83 41.91 0)
 		(mirror y)
@@ -34704,138 +35320,6 @@
 			(project "WattWell-Controller"
 				(path "/fe611e94-02ee-40e6-8bd7-62c542c8eaed/08901ce8-aa7e-4f87-bff3-f459627c9713"
 					(reference "#PWR049")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "100_1")
-		(lib_id "Resistor_0603:100")
-		(at 298.45 39.37 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e382833c-cb97-4e55-8ebe-a0415a8aa775")
-		(property "Reference" "R16"
-			(at 298.45 36.83 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100"
-			(at 298.45 39.37 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 323.85 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf"
-			(at 299.72 48.26 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
-			(at 321.945 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Yageo"
-			(at 332.105 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RC0603FR-07100RL"
-			(at 327.025 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey"
-			(at 329.565 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Nr." "311-100HRCT-ND"
-			(at 337.185 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 317.5 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" "100mW"
-			(at 334.01 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.09"
-			(at 319.405 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c5aca992-26af-4149-84c7-e95ba4adf234")
-		)
-		(pin "2"
-			(uuid "6bef7c2f-91b3-4975-b5d5-bb0f84cbf047")
-		)
-		(instances
-			(project "WattWell-Controller"
-				(path "/fe611e94-02ee-40e6-8bd7-62c542c8eaed/08901ce8-aa7e-4f87-bff3-f459627c9713"
-					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -35744,138 +36228,6 @@
 	(symbol
 		(lib_name "100_1")
 		(lib_id "Resistor_0603:100")
-		(at 298.45 64.77 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ed0c9374-ff98-412a-bce0-c0459b0e5c78")
-		(property "Reference" "R21"
-			(at 298.45 62.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100"
-			(at 298.45 64.77 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 323.85 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf"
-			(at 299.72 73.66 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
-			(at 321.945 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Yageo"
-			(at 332.105 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RC0603FR-07100RL"
-			(at 327.025 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey"
-			(at 329.565 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Nr." "311-100HRCT-ND"
-			(at 337.185 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 317.5 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" "100mW"
-			(at 334.01 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.09"
-			(at 319.405 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a018e88e-72dc-474a-9832-a0219df0c728")
-		)
-		(pin "2"
-			(uuid "7d22c265-710b-4149-bded-4010f2f65c97")
-		)
-		(instances
-			(project "WattWell-Controller"
-				(path "/fe611e94-02ee-40e6-8bd7-62c542c8eaed/08901ce8-aa7e-4f87-bff3-f459627c9713"
-					(reference "R21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "100_1")
-		(lib_id "Resistor_0603:100")
 		(at 300.99 187.96 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -36639,7 +36991,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 78.74 167.64 0)
+		(at 76.2 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -36647,7 +36999,7 @@
 		(dnp no)
 		(uuid "f588b917-13d7-4da8-b711-700f3cf49974")
 		(property "Reference" "#PWR084"
-			(at 78.74 173.99 0)
+			(at 76.2 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36656,7 +37008,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 82.042 166.878 0)
+			(at 78.994 160.528 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36664,7 +37016,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 78.74 167.64 0)
+			(at 76.2 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36673,7 +37025,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 167.64 0)
+			(at 76.2 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36682,7 +37034,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 78.74 167.64 0)
+			(at 76.2 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36703,44 +37055,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Capacitor_1206:22uF")
-		(at 48.26 160.02 0)
+		(lib_name "100_1")
+		(lib_id "Resistor_0603:100")
+		(at 367.03 201.93 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f800ba7b-e702-41f9-a154-62e7255c78f9")
-		(property "Reference" "C18"
-			(at 51.181 159.3763 0)
+		(uuid "f78b0ee9-3e1a-43cb-961f-76a6881fddf8")
+		(property "Reference" "R84"
+			(at 372.11 200.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "22uF"
-			(at 51.181 161.2973 0)
+		(property "Value" "100"
+			(at 367.03 201.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 64.77 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://eu.mouser.com/datasheet/2/585/MLCC-1837944.pdf"
-			(at 48.26 160.02 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 341.63 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36748,8 +37089,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 22uF+/-20% 10V X7R 3 1206"
-			(at 91.44 156.21 0)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf"
+			(at 365.76 210.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36757,8 +37098,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung"
-			(at 55.88 143.51 0)
+		(property "Description" "100 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
+			(at 343.535 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36766,8 +37107,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL31B226MPHNNNE"
-			(at 63.5 146.05 0)
+		(property "Manufacturer" "Yageo"
+			(at 333.375 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36775,8 +37116,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Mouser"
-			(at 55.88 148.59 0)
+		(property "MPN" "RC0603FR-07100RL"
+			(at 338.455 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36784,8 +37125,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Nr." "187-CL31B226MPHNNNE"
-			(at 69.85 151.13 0)
+		(property "Supplier" "Digikey"
+			(at 335.915 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36793,8 +37134,8 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" "20%"
-			(at 55.88 161.29 0)
+		(property "Supplier Nr." "311-100HRCT-ND"
+			(at 328.295 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36802,8 +37143,8 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage" "10V"
-			(at 55.88 158.75 0)
+		(property "Tolerance" "1%"
+			(at 347.98 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36811,8 +37152,17 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" "X7R"
-			(at 63.5 158.75 0)
+		(property "Power" "100mW"
+			(at 331.47 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.09"
+			(at 346.075 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36821,15 +37171,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "5e84c357-d0b0-4bad-8994-cdc9fa846e84")
+			(uuid "7dead1eb-63b2-4ff0-94b8-d8fc28188923")
 		)
 		(pin "2"
-			(uuid "9524198a-ba17-47e1-8416-e130fd107559")
+			(uuid "3659f6f5-db4a-4f7b-9cb1-ad0744f021bd")
 		)
 		(instances
 			(project "WattWell-Controller"
 				(path "/fe611e94-02ee-40e6-8bd7-62c542c8eaed/08901ce8-aa7e-4f87-bff3-f459627c9713"
-					(reference "C18")
+					(reference "R84")
 					(unit 1)
 				)
 			)
