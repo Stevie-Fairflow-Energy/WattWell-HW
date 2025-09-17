@@ -1,0 +1,32 @@
+{
+  "Designs": [
+    {
+      "Id": "684ccfef-4ffd-49ff-b402-5fc555b768c7",
+      "Name": "Design 1",
+      "Circuit": {
+        "Id": "a3e7d568-9a96-4cdb-8879-86578a621df5",
+        "Devices": [],
+        "Connectors": [],
+        "Name": "Top Circuit",
+        "Variables": [],
+        "VariableFile": ""
+      },
+      "TransientAnalysis": {
+        "EndTime": "50m",
+        "FixedTimeStep": false,
+        "SaveInitialPoint": true,
+        "CompressScopes": true,
+        "DualStageElectroThermalAnalysis": false,
+        "StopAtSteadyState": false,
+        "TimeStep": "1u",
+        "BaseFrequencyParameterEnabled": false,
+        "NumberOfBasePeriodsSavedParameterEnabled": false,
+        "BaseFrequency": "60",
+        "NumberOfBasePeriodsSaved": "1"
+      }
+    }
+  ],
+  "Libraries": [],
+  "TestBenches": [],
+  "ThermalData": []
+}
