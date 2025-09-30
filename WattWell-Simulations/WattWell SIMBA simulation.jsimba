@@ -6453,9 +6453,13 @@
                     "Name": "T2"
                   },
                   "EnabledScopes": [
-                    "Current",
-                    "Voltage"
+                    "Junction Temperature (\u00B0)"
                   ],
+                  "ThermalDataID": "0b7e1cae-7ce9-44b0-9ebd-ef52684fd7fb",
+                  "LossCalculationFrequency": "1k",
+                  "InitialTemperature": "25",
+                  "ShowJunctionTemperatureControlPin": "0",
+                  "CustomVariables": [],
                   "ParametersDisplayAttributes": {
                     "Ron": {
                       "IsVisible": false,
@@ -6512,9 +6516,16 @@
                     "Name": "T1"
                   },
                   "EnabledScopes": [
-                    "Current",
-                    "Voltage"
+                    "Average Conduction Losses (W)",
+                    "Average Switching Losses (W)",
+                    "Average Total Losses (W)",
+                    "Junction Temperature (\u00B0)"
                   ],
+                  "ThermalDataID": "0b7e1cae-7ce9-44b0-9ebd-ef52684fd7fb",
+                  "LossCalculationFrequency": "1k",
+                  "InitialTemperature": "25",
+                  "ShowJunctionTemperatureControlPin": "0",
+                  "CustomVariables": [],
                   "ParametersDisplayAttributes": {
                     "Ron": {
                       "IsVisible": false,
@@ -6571,9 +6582,13 @@
                     "Name": "T4"
                   },
                   "EnabledScopes": [
-                    "Voltage",
-                    "Current"
+                    "Junction Temperature (\u00B0)"
                   ],
+                  "ThermalDataID": "0b7e1cae-7ce9-44b0-9ebd-ef52684fd7fb",
+                  "LossCalculationFrequency": "1k",
+                  "InitialTemperature": "25",
+                  "ShowJunctionTemperatureControlPin": "0",
+                  "CustomVariables": [],
                   "ParametersDisplayAttributes": {
                     "Ron": {
                       "IsVisible": false,
@@ -6630,9 +6645,15 @@
                     "Name": "T3"
                   },
                   "EnabledScopes": [
-                    "Voltage",
-                    "Current"
+                    "Instantaneous Switching Energy (J)",
+                    "Junction Temperature (\u00B0)",
+                    "Voltage"
                   ],
+                  "ThermalDataID": "0b7e1cae-7ce9-44b0-9ebd-ef52684fd7fb",
+                  "LossCalculationFrequency": "1k",
+                  "InitialTemperature": "25",
+                  "ShowJunctionTemperatureControlPin": "0",
+                  "CustomVariables": [],
                   "ParametersDisplayAttributes": {
                     "Ron": {
                       "IsVisible": false,
@@ -6704,11 +6725,7 @@
                           "SamplingTime": "sample_time",
                           "Name": "AND1"
                         },
-                        "EnabledScopes": [
-                          "Input 1",
-                          "Input 2",
-                          "Out"
-                        ],
+                        "EnabledScopes": [],
                         "ParametersDisplayAttributes": {
                           "SamplingTime": {
                             "IsVisible": false,
@@ -6746,9 +6763,7 @@
                           "SamplingTime": "sample_time",
                           "Name": "DT1"
                         },
-                        "EnabledScopes": [
-                          "Out"
-                        ],
+                        "EnabledScopes": [],
                         "ParametersDisplayAttributes": {
                           "RisingEdgeDelay": {
                             "IsVisible": false,
@@ -6838,11 +6853,7 @@
                           "SamplingTime": "sample_time",
                           "Name": "AND2"
                         },
-                        "EnabledScopes": [
-                          "Input 1",
-                          "Input 2",
-                          "Out"
-                        ],
+                        "EnabledScopes": [],
                         "ParametersDisplayAttributes": {
                           "SamplingTime": {
                             "IsVisible": false,
@@ -7221,7 +7232,7 @@
                   "ID": "e5cdcff7-9752-458a-baba-e292fe562b2b",
                   "Parameters": {
                     "Gain": "1",
-                    "SamplingTime": "none",
+                    "SamplingTime": "sample_time",
                     "Name": "Ileg1"
                   },
                   "EnabledScopes": [
@@ -7269,7 +7280,7 @@
                   "ID": "83e46c75-a09d-4d2a-b94e-c965aee5367c",
                   "Parameters": {
                     "Gain": "1",
-                    "SamplingTime": "none",
+                    "SamplingTime": "sample_time",
                     "Name": "Ileg2"
                   },
                   "EnabledScopes": [
@@ -7345,11 +7356,7 @@
                     "SamplingTime": "sample_time",
                     "Name": "AND1"
                   },
-                  "EnabledScopes": [
-                    "Input 1",
-                    "Input 2",
-                    "Out"
-                  ],
+                  "EnabledScopes": [],
                   "ParametersDisplayAttributes": {
                     "SamplingTime": {
                       "IsVisible": false,
@@ -7411,11 +7418,7 @@
                     "SamplingTime": "none",
                     "Name": "AND2"
                   },
-                  "EnabledScopes": [
-                    "Input 1",
-                    "Input 2",
-                    "Out"
-                  ],
+                  "EnabledScopes": [],
                   "ParametersDisplayAttributes": {
                     "SamplingTime": {
                       "IsVisible": false,
@@ -7451,10 +7454,7 @@
                     "SamplingTime": "sample_time",
                     "Name": "ABS2"
                   },
-                  "EnabledScopes": [
-                    "In",
-                    "Out"
-                  ],
+                  "EnabledScopes": [],
                   "ParametersDisplayAttributes": {
                     "SamplingTime": {
                       "IsVisible": false,
@@ -7490,10 +7490,7 @@
                     "SamplingTime": "sample_time",
                     "Name": "ABS1"
                   },
-                  "EnabledScopes": [
-                    "In",
-                    "Out"
-                  ],
+                  "EnabledScopes": [],
                   "ParametersDisplayAttributes": {
                     "SamplingTime": {
                       "IsVisible": false,
@@ -7530,11 +7527,7 @@
                     "SamplingTime": "sample_time",
                     "Name": "COMP3"
                   },
-                  "EnabledScopes": [
-                    "Input 1",
-                    "Input 2",
-                    "Out"
-                  ],
+                  "EnabledScopes": [],
                   "ParametersDisplayAttributes": {
                     "Hysteresis": {
                       "IsVisible": false,
@@ -7580,11 +7573,7 @@
                     "SamplingTime": "sample_time",
                     "Name": "COMP1"
                   },
-                  "EnabledScopes": [
-                    "Input 1",
-                    "Input 2",
-                    "Out"
-                  ],
+                  "EnabledScopes": [],
                   "ParametersDisplayAttributes": {
                     "Hysteresis": {
                       "IsVisible": false,
@@ -7708,6 +7697,212 @@
                       "UnrotatedHeight": 1,
                       "FontSize": 12,
                       "Color": "Black"
+                    }
+                  }
+                },
+                {
+                  "LibraryName": "Thermal Resistor",
+                  "Top": -8,
+                  "Left": 45,
+                  "Angle": 0,
+                  "HF": false,
+                  "VF": false,
+                  "Disabled": false,
+                  "Name": "R1",
+                  "ID": "0341bb57-fd64-4075-a57b-a7a32bc365ec",
+                  "Parameters": {
+                    "Value": "1",
+                    "Name": "R1"
+                  },
+                  "EnabledScopes": [],
+                  "ParametersDisplayAttributes": {
+                    "Value": {
+                      "IsVisible": true,
+                      "Suffix": "K/W ",
+                      "RelativeLocation": "2 2",
+                      "UnrotatedWidth": 2,
+                      "UnrotatedHeight": 1,
+                      "FontSize": 12,
+                      "Color": "#E59400"
+                    },
+                    "Name": {
+                      "IsVisible": true,
+                      "Suffix": "",
+                      "RelativeLocation": "2 -1",
+                      "UnrotatedWidth": 2,
+                      "UnrotatedHeight": 1,
+                      "FontSize": 12,
+                      "Color": "#E59400"
+                    }
+                  }
+                },
+                {
+                  "LibraryName": "Thermal Resistor",
+                  "Top": -3,
+                  "Left": 45,
+                  "Angle": 0,
+                  "HF": false,
+                  "VF": false,
+                  "Disabled": false,
+                  "Name": "R2",
+                  "ID": "d815233f-03cb-4f5c-831c-af006bb31583",
+                  "Parameters": {
+                    "Value": "1",
+                    "Name": "R2"
+                  },
+                  "EnabledScopes": [],
+                  "ParametersDisplayAttributes": {
+                    "Value": {
+                      "IsVisible": true,
+                      "Suffix": "K/W ",
+                      "RelativeLocation": "2 2",
+                      "UnrotatedWidth": 2,
+                      "UnrotatedHeight": 1,
+                      "FontSize": 12,
+                      "Color": "#E59400"
+                    },
+                    "Name": {
+                      "IsVisible": true,
+                      "Suffix": "",
+                      "RelativeLocation": "2 -1",
+                      "UnrotatedWidth": 2,
+                      "UnrotatedHeight": 1,
+                      "FontSize": 12,
+                      "Color": "#E59400"
+                    }
+                  }
+                },
+                {
+                  "LibraryName": "Thermal Resistor",
+                  "Top": 1,
+                  "Left": 45,
+                  "Angle": 0,
+                  "HF": false,
+                  "VF": false,
+                  "Disabled": false,
+                  "Name": "R3",
+                  "ID": "78585e90-8a93-48b1-bf56-7a3b785de2d4",
+                  "Parameters": {
+                    "Value": "1",
+                    "Name": "R3"
+                  },
+                  "EnabledScopes": [],
+                  "ParametersDisplayAttributes": {
+                    "Value": {
+                      "IsVisible": true,
+                      "Suffix": "K/W ",
+                      "RelativeLocation": "2 2",
+                      "UnrotatedWidth": 2,
+                      "UnrotatedHeight": 1,
+                      "FontSize": 12,
+                      "Color": "#E59400"
+                    },
+                    "Name": {
+                      "IsVisible": true,
+                      "Suffix": "",
+                      "RelativeLocation": "2 -1",
+                      "UnrotatedWidth": 2,
+                      "UnrotatedHeight": 1,
+                      "FontSize": 12,
+                      "Color": "#E59400"
+                    }
+                  }
+                },
+                {
+                  "LibraryName": "Thermal Resistor",
+                  "Top": 5,
+                  "Left": 45,
+                  "Angle": 0,
+                  "HF": false,
+                  "VF": false,
+                  "Disabled": false,
+                  "Name": "R4",
+                  "ID": "689a312b-1979-42b2-b5ef-ed6b8f26fe67",
+                  "Parameters": {
+                    "Value": "1",
+                    "Name": "R4"
+                  },
+                  "EnabledScopes": [],
+                  "ParametersDisplayAttributes": {
+                    "Value": {
+                      "IsVisible": true,
+                      "Suffix": "K/W ",
+                      "RelativeLocation": "2 2",
+                      "UnrotatedWidth": 2,
+                      "UnrotatedHeight": 1,
+                      "FontSize": 12,
+                      "Color": "#E59400"
+                    },
+                    "Name": {
+                      "IsVisible": true,
+                      "Suffix": "",
+                      "RelativeLocation": "2 -1",
+                      "UnrotatedWidth": 2,
+                      "UnrotatedHeight": 1,
+                      "FontSize": 12,
+                      "Color": "#E59400"
+                    }
+                  }
+                },
+                {
+                  "LibraryName": "Constant Temperature",
+                  "Top": 0,
+                  "Left": 59,
+                  "Angle": 0,
+                  "HF": false,
+                  "VF": false,
+                  "Disabled": false,
+                  "Name": "T5",
+                  "ID": "dd64c61d-91fd-454e-a793-5faad312e1d1",
+                  "Parameters": {
+                    "Temperature": "25",
+                    "Name": "T5"
+                  },
+                  "EnabledScopes": [],
+                  "ParametersDisplayAttributes": {
+                    "Temperature": {
+                      "IsVisible": true,
+                      "Suffix": "\u00B0 ",
+                      "RelativeLocation": "2 1",
+                      "UnrotatedWidth": 2,
+                      "UnrotatedHeight": 1,
+                      "FontSize": 12,
+                      "Color": "#E59400"
+                    },
+                    "Name": {
+                      "IsVisible": true,
+                      "Suffix": "",
+                      "RelativeLocation": "4 3",
+                      "UnrotatedWidth": 2,
+                      "UnrotatedHeight": 2,
+                      "FontSize": 12,
+                      "Color": "#E59400"
+                    }
+                  }
+                },
+                {
+                  "LibraryName": "Ground (Thermal)",
+                  "Top": 8,
+                  "Left": 60,
+                  "Angle": 0,
+                  "HF": false,
+                  "VF": false,
+                  "Disabled": false,
+                  "Name": "Ground1",
+                  "ID": "1a91c846-5b82-4193-bed1-65df1f6abac6",
+                  "Parameters": {
+                    "Name": "Ground1"
+                  },
+                  "EnabledScopes": [],
+                  "ParametersDisplayAttributes": {
+                    "Name": {
+                      "IsVisible": false,
+                      "Suffix": "",
+                      "RelativeLocation": "4 3",
+                      "UnrotatedWidth": 2,
+                      "UnrotatedHeight": 2,
+                      "FontSize": 12,
+                      "Color": "#E59400"
                     }
                   }
                 }
@@ -8116,6 +8311,163 @@
                     }
                   ],
                   "Name": "C5"
+                },
+                {
+                  "Segments": [
+                    {
+                      "StartX": 51,
+                      "StartY": 6,
+                      "EndX": 52,
+                      "EndY": 6
+                    },
+                    {
+                      "StartX": 52,
+                      "StartY": -7,
+                      "EndX": 51,
+                      "EndY": -7
+                    },
+                    {
+                      "StartX": 51,
+                      "StartY": -2,
+                      "EndX": 52,
+                      "EndY": -2
+                    },
+                    {
+                      "StartX": 51,
+                      "StartY": 2,
+                      "EndX": 52,
+                      "EndY": 2
+                    },
+                    {
+                      "StartX": 52,
+                      "StartY": 0,
+                      "EndX": 61,
+                      "EndY": 0
+                    },
+                    {
+                      "StartX": 52,
+                      "StartY": -7,
+                      "EndX": 52,
+                      "EndY": -2
+                    },
+                    {
+                      "StartX": 52,
+                      "StartY": 2,
+                      "EndX": 52,
+                      "EndY": 6
+                    },
+                    {
+                      "StartX": 52,
+                      "StartY": -2,
+                      "EndX": 52,
+                      "EndY": 0
+                    },
+                    {
+                      "StartX": 52,
+                      "StartY": 0,
+                      "EndX": 52,
+                      "EndY": 2
+                    }
+                  ],
+                  "Name": "C28"
+                },
+                {
+                  "Segments": [
+                    {
+                      "StartX": 32,
+                      "StartY": 5,
+                      "EndX": 45,
+                      "EndY": 5
+                    },
+                    {
+                      "StartX": 45,
+                      "StartY": 5,
+                      "EndX": 45,
+                      "EndY": 2
+                    }
+                  ],
+                  "Name": "C18"
+                },
+                {
+                  "Segments": [
+                    {
+                      "StartX": 18,
+                      "StartY": 5,
+                      "EndX": 27,
+                      "EndY": 5
+                    },
+                    {
+                      "StartX": 27,
+                      "StartY": 5,
+                      "EndX": 27,
+                      "EndY": -3
+                    },
+                    {
+                      "StartX": 27,
+                      "StartY": -3,
+                      "EndX": 45,
+                      "EndY": -3
+                    },
+                    {
+                      "StartX": 45,
+                      "StartY": -3,
+                      "EndX": 45,
+                      "EndY": -7
+                    }
+                  ],
+                  "Name": "C25"
+                },
+                {
+                  "Segments": [
+                    {
+                      "StartX": 18,
+                      "StartY": 15,
+                      "EndX": 27,
+                      "EndY": 15
+                    },
+                    {
+                      "StartX": 27,
+                      "StartY": 15,
+                      "EndX": 27,
+                      "EndY": 8
+                    },
+                    {
+                      "StartX": 27,
+                      "StartY": 8,
+                      "EndX": 44,
+                      "EndY": 8
+                    },
+                    {
+                      "StartX": 44,
+                      "StartY": 8,
+                      "EndX": 44,
+                      "EndY": -2
+                    },
+                    {
+                      "StartX": 44,
+                      "StartY": -2,
+                      "EndX": 45,
+                      "EndY": -2
+                    }
+                  ],
+                  "Name": "C26"
+                },
+                {
+                  "Segments": [
+                    {
+                      "StartX": 32,
+                      "StartY": 15,
+                      "EndX": 45,
+                      "EndY": 15
+                    },
+                    {
+                      "StartX": 45,
+                      "StartY": 15,
+                      "EndX": 45,
+                      "EndY": 6
+                    }
+                  ],
+                  "Name": "C27"
                 }
               ],
               "Name": "H-bridge",
@@ -8131,7 +8483,7 @@
               },
               {
                 "Name": "Ilim",
-                "Value": "5"
+                "Value": "40"
               }
             ],
             "ParametersDisplayAttributes": {
@@ -8363,7 +8715,7 @@
             "ID": "72527272-4cbf-41b1-a203-33b9223133bd",
             "Parameters": {
               "Gain": "1",
-              "SamplingTime": "none",
+              "SamplingTime": "sample_time",
               "Name": "VP1"
             },
             "EnabledScopes": [],
@@ -8409,7 +8761,7 @@
             "ID": "6477856a-92b0-4ac1-a5fb-8d89cae96c5e",
             "Parameters": {
               "Value": "Vdcbus*0.8",
-              "SamplingTime": "none",
+              "SamplingTime": "sample_time",
               "Name": "C2"
             },
             "EnabledScopes": [],
@@ -8455,7 +8807,7 @@
             "ID": "c20e99ef-f6f6-47b3-b210-bc44e012a2be",
             "Parameters": {
               "Hysteresis": "10",
-              "SamplingTime": "none",
+              "SamplingTime": "sample_time",
               "Name": "COMP2"
             },
             "EnabledScopes": [],
@@ -8500,7 +8852,7 @@
             "Name": "NOT1",
             "ID": "0d32f897-afcd-4e83-b2d4-27fa2cd27e6b",
             "Parameters": {
-              "SamplingTime": "none",
+              "SamplingTime": "sample_time",
               "Name": "NOT1"
             },
             "EnabledScopes": [],
@@ -8541,7 +8893,7 @@
               "DutyCycle": "0.5",
               "Offset": "-1",
               "PhaseShift": "0",
-              "SamplingTime": "none",
+              "SamplingTime": "sample_time",
               "Name": "TRI1"
             },
             "EnabledScopes": [],
@@ -8622,7 +8974,7 @@
             "Name": "COMP1",
             "ID": "4eda4032-14e6-4f60-8b30-24c388a522d2",
             "Parameters": {
-              "SamplingTime": "none",
+              "SamplingTime": "sample_time",
               "Name": "COMP1"
             },
             "EnabledScopes": [],
@@ -8662,12 +9014,10 @@
               "Frequency": "50",
               "Offset": "0",
               "PhaseShift": "0",
-              "SamplingTime": "none",
+              "SamplingTime": "sample_time",
               "Name": "SIN1"
             },
-            "EnabledScopes": [
-              "Out"
-            ],
+            "EnabledScopes": [],
             "ParametersDisplayAttributes": {
               "Amplitude": {
                 "IsVisible": false,
@@ -9024,5 +9374,78 @@
   ],
   "Libraries": [],
   "TestBenches": [],
-  "ThermalData": []
+  "ThermalData": [
+    {
+      "Name": "MOSFET",
+      "Manufacturer": "Infineon",
+      "PartNumber": "IPB65R050CFD7A",
+      "Comment": "650V CoolMOS\u00AA CFD7A SJ Power Device\r\n650V CoolMOS\u2122 CFD7A is Infineon\u0027s latest generation of market leading\r\nautomotive qualified high voltage CoolMOS\u2122 MOSFETs. In addition to the\r\nwell-known attributes of high quality and reliability required by the\r\nautomotive industry, the new CoolMOS\u2122 CFD7A series provides for an\r\nintegrated fast body diode and can be used for PFC and resonant\r\nswitching topologies like the ZVS phase-shift full-bridge and LLC.\r\n\r\nD2PAK packaging",
+      "ConductionLossesGateDependency": false,
+      "SemiconductorType": "MosfetThermalDataSemiconductorType",
+      "ThermalImpedanceType": "CauerThermalNetworkType",
+      "ConductionLosses": [
+        {
+          "Temperature": 25,
+          "IVSerialized": "[0 0; 100 4; 200 9.5; 300 19]"
+        },
+        {
+          "Temperature": 50,
+          "IVSerialized": "[0 0; 100 4.8; 200 11.4; 300 22.8]"
+        },
+        {
+          "Temperature": 75,
+          "IVSerialized": "[0 0; 100 5.6; 200 13.3; 300 26.6]"
+        },
+        {
+          "Temperature": 100,
+          "IVSerialized": "[0 0; 100 6.48; 200 15.39; 300 30.78]"
+        },
+        {
+          "Temperature": 0,
+          "IVSerialized": "[0 0; 100 3.4; 200 7.65; 300 16.15]"
+        }
+      ],
+      "ConductionLossesGateOff": [],
+      "TurnOnLosses": [
+        {
+          "Temperature": 25,
+          "Voltage": 20,
+          "EISerialized": "[0 0; 308 4E-06]"
+        },
+        {
+          "Temperature": 25,
+          "Voltage": 10,
+          "EISerialized": "[0 0; 205 2E-06]"
+        }
+      ],
+      "TurnOffLosses": [
+        {
+          "Temperature": 25,
+          "Voltage": 20,
+          "EISerialized": "[0 0; 308 4E-06]"
+        },
+        {
+          "Temperature": 25,
+          "Voltage": 10,
+          "EISerialized": "[0 0; 205 2E-06]"
+        }
+      ],
+      "CustomVariables": [],
+      "Constants": [],
+      "Custom1DTables": [],
+      "Custom2DTables": [],
+      "Custom3DTables": [],
+      "Custom4DTables": [],
+      "ConductionLossComputationMethod": 1,
+      "ConductionLossComputationFormula": "0.05*i",
+      "ConductionLossComputationMethodGateOff": 1,
+      "ConductionLossComputationFormulaGateOff": "",
+      "TurnOnLossComputationMethod": "FormulaComputationMethodType",
+      "TurnOnLossComputationFormula": "6.994E-7*sqrt(abs(v))",
+      "TurnOffLossComputationMethod": "FormulaComputationMethodType",
+      "TurnOffLossComputationFormula": "6.994E-7*sqrt(abs(v))",
+      "ThermalImpedanceDataSerialized": "[0.55 0.01]",
+      "ID": "0b7e1cae-7ce9-44b0-9ebd-ef52684fd7fb"
+    }
+  ]
 }
