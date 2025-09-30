@@ -6453,8 +6453,8 @@
                     "Name": "T2"
                   },
                   "EnabledScopes": [
-                    "Voltage",
-                    "Current"
+                    "Current",
+                    "Voltage"
                   ],
                   "ParametersDisplayAttributes": {
                     "Ron": {
@@ -6701,7 +6701,7 @@
                         "Name": "AND1",
                         "ID": "71187ea7-7012-4e50-a66e-fc7e6f097ab2",
                         "Parameters": {
-                          "SamplingTime": "none",
+                          "SamplingTime": "sample_time",
                           "Name": "AND1"
                         },
                         "EnabledScopes": [
@@ -6743,7 +6743,7 @@
                         "Parameters": {
                           "RisingEdgeDelay": "Tdead",
                           "FallingEdgeDelay": "0",
-                          "SamplingTime": "none",
+                          "SamplingTime": "sample_time",
                           "Name": "DT1"
                         },
                         "EnabledScopes": [
@@ -6799,7 +6799,7 @@
                         "Name": "NOT1",
                         "ID": "7494af9b-2173-483e-b7a1-7ee1f698ab9a",
                         "Parameters": {
-                          "SamplingTime": "none",
+                          "SamplingTime": "sample_time",
                           "Name": "NOT1"
                         },
                         "EnabledScopes": [],
@@ -6835,7 +6835,7 @@
                         "Name": "AND2",
                         "ID": "795e9578-a92c-48d3-b240-8e64baf74e39",
                         "Parameters": {
-                          "SamplingTime": "none",
+                          "SamplingTime": "sample_time",
                           "Name": "AND2"
                         },
                         "EnabledScopes": [
@@ -7175,7 +7175,7 @@
                   "ID": "83406e28-e6b4-444a-8560-be4833741ce6",
                   "Parameters": {
                     "Value": "Ilim",
-                    "SamplingTime": "none",
+                    "SamplingTime": "sample_time",
                     "Name": "C1"
                   },
                   "EnabledScopes": [],
@@ -7265,12 +7265,12 @@
                   "HF": false,
                   "VF": false,
                   "Disabled": false,
-                  "Name": "1leg2",
+                  "Name": "Ileg2",
                   "ID": "83e46c75-a09d-4d2a-b94e-c965aee5367c",
                   "Parameters": {
                     "Gain": "1",
                     "SamplingTime": "none",
-                    "Name": "1leg2"
+                    "Name": "Ileg2"
                   },
                   "EnabledScopes": [
                     "Current"
@@ -7342,7 +7342,7 @@
                   "Name": "AND1",
                   "ID": "cf93388d-ae9d-48ac-9aef-d31b16376794",
                   "Parameters": {
-                    "SamplingTime": "none",
+                    "SamplingTime": "sample_time",
                     "Name": "AND1"
                   },
                   "EnabledScopes": [
@@ -7448,7 +7448,7 @@
                   "Name": "ABS2",
                   "ID": "09258ddb-3833-41e2-b73d-93e33fafcba4",
                   "Parameters": {
-                    "SamplingTime": "none",
+                    "SamplingTime": "sample_time",
                     "Name": "ABS2"
                   },
                   "EnabledScopes": [
@@ -7487,7 +7487,7 @@
                   "Name": "ABS1",
                   "ID": "123c010c-9d4b-415e-bf15-11c5780833be",
                   "Parameters": {
-                    "SamplingTime": "none",
+                    "SamplingTime": "sample_time",
                     "Name": "ABS1"
                   },
                   "EnabledScopes": [
@@ -7527,7 +7527,7 @@
                   "ID": "9c4545de-25aa-469d-ac0b-e6f819024510",
                   "Parameters": {
                     "Hysteresis": "1",
-                    "SamplingTime": "none",
+                    "SamplingTime": "sample_time",
                     "Name": "COMP3"
                   },
                   "EnabledScopes": [
@@ -7577,7 +7577,7 @@
                   "ID": "00e465dd-691b-42cd-ad5a-83798767dc3e",
                   "Parameters": {
                     "Hysteresis": "1",
-                    "SamplingTime": "none",
+                    "SamplingTime": "sample_time",
                     "Name": "COMP1"
                   },
                   "EnabledScopes": [
@@ -7612,6 +7612,102 @@
                       "UnrotatedHeight": 1,
                       "FontSize": 12,
                       "Color": "#04B404"
+                    }
+                  }
+                },
+                {
+                  "LibraryName": "Text",
+                  "Top": -16,
+                  "Left": -13,
+                  "Angle": 0,
+                  "HF": false,
+                  "VF": false,
+                  "Disabled": false,
+                  "Name": "Text1",
+                  "ID": "0dcc94f4-4ad6-472d-b3be-778ff6de7005",
+                  "Parameters": {
+                    "FontSize": "10",
+                    "BorderWidth": "0",
+                    "Text": "Over-Current Protection Logic",
+                    "TextColor": "#0000FF",
+                    "BorderColor": "#0000FF",
+                    "PersistentWidth": "4",
+                    "PersistentHeight": "4",
+                    "Name": "Text1"
+                  },
+                  "EnabledScopes": [],
+                  "ParametersDisplayAttributes": {
+                    "FontSize": {
+                      "IsVisible": false,
+                      "Suffix": "",
+                      "RelativeLocation": "1 4",
+                      "UnrotatedWidth": 4,
+                      "UnrotatedHeight": 1,
+                      "FontSize": 12,
+                      "Color": "Black"
+                    },
+                    "BorderWidth": {
+                      "IsVisible": false,
+                      "Suffix": "",
+                      "RelativeLocation": "1 5",
+                      "UnrotatedWidth": 4,
+                      "UnrotatedHeight": 1,
+                      "FontSize": 12,
+                      "Color": "Black"
+                    },
+                    "Text": {
+                      "IsVisible": false,
+                      "Suffix": "",
+                      "RelativeLocation": "2 1",
+                      "UnrotatedWidth": 2,
+                      "UnrotatedHeight": 1,
+                      "FontSize": 12,
+                      "Color": "Black"
+                    },
+                    "TextColor": {
+                      "IsVisible": false,
+                      "Suffix": "",
+                      "RelativeLocation": "2 4",
+                      "UnrotatedWidth": 2,
+                      "UnrotatedHeight": 1,
+                      "FontSize": 12,
+                      "Color": "Black"
+                    },
+                    "BorderColor": {
+                      "IsVisible": false,
+                      "Suffix": "",
+                      "RelativeLocation": "2 5",
+                      "UnrotatedWidth": 2,
+                      "UnrotatedHeight": 1,
+                      "FontSize": 12,
+                      "Color": "Black"
+                    },
+                    "PersistentWidth": {
+                      "IsVisible": false,
+                      "Suffix": "",
+                      "RelativeLocation": "2 1",
+                      "UnrotatedWidth": 2,
+                      "UnrotatedHeight": 1,
+                      "FontSize": 12,
+                      "Color": "Black"
+                    },
+                    "PersistentHeight": {
+                      "IsVisible": false,
+                      "Suffix": "",
+                      "RelativeLocation": "1 4",
+                      "UnrotatedWidth": 4,
+                      "UnrotatedHeight": 1,
+                      "FontSize": 12,
+                      "Color": "Black"
+                    },
+                    "Name": {
+                      "IsVisible": false,
+                      "Suffix": "",
+                      "RelativeLocation": "2 -1",
+                      "UnrotatedWidth": 2,
+                      "UnrotatedHeight": 1,
+                      "FontSize": 12,
+                      "Color": "Black"
                     }
                   }
                 }
@@ -8903,18 +8999,22 @@
           {
             "Name": "InverterFsw",
             "Value": "50k"
+          },
+          {
+            "Name": "sample_time",
+            "Value": "100n"
           }
         ],
         "VariableFile": ""
       },
       "TransientAnalysis": {
-        "EndTime": "200m",
+        "EndTime": "20m",
         "FixedTimeStep": false,
         "SaveInitialPoint": true,
         "CompressScopes": true,
         "DualStageElectroThermalAnalysis": false,
         "StopAtSteadyState": false,
-        "TimeStep": "1n",
+        "TimeStep": "10n",
         "BaseFrequencyParameterEnabled": false,
         "NumberOfBasePeriodsSavedParameterEnabled": false,
         "BaseFrequency": "60",
