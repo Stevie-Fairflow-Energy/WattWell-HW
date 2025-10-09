@@ -20,24 +20,19 @@ The project will be divided into different "workpackages" based on the functiona
 
 1. Supervisory control: development of the main control board able to get the measurements, generate references, ... This board embeds the main mcu.
 2. Inverter Board
-  a. Control and Driver board: interface between the supervisory control board and power switch (IGBT's/Mosfet's). The driver board needs to generate the PWM signals based on a reference from the supervisor.
-  b. Power circuit: power circuit of the inverter
 3. DC/DC converter: Able to take a variable DC input (48V +/- 20%) and output a stable DC output controllable between 360 V and 500 V.
 4. DC Link: A DC link capable of self-protection
 5. A DC filter for smooth input/output
 6. DC Protections for over-current and over-voltage protection
 7. DC connections for physically connecting the DC source to WattWell
-8. AC filter for smooth sine wave input/output
+8.  AC filter for smooth sine wave input/output
 9. AC protection for over-current and over-voltage protection. Required for compatibility with grid codes.
-10. AC connections for phsyically conecting the external electrical system to WattWell
+10. Connections for phsyically conecting the external electrical system to WattWell
 11. Human Machine Interface (HMI) to act as the interface between the user and the supervisory control
 
-
-For the supervisory control, the firmware on the main mcu should have (main mcu based on STM32G434):
-
-1. Low level drivers
-2. Basics functionalities (bootloader, debug uart, pll,...)
-3. Advanced functionalities (power management, MPPT, state machine)
+For the Inverter board, two sub-modules are assumed:
+1. Control and Driver board: interface between the supervisory control board and power switch (IGBT's/Mosfet's). The driver board needs to generate the PWM signals based on a reference from the supervisor.
+2. Power circuit: power circuit of the inverter
 
 # Expected functionalities
 
@@ -47,7 +42,13 @@ For the supervisory control, the firmware on the main mcu should have (main mcu 
 - Communication capabilities (serial,...)
 - Working in islanding mode (offgrid)
 
-# 1. main control board:
+# 1. Supervisory control board:
+
+For the supervisory control, the firmware on the main mcu should have (main mcu based on STM32G434):
+
+1. Low level drivers
+2. Basics functionalities (bootloader, debug uart, pll,...)
+3. Advanced functionalities (power management, MPPT, state machine)
 
 The main control board will be able to measure:
 1.  3AC voltages (max 400V) - ADC min 14bits
