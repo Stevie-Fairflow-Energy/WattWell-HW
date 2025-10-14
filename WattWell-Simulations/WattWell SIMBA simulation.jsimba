@@ -8776,7 +8776,7 @@
               },
               {
                 "Name": "Ilim",
-                "Value": "50"
+                "Value": "10"
               }
             ],
             "ParametersDisplayAttributes": {
@@ -9374,7 +9374,7 @@
             "Name": "SIN1",
             "ID": "f43b5466-cdda-42eb-819d-3c85b5dc4f6f",
             "Parameters": {
-              "Amplitude": "10",
+              "Amplitude": "20",
               "Frequency": "50",
               "Offset": "0",
               "PhaseShift": "0",
@@ -9452,7 +9452,7 @@
             "Parameters": {
               "NumberOfInputs": "2",
               "Gains": "[1 -1]",
-              "SamplingTime": "none",
+              "SamplingTime": "sample_time",
               "Name": "Ierror"
             },
             "EnabledScopes": [
