@@ -7675,8 +7675,8 @@
               "Name": "DC1"
             },
             "EnabledScopes": [
-              "Voltage",
-              "Current"
+              "Current",
+              "Voltage"
             ],
             "ParametersDisplayAttributes": {
               "Voltage": {
@@ -7746,104 +7746,6 @@
             }
           },
           {
-            "LibraryName": "AC Voltage Source (Sinus)",
-            "Top": 4,
-            "Left": 48,
-            "Angle": 0,
-            "HF": false,
-            "VF": false,
-            "Disabled": false,
-            "Name": "Grid",
-            "ID": "47fbce42-df8c-4f51-a097-eeb13a92336f",
-            "Parameters": {
-              "Frequency": "50",
-              "Amplitude": "325",
-              "Phase": "0",
-              "Name": "Grid"
-            },
-            "EnabledScopes": [
-              "Voltage",
-              "Current"
-            ],
-            "ParametersDisplayAttributes": {
-              "Frequency": {
-                "IsVisible": false,
-                "Suffix": "",
-                "RelativeLocation": "2 2",
-                "UnrotatedWidth": 2,
-                "UnrotatedHeight": 1,
-                "FontSize": 12,
-                "Color": "#0081BC"
-              },
-              "Amplitude": {
-                "IsVisible": false,
-                "Suffix": "",
-                "RelativeLocation": "2 3",
-                "UnrotatedWidth": 2,
-                "UnrotatedHeight": 1,
-                "FontSize": 12,
-                "Color": "#0081BC"
-              },
-              "Phase": {
-                "IsVisible": false,
-                "Suffix": "",
-                "RelativeLocation": "2 4",
-                "UnrotatedWidth": 2,
-                "UnrotatedHeight": 1,
-                "FontSize": 12,
-                "Color": "#0081BC"
-              },
-              "Name": {
-                "IsVisible": true,
-                "Suffix": "",
-                "RelativeLocation": "3 3",
-                "UnrotatedWidth": 3,
-                "UnrotatedHeight": 2,
-                "FontSize": 12,
-                "Color": "#0081BC"
-              }
-            }
-          },
-          {
-            "LibraryName": "Resistor",
-            "Top": 4,
-            "Left": 38,
-            "Angle": 0,
-            "HF": false,
-            "VF": false,
-            "Disabled": false,
-            "Name": "R1",
-            "ID": "329871d8-9bff-46c2-887e-8e0b380b4136",
-            "Parameters": {
-              "Value": "0.1",
-              "Name": "R1"
-            },
-            "EnabledScopes": [
-              "Current",
-              "Voltage"
-            ],
-            "ParametersDisplayAttributes": {
-              "Value": {
-                "IsVisible": true,
-                "Suffix": "\u03A9",
-                "RelativeLocation": "2 3",
-                "UnrotatedWidth": 2,
-                "UnrotatedHeight": 1,
-                "FontSize": 12,
-                "Color": "#0081BC"
-              },
-              "Name": {
-                "IsVisible": true,
-                "Suffix": "",
-                "RelativeLocation": "2 -1",
-                "UnrotatedWidth": 2,
-                "UnrotatedHeight": 1,
-                "FontSize": 12,
-                "Color": "#0081BC"
-              }
-            }
-          },
-          {
             "LibraryName": "Differential Voltage Probe",
             "Top": 6,
             "Left": 55,
@@ -7858,54 +7760,8 @@
               "SamplingTime": "none",
               "Name": "VP2"
             },
-            "EnabledScopes": [],
-            "ParametersDisplayAttributes": {
-              "Gain": {
-                "IsVisible": false,
-                "Suffix": "",
-                "RelativeLocation": "2 2",
-                "UnrotatedWidth": 2,
-                "UnrotatedHeight": 1,
-                "FontSize": 12,
-                "Color": "#0081BC"
-              },
-              "SamplingTime": {
-                "IsVisible": false,
-                "Suffix": "",
-                "RelativeLocation": "2 3",
-                "UnrotatedWidth": 2,
-                "UnrotatedHeight": 1,
-                "FontSize": 12,
-                "Color": "#0081BC"
-              },
-              "Name": {
-                "IsVisible": true,
-                "Suffix": "",
-                "RelativeLocation": "1 -1",
-                "UnrotatedWidth": 2,
-                "UnrotatedHeight": 1,
-                "FontSize": 12,
-                "Color": "#0081BC"
-              }
-            }
-          },
-          {
-            "LibraryName": "Current Probe",
-            "Top": 11,
-            "Left": 38,
-            "Angle": 180,
-            "HF": false,
-            "VF": false,
-            "Disabled": false,
-            "Name": "CP1",
-            "ID": "2a7f893f-a46e-4a82-a204-6db84429f68c",
-            "Parameters": {
-              "Gain": "1",
-              "SamplingTime": "sample_time",
-              "Name": "CP1"
-            },
             "EnabledScopes": [
-              "Current"
+              "Voltage"
             ],
             "ParametersDisplayAttributes": {
               "Gain": {
@@ -7984,82 +7840,6 @@
             }
           },
           {
-            "LibraryName": "Sinusoidal Wave",
-            "Top": -22,
-            "Left": 11,
-            "Angle": 90,
-            "HF": false,
-            "VF": false,
-            "Disabled": false,
-            "Name": "Iref",
-            "ID": "f43b5466-cdda-42eb-819d-3c85b5dc4f6f",
-            "Parameters": {
-              "Amplitude": "20",
-              "Frequency": "50",
-              "Offset": "0",
-              "PhaseShift": "0",
-              "SamplingTime": "sample_time",
-              "Name": "Iref"
-            },
-            "EnabledScopes": [],
-            "ParametersDisplayAttributes": {
-              "Amplitude": {
-                "IsVisible": false,
-                "Suffix": "",
-                "RelativeLocation": "1 4",
-                "UnrotatedWidth": 2,
-                "UnrotatedHeight": 1,
-                "FontSize": 12,
-                "Color": "#04B404"
-              },
-              "Frequency": {
-                "IsVisible": false,
-                "Suffix": "Hz",
-                "RelativeLocation": "1 5",
-                "UnrotatedWidth": 2,
-                "UnrotatedHeight": 1,
-                "FontSize": 12,
-                "Color": "#04B404"
-              },
-              "Offset": {
-                "IsVisible": false,
-                "Suffix": "",
-                "RelativeLocation": "1 6",
-                "UnrotatedWidth": 2,
-                "UnrotatedHeight": 1,
-                "FontSize": 12,
-                "Color": "#04B404"
-              },
-              "PhaseShift": {
-                "IsVisible": false,
-                "Suffix": "\u00B0",
-                "RelativeLocation": "1 7",
-                "UnrotatedWidth": 2,
-                "UnrotatedHeight": 1,
-                "FontSize": 12,
-                "Color": "#04B404"
-              },
-              "SamplingTime": {
-                "IsVisible": false,
-                "Suffix": "",
-                "RelativeLocation": "1 8",
-                "UnrotatedWidth": 2,
-                "UnrotatedHeight": 1,
-                "FontSize": 12,
-                "Color": "#04B404"
-              },
-              "Name": {
-                "IsVisible": true,
-                "Suffix": "",
-                "RelativeLocation": "1 -1",
-                "UnrotatedWidth": 2,
-                "UnrotatedHeight": 1,
-                "FontSize": 12,
-                "Color": "#04B404"
-              }
-            }
-          },
-          {
             "LibraryName": "Capacitor",
             "Top": 7,
             "Left": 29,
@@ -8070,7 +7850,7 @@
             "Name": "C1",
             "ID": "b2c58c2a-9f8b-4a7b-865f-1fe3777c0da7",
             "Parameters": {
-              "Value": "3u",
+              "Value": "40u",
               "Vinit": "0",
               "Name": "C1"
             },
@@ -8281,52 +8061,6 @@
                       "IsVisible": false,
                       "Suffix": "",
                       "RelativeLocation": "1 4",
-                      "UnrotatedWidth": 2,
-                      "UnrotatedHeight": 1,
-                      "FontSize": 12,
-                      "Color": "#04B404"
-                    },
-                    "Name": {
-                      "IsVisible": true,
-                      "Suffix": "",
-                      "RelativeLocation": "1 -1",
-                      "UnrotatedWidth": 2,
-                      "UnrotatedHeight": 1,
-                      "FontSize": 12,
-                      "Color": "#04B404"
-                    }
-                  }
-                },
-                {
-                  "LibraryName": "Gain",
-                  "Top": -16,
-                  "Left": 21,
-                  "Angle": 0,
-                  "HF": false,
-                  "VF": false,
-                  "Disabled": false,
-                  "Name": "G1",
-                  "ID": "65bab8a3-d69d-4135-8c08-3c776c9c6aec",
-                  "Parameters": {
-                    "Value": "1",
-                    "SamplingTime": "none",
-                    "Name": "G1"
-                  },
-                  "EnabledScopes": [],
-                  "ParametersDisplayAttributes": {
-                    "Value": {
-                      "IsVisible": true,
-                      "Suffix": "",
-                      "RelativeLocation": "1 1",
-                      "UnrotatedWidth": 2,
-                      "UnrotatedHeight": 2,
-                      "FontSize": 12,
-                      "Color": "#04B404"
-                    },
-                    "SamplingTime": {
-                      "IsVisible": false,
-                      "Suffix": "",
-                      "RelativeLocation": "4 5",
                       "UnrotatedWidth": 2,
                       "UnrotatedHeight": 1,
                       "FontSize": 12,
@@ -8956,15 +8690,15 @@
                 {
                   "LibraryName": "Half-bridge driver",
                   "Top": 36,
-                  "Left": 41,
+                  "Left": 58,
                   "Angle": 0,
                   "HF": false,
                   "VF": false,
                   "Disabled": false,
-                  "Name": "Sc1",
-                  "ID": "07f4c39d-a96e-45ed-9e02-d709ea8b3618",
+                  "Name": "Sc2",
+                  "ID": "ad8a0625-df35-487f-ad6b-4a70f06cdc72",
                   "Parameters": {
-                    "Name": "Sc1",
+                    "Name": "Sc2",
                     "DefinitionName": "Half-bridge driver"
                   },
                   "EnabledScopes": [],
@@ -9410,43 +9144,6 @@
                     "VariableFile": ""
                   },
                   "SubcircuitDefinitionID": "42998a8d-056b-4ed4-9a48-797d535469e6",
-                  "SubcircuitDefinitionID": "42998a8d-056b-4ed4-9a48-797d535469e6",
-                  "ParametersDisplayAttributes": {
-                    "Name": {
-                      "IsVisible": true,
-                      "Suffix": "",
-                      "RelativeLocation": "3 5",
-                      "UnrotatedWidth": 4,
-                      "UnrotatedHeight": 1,
-                      "FontSize": 12,
-                      "Color": "Black"
-                    },
-                    "DefinitionName": {
-                      "IsVisible": true,
-                      "Suffix": "",
-                      "RelativeLocation": "3 3",
-                      "UnrotatedWidth": 4,
-                      "UnrotatedHeight": 1,
-                      "FontSize": 12,
-                      "Color": "Black"
-                    }
-                  }
-                },
-                {
-                  "LibraryName": "Half-bridge driver",
-                  "Top": 36,
-                  "Left": 58,
-                  "Angle": 0,
-                  "HF": false,
-                  "VF": false,
-                  "Disabled": false,
-                  "Name": "Sc2",
-                  "ID": "ad8a0625-df35-487f-ad6b-4a70f06cdc72",
-                  "Parameters": {
-                    "Name": "Sc2",
-                    "DefinitionName": "Half-bridge driver"
-                  },
-                  "EnabledScopes": [],
                   "SubcircuitDefinitionID": "42998a8d-056b-4ed4-9a48-797d535469e6",
                   "ParametersDisplayAttributes": {
                     "Name": {
@@ -9958,78 +9655,6 @@
                   }
                 },
                 {
-                  "LibraryName": "Gain",
-                  "Top": -8,
-                  "Left": 47,
-                  "Angle": 180,
-                  "HF": false,
-                  "VF": false,
-                  "Disabled": false,
-                  "Name": "G2",
-                  "ID": "8f46149a-0d04-43e8-978f-26598c3bff70",
-                  "Parameters": {
-                    "Value": "1/325",
-                    "SamplingTime": "sample_time",
-                    "Name": "G2"
-                  },
-                  "EnabledScopes": [],
-                  "ParametersDisplayAttributes": {
-                    "Value": {
-                      "IsVisible": true,
-                      "Suffix": "",
-                      "RelativeLocation": "1 1",
-                      "UnrotatedWidth": 2,
-                      "UnrotatedHeight": 2,
-                      "FontSize": 12,
-                      "Color": "#04B404"
-                    },
-                    "SamplingTime": {
-                      "IsVisible": false,
-                      "Suffix": "",
-                      "RelativeLocation": "4 5",
-                      "UnrotatedWidth": 2,
-                      "UnrotatedHeight": 1,
-                      "FontSize": 12,
-                      "Color": "#04B404"
-                    },
-                    "Name": {
-                      "IsVisible": true,
-                      "Suffix": "",
-                      "RelativeLocation": "1 -1",
-                      "UnrotatedWidth": 2,
-                      "UnrotatedHeight": 1,
-                      "FontSize": 12,
-                      "Color": "#04B404"
-                    }
-                  }
-                },
-                {
-                  "LibraryName": "Control In Pin",
-                  "Top": -7,
-                  "Left": 55,
-                  "Angle": 180,
-                  "HF": false,
-                  "VF": false,
-                  "Disabled": false,
-                  "Name": "Vac",
-                  "ID": "0690de53-0475-4a51-ad71-61ce1a76af4b",
-                  "Parameters": {
-                    "Name": "Vac"
-                  },
-                  "EnabledScopes": [],
-                  "ParametersDisplayAttributes": {
-                    "Name": {
-                      "IsVisible": true,
-                      "Suffix": "",
-                      "RelativeLocation": "0 -1",
-                      "UnrotatedWidth": 2,
-                      "UnrotatedHeight": 1,
-                      "FontSize": 12,
-                      "Color": "#04B404"
-                    }
-                  }
-                },
-                {
                   "LibraryName": "Text",
                   "Top": -21,
                   "Left": 13,
@@ -10124,6 +9749,230 @@
                       "Color": "Black"
                     }
                   }
+                },
+                {
+                  "LibraryName": "Gain",
+                  "Top": -8,
+                  "Left": 40,
+                  "Angle": 180,
+                  "HF": false,
+                  "VF": false,
+                  "Disabled": false,
+                  "Name": "G3",
+                  "ID": "0ba1a729-e6e3-4070-b6e7-4f0d27473e98",
+                  "Parameters": {
+                    "Value": "1",
+                    "SamplingTime": "sample_time",
+                    "Name": "G3"
+                  },
+                  "EnabledScopes": [],
+                  "ParametersDisplayAttributes": {
+                    "Value": {
+                      "IsVisible": true,
+                      "Suffix": "",
+                      "RelativeLocation": "1 1",
+                      "UnrotatedWidth": 2,
+                      "UnrotatedHeight": 2,
+                      "FontSize": 12,
+                      "Color": "#04B404"
+                    },
+                    "SamplingTime": {
+                      "IsVisible": false,
+                      "Suffix": "",
+                      "RelativeLocation": "4 5",
+                      "UnrotatedWidth": 2,
+                      "UnrotatedHeight": 1,
+                      "FontSize": 12,
+                      "Color": "#04B404"
+                    },
+                    "Name": {
+                      "IsVisible": true,
+                      "Suffix": "",
+                      "RelativeLocation": "1 -1",
+                      "UnrotatedWidth": 2,
+                      "UnrotatedHeight": 1,
+                      "FontSize": 12,
+                      "Color": "#04B404"
+                    }
+                  }
+                },
+                {
+                  "LibraryName": "Control In Pin",
+                  "Top": -7,
+                  "Left": 55,
+                  "Angle": 180,
+                  "HF": false,
+                  "VF": false,
+                  "Disabled": false,
+                  "Name": "Vac",
+                  "ID": "adc7be9c-c05a-4dc0-8713-bb2c268a41fb",
+                  "Parameters": {
+                    "Name": "Vac"
+                  },
+                  "EnabledScopes": [],
+                  "ParametersDisplayAttributes": {
+                    "Name": {
+                      "IsVisible": true,
+                      "Suffix": "",
+                      "RelativeLocation": "0 -1",
+                      "UnrotatedWidth": 2,
+                      "UnrotatedHeight": 1,
+                      "FontSize": 12,
+                      "Color": "#04B404"
+                    }
+                  }
+                },
+                {
+                  "LibraryName": "Gain",
+                  "Top": -8,
+                  "Left": 48,
+                  "Angle": 180,
+                  "HF": false,
+                  "VF": false,
+                  "Disabled": false,
+                  "Name": "G2",
+                  "ID": "bca5c676-5e9a-47a6-ad57-72791c823d09",
+                  "Parameters": {
+                    "Value": "1/325",
+                    "SamplingTime": "sample_time",
+                    "Name": "G2"
+                  },
+                  "EnabledScopes": [],
+                  "ParametersDisplayAttributes": {
+                    "Value": {
+                      "IsVisible": true,
+                      "Suffix": "",
+                      "RelativeLocation": "1 1",
+                      "UnrotatedWidth": 2,
+                      "UnrotatedHeight": 2,
+                      "FontSize": 12,
+                      "Color": "#04B404"
+                    },
+                    "SamplingTime": {
+                      "IsVisible": false,
+                      "Suffix": "",
+                      "RelativeLocation": "4 5",
+                      "UnrotatedWidth": 2,
+                      "UnrotatedHeight": 1,
+                      "FontSize": 12,
+                      "Color": "#04B404"
+                    },
+                    "Name": {
+                      "IsVisible": true,
+                      "Suffix": "",
+                      "RelativeLocation": "1 -1",
+                      "UnrotatedWidth": 2,
+                      "UnrotatedHeight": 1,
+                      "FontSize": 12,
+                      "Color": "#04B404"
+                    }
+                  }
+                },
+                {
+                  "LibraryName": "Half-bridge driver",
+                  "Top": 36,
+                  "Left": 41,
+                  "Angle": 0,
+                  "HF": false,
+                  "VF": false,
+                  "Disabled": false,
+                  "Name": "Sc1",
+                  "ID": "7d7c1c2c-bc71-43cc-9ce9-8e04a80e97c9",
+                  "Parameters": {
+                    "Name": "Sc1",
+                    "DefinitionName": "Half-bridge driver"
+                  },
+                  "EnabledScopes": [],
+                  "SubcircuitDefinitionID": "42998a8d-056b-4ed4-9a48-797d535469e6",
+                  "ParametersDisplayAttributes": {
+                    "Name": {
+                      "IsVisible": true,
+                      "Suffix": "",
+                      "RelativeLocation": "3 5",
+                      "UnrotatedWidth": 4,
+                      "UnrotatedHeight": 1,
+                      "FontSize": 12,
+                      "Color": "Black"
+                    },
+                    "DefinitionName": {
+                      "IsVisible": true,
+                      "Suffix": "",
+                      "RelativeLocation": "3 3",
+                      "UnrotatedWidth": 4,
+                      "UnrotatedHeight": 1,
+                      "FontSize": 12,
+                      "Color": "Black"
+                    }
+                  }
+                },
+                {
+                  "LibraryName": "PID",
+                  "Top": -16,
+                  "Left": 19,
+                  "Angle": 0,
+                  "HF": false,
+                  "VF": false,
+                  "Disabled": false,
+                  "Name": "PID1",
+                  "ID": "b833d4ea-0185-40c1-930e-b788fd9998f2",
+                  "Parameters": {
+                    "Kp": "0.08",
+                    "Kd": "0.002",
+                    "Ki": "0.1",
+                    "SamplingTime": "sample_time",
+                    "Name": "PID1"
+                  },
+                  "EnabledScopes": [
+                    "In",
+                    "Out"
+                  ],
+                  "ParametersDisplayAttributes": {
+                    "Kp": {
+                      "IsVisible": false,
+                      "Suffix": "",
+                      "RelativeLocation": "3 4",
+                      "UnrotatedWidth": 2,
+                      "UnrotatedHeight": 1,
+                      "FontSize": 12,
+                      "Color": "#04B404"
+                    },
+                    "Kd": {
+                      "IsVisible": false,
+                      "Suffix": "",
+                      "RelativeLocation": "3 6",
+                      "UnrotatedWidth": 2,
+                      "UnrotatedHeight": 1,
+                      "FontSize": 12,
+                      "Color": "#04B404"
+                    },
+                    "Ki": {
+                      "IsVisible": false,
+                      "Suffix": "",
+                      "RelativeLocation": "3 5",
+                      "UnrotatedWidth": 2,
+                      "UnrotatedHeight": 1,
+                      "FontSize": 12,
+                      "Color": "#04B404"
+                    },
+                    "SamplingTime": {
+                      "IsVisible": false,
+                      "Suffix": "",
+                      "RelativeLocation": "3 7",
+                      "UnrotatedWidth": 2,
+                      "UnrotatedHeight": 1,
+                      "FontSize": 12,
+                      "Color": "#04B404"
+                    },
+                    "Name": {
+                      "IsVisible": true,
+                      "Suffix": "",
+                      "RelativeLocation": "3 -1",
+                      "UnrotatedWidth": 2,
+                      "UnrotatedHeight": 1,
+                      "FontSize": 12,
+                      "Color": "#04B404"
+                    }
+                  }
                 }
               ],
               "Connectors": [
@@ -10154,29 +10003,6 @@
                     }
                   ],
                   "Name": "C9"
-                },
-                {
-                  "Segments": [
-                    {
-                      "StartX": 36,
-                      "StartY": -8,
-                      "EndX": 38,
-                      "EndY": -8
-                    },
-                    {
-                      "StartX": 38,
-                      "StartY": -14,
-                      "EndX": 38,
-                      "EndY": -8
-                    },
-                    {
-                      "StartX": 25,
-                      "StartY": -14,
-                      "EndX": 38,
-                      "EndY": -14
-                    }
-                  ],
-                  "Name": "C10"
                 },
                 {
                   "Segments": [
@@ -10376,17 +10202,6 @@
                 {
                   "Segments": [
                     {
-                      "StartX": 21,
-                      "StartY": -14,
-                      "EndX": 9,
-                      "EndY": -14
-                    }
-                  ],
-                  "Name": "C12"
-                },
-                {
-                  "Segments": [
-                    {
                       "StartX": 5,
                       "StartY": -15,
                       "EndX": -1,
@@ -10501,41 +10316,6 @@
                 {
                   "Segments": [
                     {
-                      "StartX": 34,
-                      "StartY": 23,
-                      "EndX": 34,
-                      "EndY": 32
-                    },
-                    {
-                      "StartX": 44,
-                      "StartY": 36,
-                      "EndX": 44,
-                      "EndY": 32
-                    },
-                    {
-                      "StartX": 61,
-                      "StartY": 36,
-                      "EndX": 61,
-                      "EndY": 32
-                    },
-                    {
-                      "StartX": 34,
-                      "StartY": 32,
-                      "EndX": 44,
-                      "EndY": 32
-                    },
-                    {
-                      "StartX": 44,
-                      "StartY": 32,
-                      "EndX": 61,
-                      "EndY": 32
-                    }
-                  ],
-                  "Name": "C17"
-                },
-                {
-                  "Segments": [
-                    {
                       "StartX": 44,
                       "StartY": 49,
                       "EndX": 44,
@@ -10582,7 +10362,7 @@
                     {
                       "StartX": 36,
                       "StartY": -6,
-                      "EndX": 47,
+                      "EndX": 40,
                       "EndY": -6
                     }
                   ],
@@ -10591,9 +10371,95 @@
                 {
                   "Segments": [
                     {
-                      "StartX": 51,
+                      "StartX": 35,
+                      "StartY": 23,
+                      "EndX": 35,
+                      "EndY": 32
+                    },
+                    {
+                      "StartX": 34,
+                      "StartY": 23,
+                      "EndX": 35,
+                      "EndY": 23
+                    },
+                    {
+                      "StartX": 44,
+                      "StartY": 36,
+                      "EndX": 44,
+                      "EndY": 32
+                    },
+                    {
+                      "StartX": 61,
+                      "StartY": 36,
+                      "EndX": 61,
+                      "EndY": 32
+                    },
+                    {
+                      "StartX": 35,
+                      "StartY": 32,
+                      "EndX": 44,
+                      "EndY": 32
+                    },
+                    {
+                      "StartX": 44,
+                      "StartY": 32,
+                      "EndX": 61,
+                      "EndY": 32
+                    }
+                  ],
+                  "Name": "C17"
+                },
+                {
+                  "Segments": [
+                    {
+                      "StartX": 9,
+                      "StartY": -14,
+                      "EndX": 19,
+                      "EndY": -14
+                    }
+                  ],
+                  "Name": "C12"
+                },
+                {
+                  "Segments": [
+                    {
+                      "StartX": 36,
+                      "StartY": -8,
+                      "EndX": 38,
+                      "EndY": -8
+                    },
+                    {
+                      "StartX": 38,
+                      "StartY": -14,
+                      "EndX": 38,
+                      "EndY": -8
+                    },
+                    {
+                      "StartX": 27,
+                      "StartY": -14,
+                      "EndX": 38,
+                      "EndY": -14
+                    }
+                  ],
+                  "Name": "C10"
+                },
+                {
+                  "Segments": [
+                    {
+                      "StartX": 44,
                       "StartY": -6,
-                      "EndX": 55,
+                      "EndX": 48,
+                      "EndY": -6
+                    }
+                  ],
+                  "Name": "C27"
+                },
+                {
+                  "Segments": [
+                    {
+                      "StartX": 55,
+                      "StartY": -6,
+                      "EndX": 52,
                       "EndY": -6
                     }
                   ],
@@ -10610,6 +10476,10 @@
               {
                 "Name": "Ilim",
                 "Value": "50.0"
+              },
+              {
+                "Name": "Tdead",
+                "Value": "500n"
               }
             ],
             "ParametersDisplayAttributes": {
@@ -10630,6 +10500,629 @@
                 "UnrotatedHeight": 1,
                 "FontSize": 12,
                 "Color": "Black"
+              }
+            }
+          },
+          {
+            "LibraryName": "AC Sweep Perturbation",
+            "Top": -26,
+            "Left": 5,
+            "Angle": 90,
+            "HF": false,
+            "VF": false,
+            "Disabled": false,
+            "Name": "Iref Sweep",
+            "ID": "e3899c28-01e1-41f6-b657-635a235ca3d3",
+            "Parameters": {
+              "SamplingTime": "sample_time",
+              "Name": "Iref Sweep"
+            },
+            "EnabledScopes": [],
+            "ParametersDisplayAttributes": {
+              "SamplingTime": {
+                "IsVisible": false,
+                "Suffix": "",
+                "RelativeLocation": "1 4",
+                "UnrotatedWidth": 2,
+                "UnrotatedHeight": 1,
+                "FontSize": 12,
+                "Color": "#04B404"
+              },
+              "Name": {
+                "IsVisible": true,
+                "Suffix": "",
+                "RelativeLocation": "1 -1",
+                "UnrotatedWidth": 2,
+                "UnrotatedHeight": 1,
+                "FontSize": 12,
+                "Color": "#04B404"
+              }
+            }
+          },
+          {
+            "LibraryName": "Sum",
+            "Top": -20,
+            "Left": 10,
+            "Angle": 90,
+            "HF": false,
+            "VF": false,
+            "Disabled": false,
+            "Name": "SUM1",
+            "ID": "dd244223-11d2-4d35-9cce-7a828c1eccf2",
+            "Parameters": {
+              "NumberOfInputs": "2",
+              "Gains": "[1 1]",
+              "SamplingTime": "sample_time",
+              "Name": "SUM1"
+            },
+            "EnabledScopes": [],
+            "ParametersDisplayAttributes": {
+              "NumberOfInputs": {
+                "IsVisible": false,
+                "Suffix": "",
+                "RelativeLocation": "1 4",
+                "UnrotatedWidth": 2,
+                "UnrotatedHeight": 1,
+                "FontSize": 12,
+                "Color": "#04B404"
+              },
+              "Gains": {
+                "IsVisible": false,
+                "Suffix": "",
+                "RelativeLocation": "0 5",
+                "UnrotatedWidth": 3,
+                "UnrotatedHeight": 1,
+                "FontSize": 12,
+                "Color": "#04B404"
+              },
+              "SamplingTime": {
+                "IsVisible": false,
+                "Suffix": "",
+                "RelativeLocation": "1 6",
+                "UnrotatedWidth": 2,
+                "UnrotatedHeight": 1,
+                "FontSize": 12,
+                "Color": "#04B404"
+              },
+              "Name": {
+                "IsVisible": true,
+                "Suffix": "",
+                "RelativeLocation": "1 -1",
+                "UnrotatedWidth": 2,
+                "UnrotatedHeight": 1,
+                "FontSize": 12,
+                "Color": "#04B404"
+              }
+            }
+          },
+          {
+            "LibraryName": "Inductor",
+            "Top": 17,
+            "Left": 23,
+            "Angle": 0,
+            "HF": false,
+            "VF": false,
+            "Disabled": false,
+            "Name": "L3",
+            "ID": "4b372c93-c2a7-4233-b5a4-95fcd815fe85",
+            "Parameters": {
+              "Value": "2m",
+              "Iinit": "0",
+              "Name": "L3"
+            },
+            "EnabledScopes": [],
+            "ParametersDisplayAttributes": {
+              "Value": {
+                "IsVisible": true,
+                "Suffix": "H",
+                "RelativeLocation": "2 2",
+                "UnrotatedWidth": 2,
+                "UnrotatedHeight": 1,
+                "FontSize": 12,
+                "Color": "#0081BC"
+              },
+              "Iinit": {
+                "IsVisible": false,
+                "Suffix": "",
+                "RelativeLocation": "2 4",
+                "UnrotatedWidth": 2,
+                "UnrotatedHeight": 1,
+                "FontSize": 12,
+                "Color": "#0081BC"
+              },
+              "Name": {
+                "IsVisible": true,
+                "Suffix": "",
+                "RelativeLocation": "2 -1",
+                "UnrotatedWidth": 2,
+                "UnrotatedHeight": 1,
+                "FontSize": 12,
+                "Color": "#0081BC"
+              }
+            }
+          },
+          {
+            "LibraryName": "Resistor",
+            "Top": 13,
+            "Left": 29,
+            "Angle": 90,
+            "HF": false,
+            "VF": false,
+            "Disabled": false,
+            "Name": "R3",
+            "ID": "fda8d008-6726-4ced-ac89-8cbafebcd0b4",
+            "Parameters": {
+              "Value": "10m",
+              "Name": "R3"
+            },
+            "EnabledScopes": [
+              "Voltage",
+              "Current"
+            ],
+            "ParametersDisplayAttributes": {
+              "Value": {
+                "IsVisible": true,
+                "Suffix": "\u03A9",
+                "RelativeLocation": "2 3",
+                "UnrotatedWidth": 2,
+                "UnrotatedHeight": 1,
+                "FontSize": 12,
+                "Color": "#0081BC"
+              },
+              "Name": {
+                "IsVisible": true,
+                "Suffix": "",
+                "RelativeLocation": "2 -1",
+                "UnrotatedWidth": 2,
+                "UnrotatedHeight": 1,
+                "FontSize": 12,
+                "Color": "#0081BC"
+              }
+            }
+          },
+          {
+            "LibraryName": "Inductor",
+            "Top": 4,
+            "Left": 34,
+            "Angle": 0,
+            "HF": false,
+            "VF": false,
+            "Disabled": false,
+            "Name": "L4",
+            "ID": "e4106615-47b5-4461-bdfd-12152b39c357",
+            "Parameters": {
+              "Value": "2m",
+              "Iinit": "0",
+              "Name": "L4"
+            },
+            "EnabledScopes": [],
+            "ParametersDisplayAttributes": {
+              "Value": {
+                "IsVisible": true,
+                "Suffix": "H",
+                "RelativeLocation": "2 2",
+                "UnrotatedWidth": 2,
+                "UnrotatedHeight": 1,
+                "FontSize": 12,
+                "Color": "#0081BC"
+              },
+              "Iinit": {
+                "IsVisible": false,
+                "Suffix": "",
+                "RelativeLocation": "2 4",
+                "UnrotatedWidth": 2,
+                "UnrotatedHeight": 1,
+                "FontSize": 12,
+                "Color": "#0081BC"
+              },
+              "Name": {
+                "IsVisible": true,
+                "Suffix": "",
+                "RelativeLocation": "2 -1",
+                "UnrotatedWidth": 2,
+                "UnrotatedHeight": 1,
+                "FontSize": 12,
+                "Color": "#0081BC"
+              }
+            }
+          },
+          {
+            "LibraryName": "Inductor",
+            "Top": 17,
+            "Left": 34,
+            "Angle": 0,
+            "HF": false,
+            "VF": false,
+            "Disabled": false,
+            "Name": "L5",
+            "ID": "758b56c4-4757-41c0-a980-27bb96851eab",
+            "Parameters": {
+              "Value": "2m",
+              "Iinit": "0",
+              "Name": "L5"
+            },
+            "EnabledScopes": [],
+            "ParametersDisplayAttributes": {
+              "Value": {
+                "IsVisible": true,
+                "Suffix": "H",
+                "RelativeLocation": "2 2",
+                "UnrotatedWidth": 2,
+                "UnrotatedHeight": 1,
+                "FontSize": 12,
+                "Color": "#0081BC"
+              },
+              "Iinit": {
+                "IsVisible": false,
+                "Suffix": "",
+                "RelativeLocation": "2 4",
+                "UnrotatedWidth": 2,
+                "UnrotatedHeight": 1,
+                "FontSize": 12,
+                "Color": "#0081BC"
+              },
+              "Name": {
+                "IsVisible": true,
+                "Suffix": "",
+                "RelativeLocation": "2 -1",
+                "UnrotatedWidth": 2,
+                "UnrotatedHeight": 1,
+                "FontSize": 12,
+                "Color": "#0081BC"
+              }
+            }
+          },
+          {
+            "LibraryName": "Current Probe",
+            "Top": 17,
+            "Left": 46,
+            "Angle": 180,
+            "HF": false,
+            "VF": false,
+            "Disabled": false,
+            "Name": "CP1",
+            "ID": "2a7f893f-a46e-4a82-a204-6db84429f68c",
+            "Parameters": {
+              "Gain": "1",
+              "SamplingTime": "sample_time",
+              "Name": "CP1"
+            },
+            "EnabledScopes": [
+              "Current"
+            ],
+            "ParametersDisplayAttributes": {
+              "Gain": {
+                "IsVisible": false,
+                "Suffix": "",
+                "RelativeLocation": "2 2",
+                "UnrotatedWidth": 2,
+                "UnrotatedHeight": 1,
+                "FontSize": 12,
+                "Color": "#0081BC"
+              },
+              "SamplingTime": {
+                "IsVisible": false,
+                "Suffix": "",
+                "RelativeLocation": "2 3",
+                "UnrotatedWidth": 2,
+                "UnrotatedHeight": 1,
+                "FontSize": 12,
+                "Color": "#0081BC"
+              },
+              "Name": {
+                "IsVisible": true,
+                "Suffix": "",
+                "RelativeLocation": "1 -1",
+                "UnrotatedWidth": 2,
+                "UnrotatedHeight": 1,
+                "FontSize": 12,
+                "Color": "#0081BC"
+              }
+            }
+          },
+          {
+            "LibraryName": "Resistor",
+            "Top": 14,
+            "Left": 49,
+            "Angle": 90,
+            "HF": false,
+            "VF": false,
+            "Disabled": false,
+            "Name": "R1",
+            "ID": "29776bed-66bf-4f84-942c-56d4a098fbc1",
+            "Parameters": {
+              "Value": "20m",
+              "Name": "R1"
+            },
+            "EnabledScopes": [
+              "Current",
+              "Voltage"
+            ],
+            "ParametersDisplayAttributes": {
+              "Value": {
+                "IsVisible": true,
+                "Suffix": "\u03A9",
+                "RelativeLocation": "2 3",
+                "UnrotatedWidth": 2,
+                "UnrotatedHeight": 1,
+                "FontSize": 12,
+                "Color": "#0081BC"
+              },
+              "Name": {
+                "IsVisible": true,
+                "Suffix": "",
+                "RelativeLocation": "2 -1",
+                "UnrotatedWidth": 2,
+                "UnrotatedHeight": 1,
+                "FontSize": 12,
+                "Color": "#0081BC"
+              }
+            }
+          },
+          {
+            "LibraryName": "Resistor",
+            "Top": 4,
+            "Left": 41,
+            "Angle": 0,
+            "HF": false,
+            "VF": false,
+            "Disabled": false,
+            "Name": "R2",
+            "ID": "aa85750b-8f68-4183-8222-3c996d1510b7",
+            "Parameters": {
+              "Value": "0.1",
+              "Name": "R2"
+            },
+            "EnabledScopes": [
+              "Current",
+              "Voltage"
+            ],
+            "ParametersDisplayAttributes": {
+              "Value": {
+                "IsVisible": true,
+                "Suffix": "\u03A9",
+                "RelativeLocation": "2 3",
+                "UnrotatedWidth": 2,
+                "UnrotatedHeight": 1,
+                "FontSize": 12,
+                "Color": "#0081BC"
+              },
+              "Name": {
+                "IsVisible": true,
+                "Suffix": "",
+                "RelativeLocation": "2 -1",
+                "UnrotatedWidth": 2,
+                "UnrotatedHeight": 1,
+                "FontSize": 12,
+                "Color": "#0081BC"
+              }
+            }
+          },
+          {
+            "LibraryName": "Differential Voltage Probe",
+            "Top": 8,
+            "Left": 19,
+            "Angle": 90,
+            "HF": false,
+            "VF": false,
+            "Disabled": false,
+            "Name": "VP3",
+            "ID": "d4ef5690-8522-4ddf-aa81-fafce4197355",
+            "Parameters": {
+              "Gain": "1",
+              "SamplingTime": "sample_time",
+              "Name": "VP3"
+            },
+            "EnabledScopes": [
+              "Voltage"
+            ],
+            "ParametersDisplayAttributes": {
+              "Gain": {
+                "IsVisible": false,
+                "Suffix": "",
+                "RelativeLocation": "2 2",
+                "UnrotatedWidth": 2,
+                "UnrotatedHeight": 1,
+                "FontSize": 12,
+                "Color": "#0081BC"
+              },
+              "SamplingTime": {
+                "IsVisible": false,
+                "Suffix": "",
+                "RelativeLocation": "2 3",
+                "UnrotatedWidth": 2,
+                "UnrotatedHeight": 1,
+                "FontSize": 12,
+                "Color": "#0081BC"
+              },
+              "Name": {
+                "IsVisible": true,
+                "Suffix": "",
+                "RelativeLocation": "1 -1",
+                "UnrotatedWidth": 2,
+                "UnrotatedHeight": 1,
+                "FontSize": 12,
+                "Color": "#0081BC"
+              }
+            }
+          },
+          {
+            "LibraryName": "AC Voltage Source (Sinus)",
+            "Top": 8,
+            "Left": 64,
+            "Angle": 0,
+            "HF": false,
+            "VF": false,
+            "Disabled": false,
+            "Name": "AC1",
+            "ID": "74be40e2-7422-4aef-baca-cb0614db5323",
+            "Parameters": {
+              "Frequency": "50",
+              "Amplitude": "325",
+              "Phase": "0",
+              "Name": "AC1"
+            },
+            "EnabledScopes": [],
+            "ParametersDisplayAttributes": {
+              "Frequency": {
+                "IsVisible": false,
+                "Suffix": "",
+                "RelativeLocation": "2 2",
+                "UnrotatedWidth": 2,
+                "UnrotatedHeight": 1,
+                "FontSize": 12,
+                "Color": "#0081BC"
+              },
+              "Amplitude": {
+                "IsVisible": false,
+                "Suffix": "",
+                "RelativeLocation": "2 3",
+                "UnrotatedWidth": 2,
+                "UnrotatedHeight": 1,
+                "FontSize": 12,
+                "Color": "#0081BC"
+              },
+              "Phase": {
+                "IsVisible": false,
+                "Suffix": "",
+                "RelativeLocation": "2 4",
+                "UnrotatedWidth": 2,
+                "UnrotatedHeight": 1,
+                "FontSize": 12,
+                "Color": "#0081BC"
+              },
+              "Name": {
+                "IsVisible": true,
+                "Suffix": "",
+                "RelativeLocation": "3 3",
+                "UnrotatedWidth": 3,
+                "UnrotatedHeight": 2,
+                "FontSize": 12,
+                "Color": "#0081BC"
+              }
+            }
+          },
+          {
+            "LibraryName": "Sinusoidal Wave",
+            "Top": -31,
+            "Left": 13,
+            "Angle": 90,
+            "HF": false,
+            "VF": false,
+            "Disabled": false,
+            "Name": "Iref",
+            "ID": "20c6b55a-5420-48a1-b392-29238287c3a3",
+            "Parameters": {
+              "Amplitude": "1",
+              "Frequency": "50",
+              "Offset": "0",
+              "PhaseShift": "0",
+              "SamplingTime": "sample_time",
+              "Name": "Iref"
+            },
+            "EnabledScopes": [
+              "Out"
+            ],
+            "ParametersDisplayAttributes": {
+              "Amplitude": {
+                "IsVisible": true,
+                "Suffix": "",
+                "RelativeLocation": "3 -1",
+                "UnrotatedWidth": 2,
+                "UnrotatedHeight": 1,
+                "FontSize": 12,
+                "Color": "#04B404"
+              },
+              "Frequency": {
+                "IsVisible": false,
+                "Suffix": "Hz",
+                "RelativeLocation": "1 5",
+                "UnrotatedWidth": 2,
+                "UnrotatedHeight": 1,
+                "FontSize": 12,
+                "Color": "#04B404"
+              },
+              "Offset": {
+                "IsVisible": false,
+                "Suffix": "",
+                "RelativeLocation": "1 6",
+                "UnrotatedWidth": 2,
+                "UnrotatedHeight": 1,
+                "FontSize": 12,
+                "Color": "#04B404"
+              },
+              "PhaseShift": {
+                "IsVisible": false,
+                "Suffix": "\u00B0",
+                "RelativeLocation": "1 7",
+                "UnrotatedWidth": 2,
+                "UnrotatedHeight": 1,
+                "FontSize": 12,
+                "Color": "#04B404"
+              },
+              "SamplingTime": {
+                "IsVisible": false,
+                "Suffix": "",
+                "RelativeLocation": "1 8",
+                "UnrotatedWidth": 2,
+                "UnrotatedHeight": 1,
+                "FontSize": 12,
+                "Color": "#04B404"
+              },
+              "Name": {
+                "IsVisible": true,
+                "Suffix": "",
+                "RelativeLocation": "1 -1",
+                "UnrotatedWidth": 2,
+                "UnrotatedHeight": 1,
+                "FontSize": 12,
+                "Color": "#04B404"
+              }
+            }
+          },
+          {
+            "LibraryName": "Inductor",
+            "Top": 7,
+            "Left": 49,
+            "Angle": 90,
+            "HF": false,
+            "VF": false,
+            "Disabled": false,
+            "Name": "L2",
+            "ID": "88bf2d90-5133-4f65-b44f-3a252729e92e",
+            "Parameters": {
+              "Value": "50m",
+              "Iinit": "0",
+              "Name": "L2"
+            },
+            "EnabledScopes": [],
+            "ParametersDisplayAttributes": {
+              "Value": {
+                "IsVisible": true,
+                "Suffix": "H",
+                "RelativeLocation": "2 2",
+                "UnrotatedWidth": 2,
+                "UnrotatedHeight": 1,
+                "FontSize": 12,
+                "Color": "#0081BC"
+              },
+              "Iinit": {
+                "IsVisible": false,
+                "Suffix": "",
+                "RelativeLocation": "2 4",
+                "UnrotatedWidth": 2,
+                "UnrotatedHeight": 1,
+                "FontSize": 12,
+                "Color": "#0081BC"
+              },
+              "Name": {
+                "IsVisible": true,
+                "Suffix": "",
+                "RelativeLocation": "2 -1",
+                "UnrotatedWidth": 2,
+                "UnrotatedHeight": 1,
+                "FontSize": 12,
+                "Color": "#0081BC"
               }
             }
           }
@@ -10708,81 +11201,6 @@
           {
             "Segments": [
               {
-                "StartX": 18,
-                "StartY": 7,
-                "EndX": 24,
-                "EndY": 7
-              },
-              {
-                "StartX": 24,
-                "StartY": 7,
-                "EndX": 24,
-                "EndY": 5
-              }
-            ],
-            "Name": "C7"
-          },
-          {
-            "Segments": [
-              {
-                "StartX": 44,
-                "StartY": 5,
-                "EndX": 48,
-                "EndY": 5
-              },
-              {
-                "StartX": 48,
-                "StartY": 5,
-                "EndX": 48,
-                "EndY": 4
-              },
-              {
-                "StartX": 48,
-                "StartY": 4,
-                "EndX": 50,
-                "EndY": 4
-              },
-              {
-                "StartX": 50,
-                "StartY": 4,
-                "EndX": 57,
-                "EndY": 4
-              },
-              {
-                "StartX": 57,
-                "StartY": 4,
-                "EndX": 57,
-                "EndY": 5
-              }
-            ],
-            "Name": "C14"
-          },
-          {
-            "Segments": [
-              {
-                "StartX": 50,
-                "StartY": 12,
-                "EndX": 57,
-                "EndY": 12
-              },
-              {
-                "StartX": 57,
-                "StartY": 9,
-                "EndX": 57,
-                "EndY": 12
-              },
-              {
-                "StartX": 42,
-                "StartY": 12,
-                "EndX": 50,
-                "EndY": 12
-              }
-            ],
-            "Name": "C8"
-          },
-          {
-            "Segments": [
-              {
                 "StartX": 6,
                 "StartY": -7,
                 "EndX": 1,
@@ -10796,17 +11214,6 @@
               }
             ],
             "Name": "C1"
-          },
-          {
-            "Segments": [
-              {
-                "StartX": 13,
-                "StartY": -14,
-                "EndX": 13,
-                "EndY": -18
-              }
-            ],
-            "Name": "C4"
           },
           {
             "Segments": [
@@ -10900,39 +11307,79 @@
           {
             "Segments": [
               {
+                "StartX": 12,
+                "StartY": -16,
+                "EndX": 12,
+                "EndY": -14
+              },
+              {
+                "StartX": 13,
+                "StartY": -14,
+                "EndX": 12,
+                "EndY": -14
+              }
+            ],
+            "Name": "C19"
+          },
+          {
+            "Segments": [
+              {
+                "StartX": 11,
+                "StartY": -20,
+                "EndX": 11,
+                "EndY": -21
+              },
+              {
+                "StartX": 11,
+                "StartY": -21,
+                "EndX": 7,
+                "EndY": -21
+              },
+              {
+                "StartX": 7,
+                "StartY": -21,
+                "EndX": 7,
+                "EndY": -22
+              }
+            ],
+            "Name": "C4"
+          },
+          {
+            "Segments": [
+              {
                 "StartX": 30,
                 "StartY": 5,
                 "EndX": 32,
                 "EndY": 5
               },
               {
-                "StartX": 38,
+                "StartX": 32,
                 "StartY": 5,
-                "EndX": 32,
+                "EndX": 34,
                 "EndY": 5
               }
             ],
-            "Name": "C16"
+            "Name": "C22"
           },
           {
             "Segments": [
               {
                 "StartX": 32,
-                "StartY": 12,
+                "StartY": 17,
                 "EndX": 32,
-                "EndY": 11
+                "EndY": 18
               },
               {
-                "StartX": 20,
-                "StartY": 12,
+                "StartX": 29,
+                "StartY": 18,
                 "EndX": 32,
-                "EndY": 12
+                "EndY": 18
               },
               {
                 "StartX": 32,
-                "StartY": 12,
-                "EndX": 38,
-                "EndY": 12
+                "StartY": 18,
+                "EndX": 34,
+                "EndY": 18
               }
             ],
             "Name": "C17"
@@ -10940,31 +11387,215 @@
           {
             "Segments": [
               {
-                "StartX": 37,
-                "StartY": 9,
-                "EndX": 40,
-                "EndY": 9
-              },
-              {
                 "StartX": 40,
-                "StartY": 11,
-                "EndX": 40,
-                "EndY": 9
-              },
-              {
-                "StartX": 20,
-                "StartY": -10,
-                "EndX": 37,
-                "EndY": -10
-              },
-              {
-                "StartX": 37,
-                "StartY": -10,
-                "EndX": 37,
-                "EndY": 9
+                "StartY": 18,
+                "EndX": 46,
+                "EndY": 18
               }
             ],
             "Name": "C18"
+          },
+          {
+            "Segments": [
+              {
+                "StartX": 40,
+                "StartY": 5,
+                "EndX": 41,
+                "EndY": 5
+              }
+            ],
+            "Name": "C21"
+          },
+          {
+            "Segments": [
+              {
+                "StartX": 20,
+                "StartY": -10,
+                "EndX": 48,
+                "EndY": -10
+              },
+              {
+                "StartX": 48,
+                "StartY": -10,
+                "EndX": 48,
+                "EndY": 17
+              }
+            ],
+            "Name": "C20"
+          },
+          {
+            "Segments": [
+              {
+                "StartX": 13,
+                "StartY": -20,
+                "EndX": 13,
+                "EndY": -26
+              },
+              {
+                "StartX": 13,
+                "StartY": -26,
+                "EndX": 15,
+                "EndY": -26
+              },
+              {
+                "StartX": 15,
+                "StartY": -26,
+                "EndX": 15,
+                "EndY": -27
+              }
+            ],
+            "Name": "C13"
+          },
+          {
+            "Segments": [
+              {
+                "StartX": 57,
+                "StartY": 4,
+                "EndX": 57,
+                "EndY": 5
+              },
+              {
+                "StartX": 47,
+                "StartY": 4,
+                "EndX": 47,
+                "EndY": 5
+              },
+              {
+                "StartX": 66,
+                "StartY": 8,
+                "EndX": 66,
+                "EndY": 4
+              },
+              {
+                "StartX": 52,
+                "StartY": 5,
+                "EndX": 52,
+                "EndY": 4
+              },
+              {
+                "StartX": 57,
+                "StartY": 4,
+                "EndX": 66,
+                "EndY": 4
+              },
+              {
+                "StartX": 47,
+                "StartY": 4,
+                "EndX": 52,
+                "EndY": 4
+              },
+              {
+                "StartX": 52,
+                "StartY": 4,
+                "EndX": 57,
+                "EndY": 4
+              }
+            ],
+            "Name": "C16"
+          },
+          {
+            "Segments": [
+              {
+                "StartX": 57,
+                "StartY": 9,
+                "EndX": 57,
+                "EndY": 18
+              },
+              {
+                "StartX": 50,
+                "StartY": 18,
+                "EndX": 52,
+                "EndY": 18
+              },
+              {
+                "StartX": 66,
+                "StartY": 16,
+                "EndX": 66,
+                "EndY": 18
+              },
+              {
+                "StartX": 52,
+                "StartY": 18,
+                "EndX": 57,
+                "EndY": 18
+              },
+              {
+                "StartX": 57,
+                "StartY": 18,
+                "EndX": 66,
+                "EndY": 18
+              }
+            ],
+            "Name": "C24"
+          },
+          {
+            "Segments": [
+              {
+                "StartX": 24,
+                "StartY": 7,
+                "EndX": 24,
+                "EndY": 5
+              },
+              {
+                "StartX": 21,
+                "StartY": 7,
+                "EndX": 24,
+                "EndY": 7
+              },
+              {
+                "StartX": 18,
+                "StartY": 7,
+                "EndX": 20,
+                "EndY": 7
+              },
+              {
+                "StartX": 20,
+                "StartY": 7,
+                "EndX": 21,
+                "EndY": 7
+              }
+            ],
+            "Name": "C7"
+          },
+          {
+            "Segments": [
+              {
+                "StartX": 23,
+                "StartY": 12,
+                "EndX": 23,
+                "EndY": 18
+              },
+              {
+                "StartX": 21,
+                "StartY": 11,
+                "EndX": 21,
+                "EndY": 12
+              },
+              {
+                "StartX": 20,
+                "StartY": 12,
+                "EndX": 21,
+                "EndY": 12
+              },
+              {
+                "StartX": 21,
+                "StartY": 12,
+                "EndX": 23,
+                "EndY": 12
+              }
+            ],
+            "Name": "C14"
+          },
+          {
+            "Segments": [
+              {
+                "StartX": 52,
+                "StartY": 11,
+                "EndX": 52,
+                "EndY": 12
+              }
+            ],
+            "Name": "C8"
           }
         ],
         "Name": "Top Circuit",
@@ -10983,19 +11614,19 @@
           },
           {
             "Name": "sample_time",
-            "Value": "20n"
+            "Value": "0.1u"
           }
         ],
         "VariableFile": ""
       },
       "TransientAnalysis": {
-        "EndTime": "20m",
+        "EndTime": "100m",
         "FixedTimeStep": false,
         "SaveInitialPoint": true,
         "CompressScopes": true,
         "DualStageElectroThermalAnalysis": false,
         "StopAtSteadyState": false,
-        "TimeStep": "10n",
+        "TimeStep": "50n",
         "BaseFrequencyParameterEnabled": false,
         "NumberOfBasePeriodsSavedParameterEnabled": false,
         "BaseFrequency": "60",
@@ -11004,7 +11635,23 @@
     }
   ],
   "Libraries": [],
-  "TestBenches": [],
+  "TestBenches": [
+    {
+      "Type": "ACSweep",
+      "Name": "AC Sweep Test Bench 1",
+      "DesignID": "5be1d602-a2f3-4e17-bae4-f0a113c96465",
+      "DeviceID": "e3899c28-01e1-41f6-b657-635a235ca3d3",
+      "Fmax": "10k",
+      "Fmin": "10",
+      "MagMax": "1",
+      "MagMin": "1",
+      "NumberOfPoints": "20",
+      "SweepType": "LogSweepType",
+      "SaveAllSignals": false,
+      "OutputDeviceID": "2a7f893f-a46e-4a82-a204-6db84429f68c",
+      "OutputScope": "Current"
+    }
+  ],
   "ThermalData": [
     {
       "Name": "MOSFET",
