@@ -10245,7 +10245,7 @@
                   "Parameters": {
                     "NumberOfInputs": "2",
                     "Gains": "[1 -1]",
-                    "SamplingTime": "none",
+                    "SamplingTime": "sample_time",
                     "Name": "SUM3"
                   },
                   "EnabledScopes": [
@@ -10515,6 +10515,131 @@
                       "IsVisible": false,
                       "Suffix": "",
                       "RelativeLocation": "4 5",
+                      "UnrotatedWidth": 2,
+                      "UnrotatedHeight": 1,
+                      "FontSize": 12,
+                      "Color": "#04B404"
+                    },
+                    "Name": {
+                      "IsVisible": true,
+                      "Suffix": "",
+                      "RelativeLocation": "1 -1",
+                      "UnrotatedWidth": 2,
+                      "UnrotatedHeight": 1,
+                      "FontSize": 12,
+                      "Color": "#04B404"
+                    }
+                  }
+                },
+                {
+                  "LibraryName": "PID",
+                  "Top": -16,
+                  "Left": 19,
+                  "Angle": 0,
+                  "HF": false,
+                  "VF": false,
+                  "Disabled": true,
+                  "Name": "PID1",
+                  "ID": "f04b6d83-3439-4d60-b722-d479f8db66ac",
+                  "Parameters": {
+                    "Kp": "0.001",
+                    "Kd": "10",
+                    "Ki": "2",
+                    "SamplingTime": "sample_time",
+                    "Name": "PID1"
+                  },
+                  "EnabledScopes": [
+                    "In",
+                    "Out"
+                  ],
+                  "ParametersDisplayAttributes": {
+                    "Kp": {
+                      "IsVisible": false,
+                      "Suffix": "",
+                      "RelativeLocation": "3 4",
+                      "UnrotatedWidth": 2,
+                      "UnrotatedHeight": 1,
+                      "FontSize": 12,
+                      "Color": "#04B404"
+                    },
+                    "Kd": {
+                      "IsVisible": false,
+                      "Suffix": "",
+                      "RelativeLocation": "3 6",
+                      "UnrotatedWidth": 2,
+                      "UnrotatedHeight": 1,
+                      "FontSize": 12,
+                      "Color": "#04B404"
+                    },
+                    "Ki": {
+                      "IsVisible": false,
+                      "Suffix": "",
+                      "RelativeLocation": "3 5",
+                      "UnrotatedWidth": 2,
+                      "UnrotatedHeight": 1,
+                      "FontSize": 12,
+                      "Color": "#04B404"
+                    },
+                    "SamplingTime": {
+                      "IsVisible": false,
+                      "Suffix": "",
+                      "RelativeLocation": "3 7",
+                      "UnrotatedWidth": 2,
+                      "UnrotatedHeight": 1,
+                      "FontSize": 12,
+                      "Color": "#04B404"
+                    },
+                    "Name": {
+                      "IsVisible": true,
+                      "Suffix": "",
+                      "RelativeLocation": "3 -1",
+                      "UnrotatedWidth": 2,
+                      "UnrotatedHeight": 1,
+                      "FontSize": 12,
+                      "Color": "#04B404"
+                    }
+                  }
+                },
+                {
+                  "LibraryName": "Limiter",
+                  "Top": -15,
+                  "Left": -13,
+                  "Angle": 0,
+                  "HF": false,
+                  "VF": false,
+                  "Disabled": false,
+                  "Name": "Lim1",
+                  "ID": "37df96a9-49ad-4cca-bf2e-4509cd0e1013",
+                  "Parameters": {
+                    "LowLimit": "-1",
+                    "HighLimit": "1",
+                    "SamplingTime": "sample_time",
+                    "Name": "Lim1"
+                  },
+                  "EnabledScopes": [],
+                  "ParametersDisplayAttributes": {
+                    "LowLimit": {
+                      "IsVisible": false,
+                      "Suffix": "",
+                      "RelativeLocation": "1 5",
+                      "UnrotatedWidth": 2,
+                      "UnrotatedHeight": 1,
+                      "FontSize": 12,
+                      "Color": "#04B404"
+                    },
+                    "HighLimit": {
+                      "IsVisible": false,
+                      "Suffix": "",
+                      "RelativeLocation": "1 4",
+                      "UnrotatedWidth": 2,
+                      "UnrotatedHeight": 1,
+                      "FontSize": 12,
+                      "Color": "#04B404"
+                    },
+                    "SamplingTime": {
+                      "IsVisible": false,
+                      "Suffix": "",
+                      "RelativeLocation": "1 6",
                       "UnrotatedWidth": 2,
                       "UnrotatedHeight": 1,
                       "FontSize": 12,
@@ -10986,70 +11111,6 @@
                 {
                   "Segments": [
                     {
-                      "StartX": -17,
-                      "StartY": -13,
-                      "EndX": -17,
-                      "EndY": -1
-                    },
-                    {
-                      "StartX": 5,
-                      "StartY": -13,
-                      "EndX": -17,
-                      "EndY": -13
-                    },
-                    {
-                      "StartX": -19,
-                      "StartY": -1,
-                      "EndX": -17,
-                      "EndY": -1
-                    }
-                  ],
-                  "Name": "C28"
-                },
-                {
-                  "Segments": [
-                    {
-                      "StartX": 32,
-                      "StartY": -7,
-                      "EndX": 16,
-                      "EndY": -7
-                    },
-                    {
-                      "StartX": 27,
-                      "StartY": -14,
-                      "EndX": 32,
-                      "EndY": -14
-                    },
-                    {
-                      "StartX": 32,
-                      "StartY": -14,
-                      "EndX": 32,
-                      "EndY": -7
-                    },
-                    {
-                      "StartX": 9,
-                      "StartY": -13,
-                      "EndX": 16,
-                      "EndY": -13
-                    },
-                    {
-                      "StartX": 16,
-                      "StartY": -13,
-                      "EndX": 16,
-                      "EndY": -7
-                    },
-                    {
-                      "StartX": 16,
-                      "StartY": -7,
-                      "EndX": 16,
-                      "EndY": -1
-                    }
-                  ],
-                  "Name": "C13"
-                },
-                {
-                  "Segments": [
-                    {
                       "StartX": -2,
                       "StartY": -11,
                       "EndX": -3,
@@ -11080,6 +11141,80 @@
                     }
                   ],
                   "Name": "C9"
+                },
+                {
+                  "Segments": [
+                    {
+                      "StartX": 27,
+                      "StartY": -14,
+                      "EndX": 32,
+                      "EndY": -14
+                    },
+                    {
+                      "StartX": 32,
+                      "StartY": -14,
+                      "EndX": 32,
+                      "EndY": -7
+                    }
+                  ],
+                  "Name": "C13"
+                },
+                {
+                  "Segments": [
+                    {
+                      "StartX": 9,
+                      "StartY": -13,
+                      "EndX": 16,
+                      "EndY": -13
+                    },
+                    {
+                      "StartX": 16,
+                      "StartY": -14,
+                      "EndX": 16,
+                      "EndY": -13
+                    },
+                    {
+                      "StartX": 16,
+                      "StartY": -13,
+                      "EndX": 16,
+                      "EndY": -1
+                    }
+                  ],
+                  "Name": "C12"
+                },
+                {
+                  "Segments": [
+                    {
+                      "StartX": -9,
+                      "StartY": -13,
+                      "EndX": 5,
+                      "EndY": -13
+                    }
+                  ],
+                  "Name": "C10"
+                },
+                {
+                  "Segments": [
+                    {
+                      "StartX": -15,
+                      "StartY": -13,
+                      "EndX": -15,
+                      "EndY": -1
+                    },
+                    {
+                      "StartX": -19,
+                      "StartY": -1,
+                      "EndX": -15,
+                      "EndY": -1
+                    },
+                    {
+                      "StartX": -13,
+                      "StartY": -13,
+                      "EndX": -15,
+                      "EndY": -13
+                    }
+                  ],
+                  "Name": "C28"
                 }
               ],
               "Name": "",
